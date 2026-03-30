@@ -1,0 +1,1976 @@
+[WARN] Fichier absent : /gpfs/workdir/nahonr/projet1/data/t15_copyTask_neuralData/hdf5_data_final/t15.2024.03.03/data_val.hdf5
+[WARN] Fichier absent : /gpfs/workdir/nahonr/projet1/data/t15_copyTask_neuralData/hdf5_data_final/t15.2024.04.25/data_val.hdf5
+[WARN] Fichier absent : /gpfs/workdir/nahonr/projet1/data/t15_copyTask_neuralData/hdf5_data_final/t15.2024.04.28/data_val.hdf5
+=== SPLIT DEPUIS CSV ===
+[TRAIN DATES] 44 -> 44 fichiers HDF5
+[EVAL  DATES] 44 -> 41 fichiers HDF5
+[SESSIONS] 44 jours : ['t15.2023.08.13', 't15.2023.08.18', 't15.2023.08.20', 't15.2023.08.25', 't15.2023.08.27', 't15.2023.09.01', 't15.2023.09.03', 't15.2023.09.24', 't15.2023.09.29', 't15.2023.10.01', 't15.2023.10.06', 't15.2023.10.08', 't15.2023.10.13', 't15.2023.10.15', 't15.2023.10.20', 't15.2023.10.22', 't15.2023.11.03', 't15.2023.11.04', 't15.2023.11.17', 't15.2023.11.19', 't15.2023.11.26', 't15.2023.12.03', 't15.2023.12.08', 't15.2023.12.10', 't15.2023.12.17', 't15.2023.12.29', 't15.2024.02.25', 't15.2024.03.03', 't15.2024.03.08', 't15.2024.03.15', 't15.2024.03.17', 't15.2024.04.25', 't15.2024.04.28', 't15.2024.05.10', 't15.2024.06.14', 't15.2024.07.19', 't15.2024.07.21', 't15.2024.07.28', 't15.2025.01.10', 't15.2025.01.12', 't15.2025.03.14', 't15.2025.03.16', 't15.2025.03.30', 't15.2025.04.13']
+🚀 Tesla V100S-PCIE-32GB | CUDA 11.8 | cuDNN 90100
+[TRAIN] Trials total indexés: 7784
+[SPLIT] TRAIN=7784 | VAL=will be built from EVAL_H5_PATHS
+[EVAL SPLIT] data_val.hdf5 -> HALF=17 / 35
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 49
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 48
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 25
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 25
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 49
+[EVAL SPLIT] data_val.hdf5 -> HALF=17 / 34
+[EVAL SPLIT] data_val.hdf5 -> HALF=17 / 35
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 48
+[EVAL SPLIT] data_val.hdf5 -> HALF=22 / 44
+[EVAL SPLIT] data_val.hdf5 -> HALF=18 / 36
+[EVAL SPLIT] data_val.hdf5 -> HALF=8 / 17
+[EVAL SPLIT] data_val.hdf5 -> HALF=22 / 44
+[EVAL SPLIT] data_val.hdf5 -> HALF=22 / 44
+[EVAL SPLIT] data_val.hdf5 -> HALF=4 / 9
+[EVAL SPLIT] data_val.hdf5 -> HALF=16 / 33
+[EVAL SPLIT] data_val.hdf5 -> HALF=25 / 50
+[EVAL SPLIT] data_val.hdf5 -> HALF=7 / 15
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 25
+[EVAL SPLIT] data_val.hdf5 -> HALF=10 / 20
+[EVAL SPLIT] data_val.hdf5 -> HALF=22 / 44
+[EVAL SPLIT] data_val.hdf5 -> HALF=17 / 34
+[EVAL SPLIT] data_val.hdf5 -> HALF=25 / 50
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 25
+[EVAL SPLIT] data_val.hdf5 -> HALF=15 / 30
+[EVAL SPLIT] data_val.hdf5 -> HALF=25 / 50
+[EVAL SPLIT] data_val.hdf5 -> HALF=11 / 23
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 24
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 48
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 48
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 25
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 25
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 48
+[EVAL SPLIT] data_val.hdf5 -> HALF=23 / 46
+[EVAL SPLIT] data_val.hdf5 -> HALF=24 / 48
+[EVAL SPLIT] data_val.hdf5 -> HALF=11 / 23
+[EVAL SPLIT] data_val.hdf5 -> HALF=23 / 47
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 24
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 24
+[EVAL SPLIT] data_val.hdf5 -> HALF=15 / 30
+[EVAL SPLIT] data_val.hdf5 -> HALF=12 / 25
+[EVAL] Trials total (tous fichiers): 704
+preloaded
+Params: 49,984,601
+
+===== TRAIN =====
+[epoch 01] batch 000000 | B=8 | loss_ctc 23.5965 | T_max=1104 | GPU mem=0.45 GB
+[epoch 01] batch 000050 | B=8 | loss_ctc 16.6435 | T_max=1019 | GPU mem=0.86 GB
+[epoch 01] batch 000100 | B=8 | loss_ctc 19.5726 | T_max=1301 | GPU mem=0.86 GB
+[epoch 01] batch 000150 | B=8 | loss_ctc 14.4184 | T_max=1324 | GPU mem=0.87 GB
+[epoch 01] batch 000200 | B=8 | loss_ctc 11.9107 | T_max=1352 | GPU mem=0.85 GB
+[epoch 01] batch 000250 | B=8 | loss_ctc 4.8252 | T_max=1121 | GPU mem=0.87 GB
+[epoch 01] batch 000300 | B=8 | loss_ctc 4.5016 | T_max=1588 | GPU mem=0.85 GB
+[epoch 01] batch 000350 | B=8 | loss_ctc 4.2694 | T_max=1553 | GPU mem=0.87 GB
+[epoch 01] batch 000400 | B=8 | loss_ctc 4.2364 | T_max=1113 | GPU mem=0.85 GB
+[epoch 01] batch 000450 | B=8 | loss_ctc 4.1965 | T_max=1722 | GPU mem=0.88 GB
+[epoch 01] batch 000500 | B=8 | loss_ctc 4.1929 | T_max=1331 | GPU mem=0.86 GB
+[epoch 01] batch 000550 | B=8 | loss_ctc 3.6126 | T_max=1092 | GPU mem=0.87 GB
+[epoch 01] batch 000600 | B=8 | loss_ctc 3.3685 | T_max=1071 | GPU mem=0.85 GB
+[epoch 01] batch 000650 | B=8 | loss_ctc 3.4996 | T_max=1297 | GPU mem=0.87 GB
+[epoch 01] batch 000700 | B=8 | loss_ctc 3.4459 | T_max=1261 | GPU mem=0.85 GB
+[epoch 01] batch 000750 | B=8 | loss_ctc 3.2612 | T_max=1174 | GPU mem=0.87 GB
+[epoch 01] batch 000800 | B=8 | loss_ctc 3.3444 | T_max=1204 | GPU mem=0.85 GB
+[epoch 01] batch 000850 | B=8 | loss_ctc 3.3707 | T_max=1966 | GPU mem=0.88 GB
+[epoch 01] batch 000900 | B=8 | loss_ctc 3.1954 | T_max=1265 | GPU mem=0.85 GB
+[epoch 01] batch 000950 | B=8 | loss_ctc 3.2948 | T_max=1145 | GPU mem=0.87 GB
+[Epoch 01] train_loss=7.1744 lr=0.000050 | 12.4 min (pas d'éval)
+[epoch 02] batch 000000 | B=8 | loss_ctc 3.5705 | T_max=1134 | GPU mem=0.85 GB
+[epoch 02] batch 000050 | B=8 | loss_ctc 3.2505 | T_max=856 | GPU mem=0.87 GB
+[epoch 02] batch 000100 | B=8 | loss_ctc 3.3007 | T_max=1483 | GPU mem=0.86 GB
+[epoch 02] batch 000150 | B=8 | loss_ctc 3.2190 | T_max=1284 | GPU mem=0.87 GB
+[epoch 02] batch 000200 | B=8 | loss_ctc 3.1842 | T_max=1382 | GPU mem=0.85 GB
+[epoch 02] batch 000250 | B=8 | loss_ctc 3.3225 | T_max=1351 | GPU mem=0.87 GB
+[epoch 02] batch 000300 | B=8 | loss_ctc 3.2084 | T_max=1344 | GPU mem=0.86 GB
+[epoch 02] batch 000350 | B=8 | loss_ctc 3.3298 | T_max=1529 | GPU mem=0.87 GB
+[epoch 02] batch 000400 | B=8 | loss_ctc 3.2540 | T_max=932 | GPU mem=0.84 GB
+[epoch 02] batch 000450 | B=8 | loss_ctc 3.1995 | T_max=1214 | GPU mem=0.87 GB
+[epoch 02] batch 000500 | B=8 | loss_ctc 3.3685 | T_max=1479 | GPU mem=0.86 GB
+[epoch 02] batch 000550 | B=8 | loss_ctc 3.1054 | T_max=1034 | GPU mem=0.86 GB
+[epoch 02] batch 000600 | B=8 | loss_ctc 3.2149 | T_max=1763 | GPU mem=0.86 GB
+[epoch 02] batch 000650 | B=8 | loss_ctc 3.2707 | T_max=1313 | GPU mem=0.87 GB
+[epoch 02] batch 000700 | B=8 | loss_ctc 3.3312 | T_max=1206 | GPU mem=0.85 GB
+[epoch 02] batch 000750 | B=8 | loss_ctc 3.2769 | T_max=1308 | GPU mem=0.87 GB
+[epoch 02] batch 000800 | B=8 | loss_ctc 3.3480 | T_max=2162 | GPU mem=0.87 GB
+[epoch 02] batch 000850 | B=8 | loss_ctc 3.2237 | T_max=1454 | GPU mem=0.88 GB
+[epoch 02] batch 000900 | B=8 | loss_ctc 3.2607 | T_max=1541 | GPU mem=0.86 GB
+[epoch 02] batch 000950 | B=8 | loss_ctc 3.1209 | T_max=1218 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=22 | PER=0.909
+REF : 6 40 22 13 20 40 22 6 40 21 17 35 17 24 40 7 6 40 14 25 23 40
+PRED: 6 40
+[Epoch 02 | EVAL] train_loss=3.2836  PER_g=0.932  lr=0.000100 | 12.1 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.932]
+[epoch 03] batch 000000 | B=8 | loss_ctc 3.5052 | T_max=1254 | GPU mem=0.86 GB
+[epoch 03] batch 000050 | B=8 | loss_ctc 3.2030 | T_max=1662 | GPU mem=0.88 GB
+[epoch 03] batch 000100 | B=8 | loss_ctc 3.3054 | T_max=1116 | GPU mem=0.85 GB
+[epoch 03] batch 000150 | B=8 | loss_ctc 3.2134 | T_max=1209 | GPU mem=0.87 GB
+[epoch 03] batch 000200 | B=8 | loss_ctc 3.1819 | T_max=1146 | GPU mem=0.85 GB
+[epoch 03] batch 000250 | B=8 | loss_ctc 3.1102 | T_max=2151 | GPU mem=0.89 GB
+[epoch 03] batch 000300 | B=8 | loss_ctc 3.2736 | T_max=1324 | GPU mem=0.85 GB
+[epoch 03] batch 000350 | B=8 | loss_ctc 3.1495 | T_max=1637 | GPU mem=0.87 GB
+[epoch 03] batch 000400 | B=8 | loss_ctc 3.1215 | T_max=1502 | GPU mem=0.86 GB
+[epoch 03] batch 000450 | B=8 | loss_ctc 3.0663 | T_max=1297 | GPU mem=0.88 GB
+[epoch 03] batch 000500 | B=8 | loss_ctc 3.1716 | T_max=1985 | GPU mem=0.87 GB
+[epoch 03] batch 000550 | B=8 | loss_ctc 3.0535 | T_max=1624 | GPU mem=0.88 GB
+[epoch 03] batch 000600 | B=8 | loss_ctc 3.0353 | T_max=1379 | GPU mem=0.86 GB
+[epoch 03] batch 000650 | B=8 | loss_ctc 3.1864 | T_max=1150 | GPU mem=0.87 GB
+[epoch 03] batch 000700 | B=8 | loss_ctc 3.2366 | T_max=1757 | GPU mem=0.86 GB
+[epoch 03] batch 000750 | B=8 | loss_ctc 3.2255 | T_max=1399 | GPU mem=0.88 GB
+[epoch 03] batch 000800 | B=8 | loss_ctc 3.0984 | T_max=1179 | GPU mem=0.85 GB
+[epoch 03] batch 000850 | B=8 | loss_ctc 3.0523 | T_max=1237 | GPU mem=0.87 GB
+[epoch 03] batch 000900 | B=8 | loss_ctc 3.0379 | T_max=1619 | GPU mem=0.86 GB
+[epoch 03] batch 000950 | B=8 | loss_ctc 3.2785 | T_max=2175 | GPU mem=0.88 GB
+[Epoch 03] train_loss=3.1364 lr=0.000150 | 9.8 min (pas d'éval)
+[epoch 04] batch 000000 | B=8 | loss_ctc 3.0708 | T_max=1222 | GPU mem=0.85 GB
+[epoch 04] batch 000050 | B=8 | loss_ctc 3.0580 | T_max=1861 | GPU mem=0.88 GB
+[epoch 04] batch 000100 | B=8 | loss_ctc 2.9858 | T_max=1677 | GPU mem=0.86 GB
+[epoch 04] batch 000150 | B=8 | loss_ctc 3.1630 | T_max=1327 | GPU mem=0.87 GB
+[epoch 04] batch 000200 | B=8 | loss_ctc 3.0408 | T_max=1337 | GPU mem=0.85 GB
+[epoch 04] batch 000250 | B=8 | loss_ctc 3.0194 | T_max=927 | GPU mem=0.86 GB
+[epoch 04] batch 000300 | B=8 | loss_ctc 2.9126 | T_max=1406 | GPU mem=0.86 GB
+[epoch 04] batch 000350 | B=8 | loss_ctc 2.8922 | T_max=1315 | GPU mem=0.87 GB
+[epoch 04] batch 000400 | B=8 | loss_ctc 3.1544 | T_max=1463 | GPU mem=0.85 GB
+[epoch 04] batch 000450 | B=8 | loss_ctc 3.2084 | T_max=2474 | GPU mem=0.89 GB
+[epoch 04] batch 000500 | B=8 | loss_ctc 2.9706 | T_max=1386 | GPU mem=0.86 GB
+[epoch 04] batch 000550 | B=8 | loss_ctc 2.9578 | T_max=1173 | GPU mem=0.87 GB
+[epoch 04] batch 000600 | B=8 | loss_ctc 2.8833 | T_max=1081 | GPU mem=0.85 GB
+[epoch 04] batch 000650 | B=8 | loss_ctc 2.8514 | T_max=1333 | GPU mem=0.87 GB
+[epoch 04] batch 000700 | B=8 | loss_ctc 2.9464 | T_max=1126 | GPU mem=0.85 GB
+[epoch 04] batch 000750 | B=8 | loss_ctc 2.8658 | T_max=1351 | GPU mem=0.87 GB
+[epoch 04] batch 000800 | B=8 | loss_ctc 2.8119 | T_max=1962 | GPU mem=0.86 GB
+[epoch 04] batch 000850 | B=8 | loss_ctc 3.1401 | T_max=1063 | GPU mem=0.87 GB
+[epoch 04] batch 000900 | B=8 | loss_ctc 2.9659 | T_max=1244 | GPU mem=0.85 GB
+[epoch 04] batch 000950 | B=8 | loss_ctc 3.0230 | T_max=1016 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=3 | PER=0.925
+REF : 36 18 40 11 23 9 3 9 40 3 27 40 36 1 8 17 24 40 17 31 40 14 4 28 40 3 40 20 3 27 3 21 40 3 35 40 5 12 38 40
+PRED: 36 18 40
+[Epoch 04 | EVAL] train_loss=2.9979  PER_g=0.912  lr=0.000200 | 10.9 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.912]
+[epoch 05] batch 000000 | B=8 | loss_ctc 2.7329 | T_max=1140 | GPU mem=0.85 GB
+[epoch 05] batch 000050 | B=8 | loss_ctc 2.9755 | T_max=1334 | GPU mem=0.87 GB
+[epoch 05] batch 000100 | B=8 | loss_ctc 2.7998 | T_max=1105 | GPU mem=0.85 GB
+[epoch 05] batch 000150 | B=8 | loss_ctc 2.9021 | T_max=1192 | GPU mem=0.87 GB
+[epoch 05] batch 000200 | B=8 | loss_ctc 2.8392 | T_max=1048 | GPU mem=0.84 GB
+[epoch 05] batch 000250 | B=8 | loss_ctc 2.8724 | T_max=1366 | GPU mem=0.87 GB
+[epoch 05] batch 000300 | B=8 | loss_ctc 2.8187 | T_max=1587 | GPU mem=0.85 GB
+[epoch 05] batch 000350 | B=8 | loss_ctc 2.5533 | T_max=1329 | GPU mem=0.87 GB
+[epoch 05] batch 000400 | B=8 | loss_ctc 2.9281 | T_max=1182 | GPU mem=0.85 GB
+[epoch 05] batch 000450 | B=8 | loss_ctc 2.7143 | T_max=1648 | GPU mem=0.87 GB
+[epoch 05] batch 000500 | B=8 | loss_ctc 2.8863 | T_max=1376 | GPU mem=0.86 GB
+[epoch 05] batch 000550 | B=8 | loss_ctc 2.6719 | T_max=1340 | GPU mem=0.87 GB
+[epoch 05] batch 000600 | B=8 | loss_ctc 2.6581 | T_max=1219 | GPU mem=0.85 GB
+[epoch 05] batch 000650 | B=8 | loss_ctc 2.8301 | T_max=1222 | GPU mem=0.87 GB
+[epoch 05] batch 000700 | B=8 | loss_ctc 2.6233 | T_max=1274 | GPU mem=0.86 GB
+[epoch 05] batch 000750 | B=8 | loss_ctc 2.5286 | T_max=1044 | GPU mem=0.86 GB
+[epoch 05] batch 000800 | B=8 | loss_ctc 2.6436 | T_max=1305 | GPU mem=0.86 GB
+[epoch 05] batch 000850 | B=8 | loss_ctc 2.6459 | T_max=1184 | GPU mem=0.87 GB
+[epoch 05] batch 000900 | B=8 | loss_ctc 2.7744 | T_max=1084 | GPU mem=0.85 GB
+[epoch 05] batch 000950 | B=8 | loss_ctc 2.7711 | T_max=1381 | GPU mem=0.87 GB
+[Epoch 05] train_loss=2.7771 lr=0.000200 | 11.1 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 06] batch 000000 | B=8 | loss_ctc 2.7839 | T_max=1620 | GPU mem=0.86 GB
+[epoch 06] batch 000050 | B=8 | loss_ctc 2.6680 | T_max=1145 | GPU mem=0.87 GB
+[epoch 06] batch 000100 | B=8 | loss_ctc 2.4967 | T_max=1187 | GPU mem=0.85 GB
+[epoch 06] batch 000150 | B=8 | loss_ctc 2.4195 | T_max=1286 | GPU mem=0.87 GB
+[epoch 06] batch 000200 | B=8 | loss_ctc 2.2122 | T_max=1419 | GPU mem=0.86 GB
+[epoch 06] batch 000250 | B=8 | loss_ctc 2.1908 | T_max=1512 | GPU mem=0.87 GB
+[epoch 06] batch 000300 | B=8 | loss_ctc 2.6045 | T_max=1411 | GPU mem=0.86 GB
+[epoch 06] batch 000350 | B=8 | loss_ctc 2.2911 | T_max=1274 | GPU mem=0.87 GB
+[epoch 06] batch 000400 | B=8 | loss_ctc 2.4182 | T_max=1189 | GPU mem=0.85 GB
+[epoch 06] batch 000450 | B=8 | loss_ctc 2.5609 | T_max=1858 | GPU mem=0.88 GB
+[epoch 06] batch 000500 | B=8 | loss_ctc 2.3531 | T_max=1582 | GPU mem=0.85 GB
+[epoch 06] batch 000550 | B=8 | loss_ctc 2.6080 | T_max=1436 | GPU mem=0.87 GB
+[epoch 06] batch 000600 | B=8 | loss_ctc 2.4373 | T_max=1543 | GPU mem=0.86 GB
+[epoch 06] batch 000650 | B=8 | loss_ctc 2.5478 | T_max=1600 | GPU mem=0.87 GB
+[epoch 06] batch 000700 | B=8 | loss_ctc 2.2667 | T_max=1498 | GPU mem=0.86 GB
+[epoch 06] batch 000750 | B=8 | loss_ctc 2.5142 | T_max=1328 | GPU mem=0.87 GB
+[epoch 06] batch 000800 | B=8 | loss_ctc 2.3946 | T_max=1242 | GPU mem=0.85 GB
+[epoch 06] batch 000850 | B=8 | loss_ctc 2.5310 | T_max=1386 | GPU mem=0.87 GB
+[epoch 06] batch 000900 | B=8 | loss_ctc 2.4158 | T_max=1414 | GPU mem=0.86 GB
+[epoch 06] batch 000950 | B=8 | loss_ctc 2.2125 | T_max=1664 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=3 | PER=0.684
+REF : 6 40 2 22 40 4 21 29 25 40 9 34 17 24 40 10 17 29 40
+PRED: 6 40 16 2 27 40 40 32 17 40
+[Epoch 06 | EVAL] train_loss=2.4736  PER_g=0.702  lr=0.000200 | 10.6 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.702]
+[epoch 07] batch 000000 | B=8 | loss_ctc 2.2669 | T_max=1696 | GPU mem=0.86 GB
+[epoch 07] batch 000050 | B=8 | loss_ctc 2.2041 | T_max=1387 | GPU mem=0.87 GB
+[epoch 07] batch 000100 | B=8 | loss_ctc 2.2598 | T_max=1228 | GPU mem=0.85 GB
+[epoch 07] batch 000150 | B=8 | loss_ctc 2.3088 | T_max=1424 | GPU mem=0.87 GB
+[epoch 07] batch 000200 | B=8 | loss_ctc 2.0817 | T_max=1406 | GPU mem=0.86 GB
+[epoch 07] batch 000250 | B=8 | loss_ctc 2.4418 | T_max=1353 | GPU mem=0.87 GB
+[epoch 07] batch 000300 | B=8 | loss_ctc 2.0897 | T_max=1314 | GPU mem=0.85 GB
+[epoch 07] batch 000350 | B=8 | loss_ctc 1.7239 | T_max=980 | GPU mem=0.87 GB
+[epoch 07] batch 000400 | B=8 | loss_ctc 2.0155 | T_max=1020 | GPU mem=0.85 GB
+[epoch 07] batch 000450 | B=8 | loss_ctc 1.9262 | T_max=1281 | GPU mem=0.87 GB
+[epoch 07] batch 000500 | B=8 | loss_ctc 2.1876 | T_max=1021 | GPU mem=0.85 GB
+[epoch 07] batch 000550 | B=8 | loss_ctc 2.1596 | T_max=1143 | GPU mem=0.86 GB
+[epoch 07] batch 000600 | B=8 | loss_ctc 1.8693 | T_max=1054 | GPU mem=0.85 GB
+[epoch 07] batch 000650 | B=8 | loss_ctc 2.1206 | T_max=2205 | GPU mem=0.90 GB
+[epoch 07] batch 000700 | B=8 | loss_ctc 2.2313 | T_max=1099 | GPU mem=0.85 GB
+[epoch 07] batch 000750 | B=8 | loss_ctc 1.7324 | T_max=1031 | GPU mem=0.86 GB
+[epoch 07] batch 000800 | B=8 | loss_ctc 2.0844 | T_max=1401 | GPU mem=0.86 GB
+[epoch 07] batch 000850 | B=8 | loss_ctc 2.1037 | T_max=1398 | GPU mem=0.87 GB
+[epoch 07] batch 000900 | B=8 | loss_ctc 1.8982 | T_max=1110 | GPU mem=0.85 GB
+[epoch 07] batch 000950 | B=8 | loss_ctc 2.0463 | T_max=1295 | GPU mem=0.87 GB
+[Epoch 07] train_loss=2.1566 lr=0.000199 | 10.3 min (pas d'éval)
+[epoch 08] batch 000000 | B=8 | loss_ctc 1.7655 | T_max=1609 | GPU mem=0.86 GB
+[epoch 08] batch 000050 | B=8 | loss_ctc 1.8277 | T_max=1311 | GPU mem=0.87 GB
+[epoch 08] batch 000100 | B=8 | loss_ctc 1.9666 | T_max=1282 | GPU mem=0.85 GB
+[epoch 08] batch 000150 | B=8 | loss_ctc 1.8870 | T_max=1325 | GPU mem=0.87 GB
+[epoch 08] batch 000200 | B=8 | loss_ctc 1.9118 | T_max=1522 | GPU mem=0.86 GB
+[epoch 08] batch 000250 | B=8 | loss_ctc 2.1826 | T_max=1426 | GPU mem=0.88 GB
+[epoch 08] batch 000300 | B=8 | loss_ctc 2.1253 | T_max=1214 | GPU mem=0.85 GB
+[epoch 08] batch 000350 | B=8 | loss_ctc 2.0000 | T_max=1613 | GPU mem=0.88 GB
+[epoch 08] batch 000400 | B=8 | loss_ctc 1.8800 | T_max=1036 | GPU mem=0.85 GB
+[epoch 08] batch 000450 | B=8 | loss_ctc 1.8873 | T_max=1453 | GPU mem=0.87 GB
+[epoch 08] batch 000500 | B=8 | loss_ctc 1.8276 | T_max=1018 | GPU mem=0.85 GB
+[epoch 08] batch 000550 | B=8 | loss_ctc 1.5410 | T_max=1136 | GPU mem=0.87 GB
+[epoch 08] batch 000600 | B=8 | loss_ctc 2.0121 | T_max=2091 | GPU mem=0.86 GB
+[epoch 08] batch 000650 | B=8 | loss_ctc 1.7671 | T_max=1202 | GPU mem=0.87 GB
+[epoch 08] batch 000700 | B=8 | loss_ctc 2.1964 | T_max=1158 | GPU mem=0.85 GB
+[epoch 08] batch 000750 | B=8 | loss_ctc 1.9405 | T_max=1725 | GPU mem=0.87 GB
+[epoch 08] batch 000800 | B=8 | loss_ctc 1.5889 | T_max=1461 | GPU mem=0.85 GB
+[epoch 08] batch 000850 | B=8 | loss_ctc 1.5019 | T_max=940 | GPU mem=0.86 GB
+[epoch 08] batch 000900 | B=8 | loss_ctc 1.6916 | T_max=913 | GPU mem=0.85 GB
+[epoch 08] batch 000950 | B=8 | loss_ctc 1.9049 | T_max=1196 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=8 | PER=0.400
+REF : 37 34 40 16 2 35 40 31 34 40 27 13 40 10 3 40 17 23 31 3 28 11 29 31 40
+PRED: 37 34 40 16 2 35 40 9 34 40 7 40 3 40 17 29 40
+[Epoch 08 | EVAL] train_loss=1.8630  PER_g=0.493  lr=0.000199 | 11.1 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.493]
+[epoch 09] batch 000000 | B=8 | loss_ctc 1.7625 | T_max=1433 | GPU mem=0.86 GB
+[epoch 09] batch 000050 | B=8 | loss_ctc 1.7274 | T_max=1117 | GPU mem=0.87 GB
+[epoch 09] batch 000100 | B=8 | loss_ctc 1.7215 | T_max=1399 | GPU mem=0.86 GB
+[epoch 09] batch 000150 | B=8 | loss_ctc 1.6573 | T_max=1650 | GPU mem=0.87 GB
+[epoch 09] batch 000200 | B=8 | loss_ctc 2.0241 | T_max=2355 | GPU mem=0.87 GB
+[epoch 09] batch 000250 | B=8 | loss_ctc 1.6848 | T_max=1103 | GPU mem=0.86 GB
+[epoch 09] batch 000300 | B=8 | loss_ctc 1.6799 | T_max=1384 | GPU mem=0.86 GB
+[epoch 09] batch 000350 | B=8 | loss_ctc 1.3189 | T_max=1132 | GPU mem=0.87 GB
+[epoch 09] batch 000400 | B=8 | loss_ctc 1.6302 | T_max=1403 | GPU mem=0.86 GB
+[epoch 09] batch 000450 | B=8 | loss_ctc 1.7721 | T_max=1406 | GPU mem=0.87 GB
+[epoch 09] batch 000500 | B=8 | loss_ctc 1.7191 | T_max=1621 | GPU mem=0.86 GB
+[epoch 09] batch 000550 | B=8 | loss_ctc 1.5426 | T_max=1377 | GPU mem=0.87 GB
+[epoch 09] batch 000600 | B=8 | loss_ctc 1.7504 | T_max=918 | GPU mem=0.85 GB
+[epoch 09] batch 000650 | B=8 | loss_ctc 1.5142 | T_max=1282 | GPU mem=0.87 GB
+[epoch 09] batch 000700 | B=8 | loss_ctc 1.5443 | T_max=1270 | GPU mem=0.85 GB
+[epoch 09] batch 000750 | B=8 | loss_ctc 1.6851 | T_max=1430 | GPU mem=0.87 GB
+[epoch 09] batch 000800 | B=8 | loss_ctc 1.6684 | T_max=1646 | GPU mem=0.86 GB
+[epoch 09] batch 000850 | B=8 | loss_ctc 1.6835 | T_max=1625 | GPU mem=0.88 GB
+[epoch 09] batch 000900 | B=8 | loss_ctc 1.7693 | T_max=1278 | GPU mem=0.85 GB
+[epoch 09] batch 000950 | B=8 | loss_ctc 1.4337 | T_max=1018 | GPU mem=0.87 GB
+[Epoch 09] train_loss=1.6099 lr=0.000198 | 10.9 min (pas d'éval)
+[epoch 10] batch 000000 | B=8 | loss_ctc 1.5562 | T_max=1205 | GPU mem=0.85 GB
+[epoch 10] batch 000050 | B=8 | loss_ctc 1.2628 | T_max=1047 | GPU mem=0.87 GB
+[epoch 10] batch 000100 | B=8 | loss_ctc 1.3293 | T_max=1314 | GPU mem=0.85 GB
+[epoch 10] batch 000150 | B=8 | loss_ctc 1.3956 | T_max=1256 | GPU mem=0.87 GB
+[epoch 10] batch 000200 | B=8 | loss_ctc 1.1713 | T_max=1400 | GPU mem=0.86 GB
+[epoch 10] batch 000250 | B=8 | loss_ctc 1.4914 | T_max=1076 | GPU mem=0.87 GB
+[epoch 10] batch 000300 | B=8 | loss_ctc 1.7070 | T_max=1470 | GPU mem=0.85 GB
+[epoch 10] batch 000350 | B=8 | loss_ctc 1.1132 | T_max=1400 | GPU mem=0.87 GB
+[epoch 10] batch 000400 | B=8 | loss_ctc 1.5073 | T_max=1193 | GPU mem=0.85 GB
+[epoch 10] batch 000450 | B=8 | loss_ctc 1.6946 | T_max=1198 | GPU mem=0.87 GB
+[epoch 10] batch 000500 | B=8 | loss_ctc 1.7438 | T_max=1257 | GPU mem=0.86 GB
+[epoch 10] batch 000550 | B=8 | loss_ctc 1.4376 | T_max=1251 | GPU mem=0.87 GB
+[epoch 10] batch 000600 | B=8 | loss_ctc 1.4892 | T_max=1847 | GPU mem=0.86 GB
+[epoch 10] batch 000650 | B=8 | loss_ctc 1.5222 | T_max=1552 | GPU mem=0.87 GB
+[epoch 10] batch 000700 | B=8 | loss_ctc 1.8881 | T_max=1329 | GPU mem=0.85 GB
+[epoch 10] batch 000750 | B=8 | loss_ctc 1.2619 | T_max=1027 | GPU mem=0.86 GB
+[epoch 10] batch 000800 | B=8 | loss_ctc 1.4223 | T_max=1339 | GPU mem=0.85 GB
+[epoch 10] batch 000850 | B=8 | loss_ctc 1.8256 | T_max=1733 | GPU mem=0.88 GB
+[epoch 10] batch 000900 | B=8 | loss_ctc 1.0838 | T_max=1302 | GPU mem=0.86 GB
+[epoch 10] batch 000950 | B=8 | loss_ctc 1.2374 | T_max=1232 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=2 | PER=0.421
+REF : 36 11 23 40 9 3 38 40 29 20 34 21 40 29 31 1 28 31 40
+PRED: 36 40 9 3 29 38 40 20 34 40 21 1 31 40
+[Epoch 10 | EVAL] train_loss=1.4091  PER_g=0.391  lr=0.000197 | 10.0 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.391]
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 11] batch 000000 | B=8 | loss_ctc 1.4226 | T_max=1495 | GPU mem=0.85 GB
+[epoch 11] batch 000050 | B=8 | loss_ctc 0.9971 | T_max=1305 | GPU mem=0.87 GB
+[epoch 11] batch 000100 | B=8 | loss_ctc 1.0635 | T_max=1327 | GPU mem=0.85 GB
+[epoch 11] batch 000150 | B=8 | loss_ctc 1.2961 | T_max=1271 | GPU mem=0.87 GB
+[epoch 11] batch 000200 | B=8 | loss_ctc 1.0954 | T_max=1083 | GPU mem=0.85 GB
+[epoch 11] batch 000250 | B=8 | loss_ctc 1.5630 | T_max=1548 | GPU mem=0.88 GB
+[epoch 11] batch 000300 | B=8 | loss_ctc 1.4115 | T_max=1165 | GPU mem=0.85 GB
+[epoch 11] batch 000350 | B=8 | loss_ctc 1.3488 | T_max=1550 | GPU mem=0.87 GB
+[epoch 11] batch 000400 | B=8 | loss_ctc 1.3306 | T_max=1873 | GPU mem=0.86 GB
+[epoch 11] batch 000450 | B=8 | loss_ctc 1.3537 | T_max=1463 | GPU mem=0.88 GB
+[epoch 11] batch 000500 | B=8 | loss_ctc 1.4260 | T_max=1077 | GPU mem=0.85 GB
+[epoch 11] batch 000550 | B=8 | loss_ctc 1.4286 | T_max=1267 | GPU mem=0.87 GB
+[epoch 11] batch 000600 | B=8 | loss_ctc 1.7742 | T_max=886 | GPU mem=0.85 GB
+[epoch 11] batch 000650 | B=8 | loss_ctc 1.3859 | T_max=1099 | GPU mem=0.86 GB
+[epoch 11] batch 000700 | B=8 | loss_ctc 1.2750 | T_max=1498 | GPU mem=0.86 GB
+[epoch 11] batch 000750 | B=8 | loss_ctc 1.1409 | T_max=1986 | GPU mem=0.88 GB
+[epoch 11] batch 000800 | B=8 | loss_ctc 1.0832 | T_max=1594 | GPU mem=0.86 GB
+[epoch 11] batch 000850 | B=8 | loss_ctc 1.3353 | T_max=1335 | GPU mem=0.87 GB
+[epoch 11] batch 000900 | B=8 | loss_ctc 1.0781 | T_max=1558 | GPU mem=0.86 GB
+[epoch 11] batch 000950 | B=8 | loss_ctc 1.3180 | T_max=1757 | GPU mem=0.88 GB
+[Epoch 11] train_loss=1.2501 lr=0.000196 | 10.2 min (pas d'éval)
+[epoch 12] batch 000000 | B=8 | loss_ctc 1.3280 | T_max=1484 | GPU mem=0.86 GB
+[epoch 12] batch 000050 | B=8 | loss_ctc 1.3323 | T_max=1705 | GPU mem=0.88 GB
+[epoch 12] batch 000100 | B=8 | loss_ctc 1.0010 | T_max=1106 | GPU mem=0.85 GB
+[epoch 12] batch 000150 | B=8 | loss_ctc 0.8403 | T_max=1646 | GPU mem=0.87 GB
+[epoch 12] batch 000200 | B=8 | loss_ctc 0.7845 | T_max=1417 | GPU mem=0.86 GB
+[epoch 12] batch 000250 | B=8 | loss_ctc 1.1980 | T_max=1759 | GPU mem=0.88 GB
+[epoch 12] batch 000300 | B=8 | loss_ctc 1.2608 | T_max=2205 | GPU mem=0.87 GB
+[epoch 12] batch 000350 | B=8 | loss_ctc 1.0505 | T_max=1157 | GPU mem=0.87 GB
+[epoch 12] batch 000400 | B=8 | loss_ctc 1.5433 | T_max=1693 | GPU mem=0.86 GB
+[epoch 12] batch 000450 | B=8 | loss_ctc 1.2979 | T_max=1306 | GPU mem=0.87 GB
+[epoch 12] batch 000500 | B=8 | loss_ctc 1.4181 | T_max=1499 | GPU mem=0.86 GB
+[epoch 12] batch 000550 | B=8 | loss_ctc 0.9675 | T_max=883 | GPU mem=0.86 GB
+[epoch 12] batch 000600 | B=8 | loss_ctc 0.7686 | T_max=1369 | GPU mem=0.86 GB
+[epoch 12] batch 000650 | B=8 | loss_ctc 1.6535 | T_max=1381 | GPU mem=0.87 GB
+[epoch 12] batch 000700 | B=8 | loss_ctc 0.9442 | T_max=1239 | GPU mem=0.85 GB
+[epoch 12] batch 000750 | B=8 | loss_ctc 1.4856 | T_max=1263 | GPU mem=0.87 GB
+[epoch 12] batch 000800 | B=8 | loss_ctc 1.2314 | T_max=1461 | GPU mem=0.86 GB
+[epoch 12] batch 000850 | B=8 | loss_ctc 1.0297 | T_max=1248 | GPU mem=0.87 GB
+[epoch 12] batch 000900 | B=8 | loss_ctc 0.9154 | T_max=1373 | GPU mem=0.86 GB
+[epoch 12] batch 000950 | B=8 | loss_ctc 1.1617 | T_max=1158 | GPU mem=0.86 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=9 | PER=0.438
+REF : 11 35 28 18 32 17 24 40 6 40 21 12 23 17 9 40 3 7 5 31 40 13 23 8 3 23 31 40 28 25 22 40
+PRED: 11 35 28 18 32 17 24 6 28 40 21 33 31 40 7 5 31 40 20 19 3 9 40 15 28 22 40
+[Epoch 12 | EVAL] train_loss=1.1249  PER_g=0.341  lr=0.000195 | 10.0 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.341]
+[epoch 13] batch 000000 | B=8 | loss_ctc 0.9468 | T_max=1189 | GPU mem=0.85 GB
+[epoch 13] batch 000050 | B=8 | loss_ctc 1.0484 | T_max=1228 | GPU mem=0.87 GB
+[epoch 13] batch 000100 | B=8 | loss_ctc 0.9545 | T_max=1548 | GPU mem=0.85 GB
+[epoch 13] batch 000150 | B=8 | loss_ctc 1.1318 | T_max=1979 | GPU mem=0.88 GB
+[epoch 13] batch 000200 | B=8 | loss_ctc 1.1254 | T_max=1234 | GPU mem=0.85 GB
+[epoch 13] batch 000250 | B=8 | loss_ctc 0.8246 | T_max=948 | GPU mem=0.87 GB
+[epoch 13] batch 000300 | B=8 | loss_ctc 1.1140 | T_max=1599 | GPU mem=0.85 GB
+[epoch 13] batch 000350 | B=8 | loss_ctc 0.9840 | T_max=1382 | GPU mem=0.87 GB
+[epoch 13] batch 000400 | B=8 | loss_ctc 1.0835 | T_max=2057 | GPU mem=0.86 GB
+[epoch 13] batch 000450 | B=8 | loss_ctc 0.9949 | T_max=1292 | GPU mem=0.87 GB
+[epoch 13] batch 000500 | B=8 | loss_ctc 1.0794 | T_max=1326 | GPU mem=0.85 GB
+[epoch 13] batch 000550 | B=8 | loss_ctc 0.9901 | T_max=1210 | GPU mem=0.87 GB
+[epoch 13] batch 000600 | B=8 | loss_ctc 0.8797 | T_max=1148 | GPU mem=0.85 GB
+[epoch 13] batch 000650 | B=8 | loss_ctc 1.0012 | T_max=967 | GPU mem=0.87 GB
+[epoch 13] batch 000700 | B=8 | loss_ctc 1.0777 | T_max=1145 | GPU mem=0.85 GB
+[epoch 13] batch 000750 | B=8 | loss_ctc 0.8607 | T_max=1353 | GPU mem=0.87 GB
+[epoch 13] batch 000800 | B=8 | loss_ctc 1.0773 | T_max=1528 | GPU mem=0.86 GB
+[epoch 13] batch 000850 | B=8 | loss_ctc 0.9709 | T_max=1279 | GPU mem=0.87 GB
+[epoch 13] batch 000900 | B=8 | loss_ctc 1.0806 | T_max=1382 | GPU mem=0.86 GB
+[epoch 13] batch 000950 | B=8 | loss_ctc 1.5786 | T_max=1541 | GPU mem=0.87 GB
+[Epoch 13] train_loss=1.0169 lr=0.000193 | 8.9 min (pas d'éval)
+[epoch 14] batch 000000 | B=8 | loss_ctc 0.6857 | T_max=1239 | GPU mem=0.86 GB
+[epoch 14] batch 000050 | B=8 | loss_ctc 1.2838 | T_max=2092 | GPU mem=0.88 GB
+[epoch 14] batch 000100 | B=8 | loss_ctc 0.5935 | T_max=1181 | GPU mem=0.85 GB
+[epoch 14] batch 000150 | B=8 | loss_ctc 0.9827 | T_max=1191 | GPU mem=0.87 GB
+[epoch 14] batch 000200 | B=8 | loss_ctc 1.1961 | T_max=1567 | GPU mem=0.86 GB
+[epoch 14] batch 000250 | B=8 | loss_ctc 1.0793 | T_max=930 | GPU mem=0.87 GB
+[epoch 14] batch 000300 | B=8 | loss_ctc 0.9478 | T_max=1434 | GPU mem=0.85 GB
+[epoch 14] batch 000350 | B=8 | loss_ctc 0.8449 | T_max=1108 | GPU mem=0.87 GB
+[epoch 14] batch 000400 | B=8 | loss_ctc 0.9399 | T_max=1334 | GPU mem=0.85 GB
+[epoch 14] batch 000450 | B=8 | loss_ctc 1.0794 | T_max=1528 | GPU mem=0.88 GB
+[epoch 14] batch 000500 | B=8 | loss_ctc 1.1556 | T_max=1749 | GPU mem=0.86 GB
+[epoch 14] batch 000550 | B=8 | loss_ctc 0.8419 | T_max=958 | GPU mem=0.87 GB
+[epoch 14] batch 000600 | B=8 | loss_ctc 1.1029 | T_max=1559 | GPU mem=0.86 GB
+[epoch 14] batch 000650 | B=8 | loss_ctc 1.4688 | T_max=1628 | GPU mem=0.88 GB
+[epoch 14] batch 000700 | B=8 | loss_ctc 0.9775 | T_max=1175 | GPU mem=0.85 GB
+[epoch 14] batch 000750 | B=8 | loss_ctc 0.8118 | T_max=1277 | GPU mem=0.87 GB
+[epoch 14] batch 000800 | B=8 | loss_ctc 0.5811 | T_max=1474 | GPU mem=0.85 GB
+[epoch 14] batch 000850 | B=8 | loss_ctc 0.7272 | T_max=1108 | GPU mem=0.87 GB
+[epoch 14] batch 000900 | B=8 | loss_ctc 0.8926 | T_max=1593 | GPU mem=0.86 GB
+[epoch 14] batch 000950 | B=8 | loss_ctc 1.0552 | T_max=1698 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=16 | PER=0.174
+REF : 10 13 40 9 25 23 31 40 20 17 21 40 10 3 40 2 23 3 22 3 21 38 40
+PRED: 10 13 40 9 25 31 40 20 17 21 40 10 3 40 2 23 3 38 40
+[Epoch 14 | EVAL] train_loss=0.9388  PER_g=0.305  lr=0.000192 | 9.9 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.305]
+[epoch 15] batch 000000 | B=8 | loss_ctc 0.8290 | T_max=1713 | GPU mem=0.86 GB
+[epoch 15] batch 000050 | B=8 | loss_ctc 1.0058 | T_max=1403 | GPU mem=0.88 GB
+[epoch 15] batch 000100 | B=8 | loss_ctc 0.8818 | T_max=988 | GPU mem=0.85 GB
+[epoch 15] batch 000150 | B=8 | loss_ctc 1.0058 | T_max=1570 | GPU mem=0.88 GB
+[epoch 15] batch 000200 | B=8 | loss_ctc 0.8541 | T_max=1387 | GPU mem=0.86 GB
+[epoch 15] batch 000250 | B=8 | loss_ctc 0.7075 | T_max=1421 | GPU mem=0.87 GB
+[epoch 15] batch 000300 | B=8 | loss_ctc 0.8986 | T_max=1451 | GPU mem=0.86 GB
+[epoch 15] batch 000350 | B=8 | loss_ctc 1.1592 | T_max=1540 | GPU mem=0.87 GB
+[epoch 15] batch 000400 | B=8 | loss_ctc 0.6981 | T_max=1277 | GPU mem=0.85 GB
+[epoch 15] batch 000450 | B=8 | loss_ctc 0.9608 | T_max=1212 | GPU mem=0.87 GB
+[epoch 15] batch 000500 | B=8 | loss_ctc 0.9288 | T_max=1825 | GPU mem=0.86 GB
+[epoch 15] batch 000550 | B=8 | loss_ctc 0.5060 | T_max=1415 | GPU mem=0.88 GB
+[epoch 15] batch 000600 | B=8 | loss_ctc 0.7704 | T_max=1066 | GPU mem=0.85 GB
+[epoch 15] batch 000650 | B=8 | loss_ctc 0.7892 | T_max=1324 | GPU mem=0.87 GB
+[epoch 15] batch 000700 | B=8 | loss_ctc 0.7753 | T_max=1478 | GPU mem=0.86 GB
+[epoch 15] batch 000750 | B=8 | loss_ctc 1.1103 | T_max=1366 | GPU mem=0.87 GB
+[epoch 15] batch 000800 | B=8 | loss_ctc 1.1422 | T_max=1198 | GPU mem=0.85 GB
+[epoch 15] batch 000850 | B=8 | loss_ctc 1.0372 | T_max=1327 | GPU mem=0.87 GB
+[epoch 15] batch 000900 | B=8 | loss_ctc 1.0598 | T_max=1254 | GPU mem=0.85 GB
+[epoch 15] batch 000950 | B=8 | loss_ctc 0.8532 | T_max=1321 | GPU mem=0.87 GB
+[Epoch 15] train_loss=0.8678 lr=0.000190 | 9.8 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 16] batch 000000 | B=8 | loss_ctc 0.7496 | T_max=1404 | GPU mem=0.86 GB
+[epoch 16] batch 000050 | B=8 | loss_ctc 0.6154 | T_max=1154 | GPU mem=0.87 GB
+[epoch 16] batch 000100 | B=8 | loss_ctc 1.0492 | T_max=2037 | GPU mem=0.86 GB
+[epoch 16] batch 000150 | B=8 | loss_ctc 0.9112 | T_max=1503 | GPU mem=0.88 GB
+[epoch 16] batch 000200 | B=8 | loss_ctc 0.7381 | T_max=1058 | GPU mem=0.84 GB
+[epoch 16] batch 000250 | B=8 | loss_ctc 0.8247 | T_max=1214 | GPU mem=0.87 GB
+[epoch 16] batch 000300 | B=8 | loss_ctc 0.5250 | T_max=1415 | GPU mem=0.86 GB
+[epoch 16] batch 000350 | B=8 | loss_ctc 0.8913 | T_max=917 | GPU mem=0.87 GB
+[epoch 16] batch 000400 | B=8 | loss_ctc 0.5773 | T_max=1331 | GPU mem=0.85 GB
+[epoch 16] batch 000450 | B=8 | loss_ctc 0.5139 | T_max=1078 | GPU mem=0.86 GB
+[epoch 16] batch 000500 | B=8 | loss_ctc 0.9370 | T_max=1450 | GPU mem=0.86 GB
+[epoch 16] batch 000550 | B=8 | loss_ctc 0.7191 | T_max=1384 | GPU mem=0.87 GB
+[epoch 16] batch 000600 | B=8 | loss_ctc 0.8477 | T_max=1265 | GPU mem=0.85 GB
+[epoch 16] batch 000650 | B=8 | loss_ctc 0.7247 | T_max=1204 | GPU mem=0.87 GB
+[epoch 16] batch 000700 | B=8 | loss_ctc 0.8737 | T_max=932 | GPU mem=0.85 GB
+[epoch 16] batch 000750 | B=8 | loss_ctc 0.7746 | T_max=1088 | GPU mem=0.86 GB
+[epoch 16] batch 000800 | B=8 | loss_ctc 0.7055 | T_max=1465 | GPU mem=0.86 GB
+[epoch 16] batch 000850 | B=8 | loss_ctc 1.1356 | T_max=1421 | GPU mem=0.87 GB
+[epoch 16] batch 000900 | B=8 | loss_ctc 0.6527 | T_max=1106 | GPU mem=0.85 GB
+[epoch 16] batch 000950 | B=8 | loss_ctc 0.7466 | T_max=1167 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=17 | PER=0.143
+REF : 6 40 22 18 23 40 16 18 38 40 9 34 17 24 40 4 21 28 6 31 40
+PRED: 6 40 22 18 23 40 16 18 38 40 9 34 17 24 40 5 6 31 40
+[Epoch 16 | EVAL] train_loss=0.7986  PER_g=0.284  lr=0.000188 | 9.7 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.284]
+[epoch 17] batch 000000 | B=8 | loss_ctc 0.5468 | T_max=1190 | GPU mem=0.85 GB
+[epoch 17] batch 000050 | B=8 | loss_ctc 0.5485 | T_max=1121 | GPU mem=0.87 GB
+[epoch 17] batch 000100 | B=8 | loss_ctc 0.8894 | T_max=1525 | GPU mem=0.85 GB
+[epoch 17] batch 000150 | B=8 | loss_ctc 0.5008 | T_max=1297 | GPU mem=0.87 GB
+[epoch 17] batch 000200 | B=8 | loss_ctc 0.5573 | T_max=1020 | GPU mem=0.85 GB
+[epoch 17] batch 000250 | B=8 | loss_ctc 0.9895 | T_max=2282 | GPU mem=0.89 GB
+[epoch 17] batch 000300 | B=8 | loss_ctc 0.8604 | T_max=1581 | GPU mem=0.86 GB
+[epoch 17] batch 000350 | B=8 | loss_ctc 0.8004 | T_max=1284 | GPU mem=0.87 GB
+[epoch 17] batch 000400 | B=8 | loss_ctc 1.0140 | T_max=1342 | GPU mem=0.85 GB
+[epoch 17] batch 000450 | B=8 | loss_ctc 0.7296 | T_max=1424 | GPU mem=0.87 GB
+[epoch 17] batch 000500 | B=8 | loss_ctc 0.6835 | T_max=1462 | GPU mem=0.86 GB
+[epoch 17] batch 000550 | B=8 | loss_ctc 0.5390 | T_max=1301 | GPU mem=0.87 GB
+[epoch 17] batch 000600 | B=8 | loss_ctc 0.8519 | T_max=2089 | GPU mem=0.86 GB
+[epoch 17] batch 000650 | B=8 | loss_ctc 0.7433 | T_max=1199 | GPU mem=0.87 GB
+[epoch 17] batch 000700 | B=8 | loss_ctc 0.7204 | T_max=1187 | GPU mem=0.85 GB
+[epoch 17] batch 000750 | B=8 | loss_ctc 0.4561 | T_max=1362 | GPU mem=0.87 GB
+[epoch 17] batch 000800 | B=8 | loss_ctc 0.6415 | T_max=1455 | GPU mem=0.86 GB
+[epoch 17] batch 000850 | B=8 | loss_ctc 1.0798 | T_max=1365 | GPU mem=0.87 GB
+[epoch 17] batch 000900 | B=8 | loss_ctc 0.7058 | T_max=1143 | GPU mem=0.85 GB
+[epoch 17] batch 000950 | B=8 | loss_ctc 1.0819 | T_max=2412 | GPU mem=0.88 GB
+[Epoch 17] train_loss=0.7442 lr=0.000186 | 9.0 min (pas d'éval)
+[epoch 18] batch 000000 | B=8 | loss_ctc 0.7871 | T_max=1795 | GPU mem=0.86 GB
+[epoch 18] batch 000050 | B=8 | loss_ctc 0.6680 | T_max=1308 | GPU mem=0.87 GB
+[epoch 18] batch 000100 | B=8 | loss_ctc 0.5657 | T_max=1329 | GPU mem=0.85 GB
+[epoch 18] batch 000150 | B=8 | loss_ctc 0.7195 | T_max=1393 | GPU mem=0.87 GB
+[epoch 18] batch 000200 | B=8 | loss_ctc 0.7901 | T_max=1633 | GPU mem=0.86 GB
+[epoch 18] batch 000250 | B=8 | loss_ctc 0.8418 | T_max=1336 | GPU mem=0.87 GB
+[epoch 18] batch 000300 | B=8 | loss_ctc 0.6663 | T_max=1622 | GPU mem=0.86 GB
+[epoch 18] batch 000350 | B=8 | loss_ctc 0.5536 | T_max=1644 | GPU mem=0.88 GB
+[epoch 18] batch 000400 | B=8 | loss_ctc 0.7230 | T_max=1191 | GPU mem=0.85 GB
+[epoch 18] batch 000450 | B=8 | loss_ctc 0.7887 | T_max=1243 | GPU mem=0.87 GB
+[epoch 18] batch 000500 | B=8 | loss_ctc 0.6214 | T_max=1492 | GPU mem=0.86 GB
+[epoch 18] batch 000550 | B=8 | loss_ctc 0.6186 | T_max=1030 | GPU mem=0.86 GB
+[epoch 18] batch 000600 | B=8 | loss_ctc 0.5332 | T_max=1191 | GPU mem=0.85 GB
+[epoch 18] batch 000650 | B=8 | loss_ctc 0.9880 | T_max=1733 | GPU mem=0.88 GB
+[epoch 18] batch 000700 | B=8 | loss_ctc 0.4621 | T_max=1305 | GPU mem=0.85 GB
+[epoch 18] batch 000750 | B=8 | loss_ctc 0.8364 | T_max=1248 | GPU mem=0.87 GB
+[epoch 18] batch 000800 | B=8 | loss_ctc 0.9009 | T_max=1226 | GPU mem=0.85 GB
+[epoch 18] batch 000850 | B=8 | loss_ctc 1.0286 | T_max=1048 | GPU mem=0.87 GB
+[epoch 18] batch 000900 | B=8 | loss_ctc 0.3566 | T_max=950 | GPU mem=0.85 GB
+[epoch 18] batch 000950 | B=8 | loss_ctc 0.2869 | T_max=2058 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=11 | PER=0.261
+REF : 32 2 24 20 29 40 14 4 28 40 16 18 28 17 24 40 22 18 40 28 2 27 40
+PRED: 10 2 29 40 14 4 28 40 11 28 17 24 40 7 18 40 28 2 27 40
+[Epoch 18 | EVAL] train_loss=0.7034  PER_g=0.300  lr=0.000184 | 9.8 min
+[epoch 19] batch 000000 | B=8 | loss_ctc 0.9719 | T_max=1557 | GPU mem=0.85 GB
+[epoch 19] batch 000050 | B=8 | loss_ctc 0.8284 | T_max=1642 | GPU mem=0.88 GB
+[epoch 19] batch 000100 | B=8 | loss_ctc 0.6165 | T_max=945 | GPU mem=0.85 GB
+[epoch 19] batch 000150 | B=8 | loss_ctc 0.4028 | T_max=1731 | GPU mem=0.88 GB
+[epoch 19] batch 000200 | B=8 | loss_ctc 0.4860 | T_max=1136 | GPU mem=0.85 GB
+[epoch 19] batch 000250 | B=8 | loss_ctc 0.5989 | T_max=1528 | GPU mem=0.87 GB
+[epoch 19] batch 000300 | B=8 | loss_ctc 0.9897 | T_max=1873 | GPU mem=0.86 GB
+[epoch 19] batch 000350 | B=8 | loss_ctc 1.1267 | T_max=1675 | GPU mem=0.88 GB
+[epoch 19] batch 000400 | B=8 | loss_ctc 0.7155 | T_max=1363 | GPU mem=0.85 GB
+[epoch 19] batch 000450 | B=8 | loss_ctc 0.9529 | T_max=1911 | GPU mem=0.88 GB
+[epoch 19] batch 000500 | B=8 | loss_ctc 0.7719 | T_max=963 | GPU mem=0.85 GB
+[epoch 19] batch 000550 | B=8 | loss_ctc 0.7827 | T_max=1446 | GPU mem=0.88 GB
+[epoch 19] batch 000600 | B=8 | loss_ctc 0.6551 | T_max=1120 | GPU mem=0.85 GB
+[epoch 19] batch 000650 | B=8 | loss_ctc 0.4219 | T_max=1564 | GPU mem=0.87 GB
+[epoch 19] batch 000700 | B=8 | loss_ctc 0.7400 | T_max=1353 | GPU mem=0.86 GB
+[epoch 19] batch 000750 | B=8 | loss_ctc 0.4756 | T_max=991 | GPU mem=0.86 GB
+[epoch 19] batch 000800 | B=8 | loss_ctc 0.4316 | T_max=1199 | GPU mem=0.85 GB
+[epoch 19] batch 000850 | B=8 | loss_ctc 0.7750 | T_max=1686 | GPU mem=0.88 GB
+[epoch 19] batch 000900 | B=8 | loss_ctc 0.4858 | T_max=1169 | GPU mem=0.85 GB
+[epoch 19] batch 000950 | B=8 | loss_ctc 0.7291 | T_max=1561 | GPU mem=0.87 GB
+[Epoch 19] train_loss=0.6564 lr=0.000181 | 9.8 min (pas d'éval)
+[epoch 20] batch 000000 | B=8 | loss_ctc 0.7573 | T_max=1142 | GPU mem=0.85 GB
+[epoch 20] batch 000050 | B=8 | loss_ctc 0.7624 | T_max=1460 | GPU mem=0.88 GB
+[epoch 20] batch 000100 | B=8 | loss_ctc 0.4893 | T_max=1639 | GPU mem=0.86 GB
+[epoch 20] batch 000150 | B=8 | loss_ctc 0.5120 | T_max=1237 | GPU mem=0.87 GB
+[epoch 20] batch 000200 | B=8 | loss_ctc 0.8914 | T_max=1634 | GPU mem=0.86 GB
+[epoch 20] batch 000250 | B=8 | loss_ctc 0.9250 | T_max=1289 | GPU mem=0.87 GB
+[epoch 20] batch 000300 | B=8 | loss_ctc 0.4290 | T_max=1217 | GPU mem=0.85 GB
+[epoch 20] batch 000350 | B=8 | loss_ctc 0.5165 | T_max=1302 | GPU mem=0.88 GB
+[epoch 20] batch 000400 | B=8 | loss_ctc 0.6776 | T_max=1108 | GPU mem=0.85 GB
+[epoch 20] batch 000450 | B=8 | loss_ctc 0.5469 | T_max=1190 | GPU mem=0.87 GB
+[epoch 20] batch 000500 | B=8 | loss_ctc 0.4215 | T_max=1401 | GPU mem=0.86 GB
+[epoch 20] batch 000550 | B=8 | loss_ctc 1.0649 | T_max=1245 | GPU mem=0.87 GB
+[epoch 20] batch 000600 | B=8 | loss_ctc 0.3858 | T_max=1615 | GPU mem=0.86 GB
+[epoch 20] batch 000650 | B=8 | loss_ctc 0.8335 | T_max=1314 | GPU mem=0.88 GB
+[epoch 20] batch 000700 | B=8 | loss_ctc 0.6053 | T_max=1203 | GPU mem=0.85 GB
+[epoch 20] batch 000750 | B=8 | loss_ctc 0.5075 | T_max=1927 | GPU mem=0.88 GB
+[epoch 20] batch 000800 | B=8 | loss_ctc 0.2021 | T_max=1090 | GPU mem=0.85 GB
+[epoch 20] batch 000850 | B=8 | loss_ctc 0.4626 | T_max=1330 | GPU mem=0.87 GB
+[epoch 20] batch 000900 | B=8 | loss_ctc 0.3662 | T_max=1529 | GPU mem=0.86 GB
+[epoch 20] batch 000950 | B=8 | loss_ctc 0.5502 | T_max=1214 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=10 | PER=0.087
+REF : 36 18 40 16 25 27 40 37 34 40 11 23 19 26 40 37 4 28 40 29 31 13 40
+PRED: 36 18 40 11 27 40 37 34 40 11 23 19 26 40 37 4 28 40 29 31 13 40
+[Epoch 20 | EVAL] train_loss=0.6112  PER_g=0.249  lr=0.000179 | 9.6 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.249]
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 21] batch 000000 | B=8 | loss_ctc 0.3207 | T_max=1178 | GPU mem=0.85 GB
+[epoch 21] batch 000050 | B=8 | loss_ctc 0.4367 | T_max=1256 | GPU mem=0.87 GB
+[epoch 21] batch 000100 | B=8 | loss_ctc 0.2906 | T_max=1309 | GPU mem=0.85 GB
+[epoch 21] batch 000150 | B=8 | loss_ctc 0.6194 | T_max=1427 | GPU mem=0.87 GB
+[epoch 21] batch 000200 | B=8 | loss_ctc 0.5711 | T_max=1769 | GPU mem=0.86 GB
+[epoch 21] batch 000250 | B=8 | loss_ctc 0.5647 | T_max=1245 | GPU mem=0.88 GB
+[epoch 21] batch 000300 | B=8 | loss_ctc 0.6923 | T_max=1599 | GPU mem=0.85 GB
+[epoch 21] batch 000350 | B=8 | loss_ctc 0.6568 | T_max=1559 | GPU mem=0.87 GB
+[epoch 21] batch 000400 | B=8 | loss_ctc 0.4876 | T_max=1379 | GPU mem=0.86 GB
+[epoch 21] batch 000450 | B=8 | loss_ctc 0.5478 | T_max=1591 | GPU mem=0.87 GB
+[epoch 21] batch 000500 | B=8 | loss_ctc 0.5745 | T_max=1106 | GPU mem=0.85 GB
+[epoch 21] batch 000550 | B=8 | loss_ctc 0.4932 | T_max=1325 | GPU mem=0.87 GB
+[epoch 21] batch 000600 | B=8 | loss_ctc 0.4861 | T_max=1100 | GPU mem=0.85 GB
+[epoch 21] batch 000650 | B=8 | loss_ctc 0.3842 | T_max=1407 | GPU mem=0.87 GB
+[epoch 21] batch 000700 | B=8 | loss_ctc 0.7573 | T_max=1468 | GPU mem=0.85 GB
+[epoch 21] batch 000750 | B=8 | loss_ctc 0.7299 | T_max=1581 | GPU mem=0.87 GB
+[epoch 21] batch 000800 | B=8 | loss_ctc 0.7228 | T_max=1044 | GPU mem=0.85 GB
+[epoch 21] batch 000850 | B=8 | loss_ctc 0.4996 | T_max=1674 | GPU mem=0.88 GB
+[epoch 21] batch 000900 | B=8 | loss_ctc 0.5189 | T_max=1188 | GPU mem=0.85 GB
+[epoch 21] batch 000950 | B=8 | loss_ctc 0.3920 | T_max=1299 | GPU mem=0.87 GB
+[Epoch 21] train_loss=0.5771 lr=0.000176 | 9.3 min (pas d'éval)
+[epoch 22] batch 000000 | B=8 | loss_ctc 0.5126 | T_max=1110 | GPU mem=0.85 GB
+[epoch 22] batch 000050 | B=8 | loss_ctc 0.2519 | T_max=1303 | GPU mem=0.87 GB
+[epoch 22] batch 000100 | B=8 | loss_ctc 0.5219 | T_max=1320 | GPU mem=0.85 GB
+[epoch 22] batch 000150 | B=8 | loss_ctc 0.4655 | T_max=1387 | GPU mem=0.87 GB
+[epoch 22] batch 000200 | B=8 | loss_ctc 0.5766 | T_max=1136 | GPU mem=0.85 GB
+[epoch 22] batch 000250 | B=8 | loss_ctc 0.5257 | T_max=1457 | GPU mem=0.87 GB
+[epoch 22] batch 000300 | B=8 | loss_ctc 0.4092 | T_max=999 | GPU mem=0.85 GB
+[epoch 22] batch 000350 | B=8 | loss_ctc 0.7685 | T_max=1174 | GPU mem=0.87 GB
+[epoch 22] batch 000400 | B=8 | loss_ctc 0.4193 | T_max=1677 | GPU mem=0.86 GB
+[epoch 22] batch 000450 | B=8 | loss_ctc 0.7821 | T_max=1054 | GPU mem=0.87 GB
+[epoch 22] batch 000500 | B=8 | loss_ctc 0.9198 | T_max=2314 | GPU mem=0.87 GB
+[epoch 22] batch 000550 | B=8 | loss_ctc 0.6591 | T_max=1172 | GPU mem=0.87 GB
+[epoch 22] batch 000600 | B=8 | loss_ctc 0.9036 | T_max=1551 | GPU mem=0.86 GB
+[epoch 22] batch 000650 | B=8 | loss_ctc 0.3387 | T_max=1239 | GPU mem=0.87 GB
+[epoch 22] batch 000700 | B=8 | loss_ctc 0.3705 | T_max=1224 | GPU mem=0.85 GB
+[epoch 22] batch 000750 | B=8 | loss_ctc 0.5109 | T_max=1468 | GPU mem=0.88 GB
+[epoch 22] batch 000800 | B=8 | loss_ctc 0.8163 | T_max=1359 | GPU mem=0.86 GB
+[epoch 22] batch 000850 | B=8 | loss_ctc 0.4683 | T_max=1012 | GPU mem=0.87 GB
+[epoch 22] batch 000900 | B=8 | loss_ctc 0.8666 | T_max=1493 | GPU mem=0.85 GB
+[epoch 22] batch 000950 | B=8 | loss_ctc 0.4795 | T_max=1856 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=13 | PER=0.125
+REF : 30 18 9 40 19 3 29 31 40 15 11 31 40 1 23 40 10 3 40 14 12 29 31 40 29 31 11 27 40 3 23 9 40 21 13 40 9 5 23 40
+PRED: 29 17 9 40 19 3 29 31 40 15 11 31 40 1 23 40 10 3 40 14 12 29 31 40 29 31 1 27 40 3 23 40 21 18 40 9 5 23 40
+[Epoch 22 | EVAL] train_loss=0.5463  PER_g=0.252  lr=0.000174 | 9.5 min
+[epoch 23] batch 000000 | B=8 | loss_ctc 0.3614 | T_max=1399 | GPU mem=0.86 GB
+[epoch 23] batch 000050 | B=8 | loss_ctc 0.6435 | T_max=1556 | GPU mem=0.88 GB
+[epoch 23] batch 000100 | B=8 | loss_ctc 0.7635 | T_max=1191 | GPU mem=0.85 GB
+[epoch 23] batch 000150 | B=8 | loss_ctc 0.2065 | T_max=1037 | GPU mem=0.87 GB
+[epoch 23] batch 000200 | B=8 | loss_ctc 0.5243 | T_max=1582 | GPU mem=0.85 GB
+[epoch 23] batch 000250 | B=8 | loss_ctc 0.2453 | T_max=1364 | GPU mem=0.87 GB
+[epoch 23] batch 000300 | B=8 | loss_ctc 0.9270 | T_max=2002 | GPU mem=0.86 GB
+[epoch 23] batch 000350 | B=8 | loss_ctc 0.3778 | T_max=1259 | GPU mem=0.87 GB
+[epoch 23] batch 000400 | B=8 | loss_ctc 0.6241 | T_max=1082 | GPU mem=0.85 GB
+[epoch 23] batch 000450 | B=8 | loss_ctc 0.5119 | T_max=1054 | GPU mem=0.86 GB
+[epoch 23] batch 000500 | B=8 | loss_ctc 0.5959 | T_max=1748 | GPU mem=0.86 GB
+[epoch 23] batch 000550 | B=8 | loss_ctc 0.3189 | T_max=1200 | GPU mem=0.87 GB
+[epoch 23] batch 000600 | B=8 | loss_ctc 0.4898 | T_max=1723 | GPU mem=0.86 GB
+[epoch 23] batch 000650 | B=8 | loss_ctc 0.4738 | T_max=1152 | GPU mem=0.87 GB
+[epoch 23] batch 000700 | B=8 | loss_ctc 0.5767 | T_max=1169 | GPU mem=0.85 GB
+[epoch 23] batch 000750 | B=8 | loss_ctc 0.4014 | T_max=1304 | GPU mem=0.87 GB
+[epoch 23] batch 000800 | B=8 | loss_ctc 0.5139 | T_max=1215 | GPU mem=0.85 GB
+[epoch 23] batch 000850 | B=8 | loss_ctc 0.5192 | T_max=1307 | GPU mem=0.87 GB
+[epoch 23] batch 000900 | B=8 | loss_ctc 0.7784 | T_max=1440 | GPU mem=0.86 GB
+[epoch 23] batch 000950 | B=8 | loss_ctc 0.4863 | T_max=1231 | GPU mem=0.87 GB
+[Epoch 23] train_loss=0.5043 lr=0.000171 | 9.5 min (pas d'éval)
+[epoch 24] batch 000000 | B=8 | loss_ctc 0.2931 | T_max=1112 | GPU mem=0.85 GB
+[epoch 24] batch 000050 | B=8 | loss_ctc 0.4517 | T_max=1166 | GPU mem=0.87 GB
+[epoch 24] batch 000100 | B=8 | loss_ctc 0.6270 | T_max=1430 | GPU mem=0.86 GB
+[epoch 24] batch 000150 | B=8 | loss_ctc 0.3541 | T_max=1680 | GPU mem=0.88 GB
+[epoch 24] batch 000200 | B=8 | loss_ctc 0.7593 | T_max=2015 | GPU mem=0.86 GB
+[epoch 24] batch 000250 | B=8 | loss_ctc 0.5321 | T_max=1075 | GPU mem=0.87 GB
+[epoch 24] batch 000300 | B=8 | loss_ctc 0.2333 | T_max=1170 | GPU mem=0.85 GB
+[epoch 24] batch 000350 | B=8 | loss_ctc 0.4592 | T_max=1095 | GPU mem=0.87 GB
+[epoch 24] batch 000400 | B=8 | loss_ctc 0.3863 | T_max=1267 | GPU mem=0.85 GB
+[epoch 24] batch 000450 | B=8 | loss_ctc 0.6510 | T_max=1690 | GPU mem=0.88 GB
+[epoch 24] batch 000500 | B=8 | loss_ctc 0.3869 | T_max=1737 | GPU mem=0.86 GB
+[epoch 24] batch 000550 | B=8 | loss_ctc 0.2872 | T_max=1283 | GPU mem=0.87 GB
+[epoch 24] batch 000600 | B=8 | loss_ctc 0.5541 | T_max=1117 | GPU mem=0.85 GB
+[epoch 24] batch 000650 | B=8 | loss_ctc 0.5294 | T_max=1366 | GPU mem=0.87 GB
+[epoch 24] batch 000700 | B=8 | loss_ctc 0.6703 | T_max=1347 | GPU mem=0.85 GB
+[epoch 24] batch 000750 | B=8 | loss_ctc 0.3732 | T_max=1357 | GPU mem=0.87 GB
+[epoch 24] batch 000800 | B=8 | loss_ctc 0.5350 | T_max=1370 | GPU mem=0.86 GB
+[epoch 24] batch 000850 | B=8 | loss_ctc 0.4551 | T_max=1515 | GPU mem=0.87 GB
+[epoch 24] batch 000900 | B=8 | loss_ctc 0.5503 | T_max=1286 | GPU mem=0.85 GB
+[epoch 24] batch 000950 | B=8 | loss_ctc 0.2694 | T_max=1426 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=1 | PER=0.200
+REF : 6 40 16 2 35 40 31 34 40 15 25 40 3 20 28 4 29 40 10 3 40 29 17 31 18 40 31 34 40 29 18 40 16 12 40
+PRED: 6 40 16 2 35 40 31 34 15 25 40 3 20 1 6 9 40 10 3 40 29 17 31 18 40 31 34 40 16 12 40
+[Epoch 24 | EVAL] train_loss=0.4864  PER_g=0.237  lr=0.000168 | 8.9 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.237]
+[epoch 25] batch 000000 | B=8 | loss_ctc 0.3418 | T_max=1188 | GPU mem=0.85 GB
+[epoch 25] batch 000050 | B=8 | loss_ctc 0.4915 | T_max=1370 | GPU mem=0.87 GB
+[epoch 25] batch 000100 | B=8 | loss_ctc 0.5027 | T_max=1822 | GPU mem=0.86 GB
+[epoch 25] batch 000150 | B=8 | loss_ctc 0.4694 | T_max=1205 | GPU mem=0.87 GB
+[epoch 25] batch 000200 | B=8 | loss_ctc 0.3003 | T_max=1318 | GPU mem=0.85 GB
+[epoch 25] batch 000250 | B=8 | loss_ctc 0.8040 | T_max=1544 | GPU mem=0.87 GB
+[epoch 25] batch 000300 | B=8 | loss_ctc 0.3185 | T_max=1739 | GPU mem=0.86 GB
+[epoch 25] batch 000350 | B=8 | loss_ctc 0.4582 | T_max=1731 | GPU mem=0.88 GB
+[epoch 25] batch 000400 | B=8 | loss_ctc 0.5836 | T_max=1334 | GPU mem=0.85 GB
+[epoch 25] batch 000450 | B=8 | loss_ctc 0.5053 | T_max=1600 | GPU mem=0.87 GB
+[epoch 25] batch 000500 | B=8 | loss_ctc 0.3838 | T_max=1212 | GPU mem=0.85 GB
+[epoch 25] batch 000550 | B=8 | loss_ctc 0.2740 | T_max=1254 | GPU mem=0.87 GB
+[epoch 25] batch 000600 | B=8 | loss_ctc 0.1891 | T_max=1317 | GPU mem=0.85 GB
+[epoch 25] batch 000650 | B=8 | loss_ctc 0.2623 | T_max=1121 | GPU mem=0.87 GB
+[epoch 25] batch 000700 | B=8 | loss_ctc 0.3192 | T_max=1524 | GPU mem=0.86 GB
+[epoch 25] batch 000750 | B=8 | loss_ctc 0.3553 | T_max=1733 | GPU mem=0.88 GB
+[epoch 25] batch 000800 | B=8 | loss_ctc 0.3923 | T_max=1247 | GPU mem=0.85 GB
+[epoch 25] batch 000850 | B=8 | loss_ctc 0.7800 | T_max=1791 | GPU mem=0.88 GB
+[epoch 25] batch 000900 | B=8 | loss_ctc 0.3491 | T_max=1348 | GPU mem=0.85 GB
+[epoch 25] batch 000950 | B=8 | loss_ctc 0.3978 | T_max=1408 | GPU mem=0.87 GB
+[Epoch 25] train_loss=0.4598 lr=0.000165 | 9.2 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 26] batch 000000 | B=8 | loss_ctc 0.6365 | T_max=982 | GPU mem=0.85 GB
+[epoch 26] batch 000050 | B=8 | loss_ctc 0.5735 | T_max=1050 | GPU mem=0.87 GB
+[epoch 26] batch 000100 | B=8 | loss_ctc 0.1821 | T_max=1083 | GPU mem=0.85 GB
+[epoch 26] batch 000150 | B=8 | loss_ctc 0.1969 | T_max=1172 | GPU mem=0.87 GB
+[epoch 26] batch 000200 | B=8 | loss_ctc 0.7409 | T_max=1674 | GPU mem=0.86 GB
+[epoch 26] batch 000250 | B=8 | loss_ctc 0.2764 | T_max=1142 | GPU mem=0.87 GB
+[epoch 26] batch 000300 | B=8 | loss_ctc 0.6880 | T_max=1691 | GPU mem=0.86 GB
+[epoch 26] batch 000350 | B=8 | loss_ctc 0.3024 | T_max=1186 | GPU mem=0.87 GB
+[epoch 26] batch 000400 | B=8 | loss_ctc 0.2316 | T_max=1145 | GPU mem=0.85 GB
+[epoch 26] batch 000450 | B=8 | loss_ctc 0.4761 | T_max=1454 | GPU mem=0.87 GB
+[epoch 26] batch 000500 | B=8 | loss_ctc 0.4940 | T_max=1213 | GPU mem=0.85 GB
+[epoch 26] batch 000550 | B=8 | loss_ctc 0.3613 | T_max=1312 | GPU mem=0.87 GB
+[epoch 26] batch 000600 | B=8 | loss_ctc 0.3785 | T_max=1272 | GPU mem=0.85 GB
+[epoch 26] batch 000650 | B=8 | loss_ctc 0.4340 | T_max=1042 | GPU mem=0.87 GB
+[epoch 26] batch 000700 | B=8 | loss_ctc 0.3720 | T_max=1202 | GPU mem=0.85 GB
+[epoch 26] batch 000750 | B=8 | loss_ctc 0.2061 | T_max=1085 | GPU mem=0.87 GB
+[epoch 26] batch 000800 | B=8 | loss_ctc 0.2541 | T_max=1131 | GPU mem=0.85 GB
+[epoch 26] batch 000850 | B=8 | loss_ctc 0.3553 | T_max=1623 | GPU mem=0.88 GB
+[epoch 26] batch 000900 | B=8 | loss_ctc 0.3318 | T_max=1222 | GPU mem=0.85 GB
+[epoch 26] batch 000950 | B=8 | loss_ctc 0.2508 | T_max=1434 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=11 | PER=0.833
+REF : 18 38 18 3 29 31 40 36 13 40 5 31 40 22 13 7 18 40
+PRED: 16 17 38 3 23 40 36 13 40 5 31 40 22 13 7 18 40 38 18 40 5 31 40 22 13 7 18 40
+[Epoch 26 | EVAL] train_loss=0.4356  PER_g=0.244  lr=0.000161 | 9.5 min
+[epoch 27] batch 000000 | B=8 | loss_ctc 0.5935 | T_max=1309 | GPU mem=0.85 GB
+[epoch 27] batch 000050 | B=8 | loss_ctc 0.2744 | T_max=1495 | GPU mem=0.87 GB
+[epoch 27] batch 000100 | B=8 | loss_ctc 0.6234 | T_max=1199 | GPU mem=0.85 GB
+[epoch 27] batch 000150 | B=8 | loss_ctc 0.3414 | T_max=1084 | GPU mem=0.86 GB
+[epoch 27] batch 000200 | B=8 | loss_ctc 0.5147 | T_max=1639 | GPU mem=0.86 GB
+[epoch 27] batch 000250 | B=8 | loss_ctc 0.1793 | T_max=1199 | GPU mem=0.87 GB
+[epoch 27] batch 000300 | B=8 | loss_ctc 0.6611 | T_max=2409 | GPU mem=0.87 GB
+[epoch 27] batch 000350 | B=8 | loss_ctc 0.3797 | T_max=1137 | GPU mem=0.87 GB
+[epoch 27] batch 000400 | B=8 | loss_ctc 0.2857 | T_max=2059 | GPU mem=0.87 GB
+[epoch 27] batch 000450 | B=8 | loss_ctc 0.4482 | T_max=1511 | GPU mem=0.87 GB
+[epoch 27] batch 000500 | B=8 | loss_ctc 0.4736 | T_max=1599 | GPU mem=0.85 GB
+[epoch 27] batch 000550 | B=8 | loss_ctc 0.3139 | T_max=987 | GPU mem=0.87 GB
+[epoch 27] batch 000600 | B=8 | loss_ctc 0.3804 | T_max=1417 | GPU mem=0.86 GB
+[epoch 27] batch 000650 | B=8 | loss_ctc 0.4201 | T_max=1278 | GPU mem=0.87 GB
+[epoch 27] batch 000700 | B=8 | loss_ctc 0.7732 | T_max=1396 | GPU mem=0.86 GB
+[epoch 27] batch 000750 | B=8 | loss_ctc 0.8952 | T_max=2178 | GPU mem=0.89 GB
+[epoch 27] batch 000800 | B=8 | loss_ctc 0.4723 | T_max=1316 | GPU mem=0.85 GB
+[epoch 27] batch 000850 | B=8 | loss_ctc 0.3645 | T_max=1313 | GPU mem=0.87 GB
+[epoch 27] batch 000900 | B=8 | loss_ctc 0.1756 | T_max=1348 | GPU mem=0.85 GB
+[epoch 27] batch 000950 | B=8 | loss_ctc 0.3808 | T_max=1495 | GPU mem=0.87 GB
+[Epoch 27] train_loss=0.4171 lr=0.000158 | 10.0 min (pas d'éval)
+[epoch 28] batch 000000 | B=8 | loss_ctc 0.4723 | T_max=1344 | GPU mem=0.86 GB
+[epoch 28] batch 000050 | B=8 | loss_ctc 0.5304 | T_max=1623 | GPU mem=0.88 GB
+[epoch 28] batch 000100 | B=8 | loss_ctc 0.5208 | T_max=1355 | GPU mem=0.86 GB
+[epoch 28] batch 000150 | B=8 | loss_ctc 0.5318 | T_max=1238 | GPU mem=0.87 GB
+[epoch 28] batch 000200 | B=8 | loss_ctc 0.3741 | T_max=1107 | GPU mem=0.85 GB
+[epoch 28] batch 000250 | B=8 | loss_ctc 0.4418 | T_max=1331 | GPU mem=0.87 GB
+[epoch 28] batch 000300 | B=8 | loss_ctc 0.2812 | T_max=1305 | GPU mem=0.85 GB
+[epoch 28] batch 000350 | B=8 | loss_ctc 0.2846 | T_max=1757 | GPU mem=0.88 GB
+[epoch 28] batch 000400 | B=8 | loss_ctc 0.3253 | T_max=1843 | GPU mem=0.86 GB
+[epoch 28] batch 000450 | B=8 | loss_ctc 0.3748 | T_max=1323 | GPU mem=0.87 GB
+[epoch 28] batch 000500 | B=8 | loss_ctc 0.5570 | T_max=1030 | GPU mem=0.85 GB
+[epoch 28] batch 000550 | B=8 | loss_ctc 0.6037 | T_max=1201 | GPU mem=0.87 GB
+[epoch 28] batch 000600 | B=8 | loss_ctc 0.3198 | T_max=1099 | GPU mem=0.85 GB
+[epoch 28] batch 000650 | B=8 | loss_ctc 0.1083 | T_max=950 | GPU mem=0.87 GB
+[epoch 28] batch 000700 | B=8 | loss_ctc 0.3137 | T_max=1592 | GPU mem=0.85 GB
+[epoch 28] batch 000750 | B=8 | loss_ctc 0.4026 | T_max=1415 | GPU mem=0.87 GB
+[epoch 28] batch 000800 | B=8 | loss_ctc 0.3524 | T_max=1210 | GPU mem=0.85 GB
+[epoch 28] batch 000850 | B=8 | loss_ctc 0.3090 | T_max=1639 | GPU mem=0.88 GB
+[epoch 28] batch 000900 | B=8 | loss_ctc 0.3784 | T_max=1493 | GPU mem=0.85 GB
+[epoch 28] batch 000950 | B=8 | loss_ctc 0.5023 | T_max=2448 | GPU mem=0.89 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=19 | PER=0.385
+REF : 36 18 40 9 28 25 35 40 32 28 34 40 25 20 21 3 16 25 22 3 40 29 17 31 18 40
+PRED: 36 18 40 14 28 3 22 40 32 4 28 40 11 20 3 21 25 12 40 29 17 31 18 40
+[Epoch 28 | EVAL] train_loss=0.3978  PER_g=0.219  lr=0.000155 | 9.3 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.219]
+[epoch 29] batch 000000 | B=8 | loss_ctc 0.2465 | T_max=1313 | GPU mem=0.85 GB
+[epoch 29] batch 000050 | B=8 | loss_ctc 0.4024 | T_max=1052 | GPU mem=0.87 GB
+[epoch 29] batch 000100 | B=8 | loss_ctc 0.3524 | T_max=1532 | GPU mem=0.86 GB
+[epoch 29] batch 000150 | B=8 | loss_ctc 0.5658 | T_max=1286 | GPU mem=0.87 GB
+[epoch 29] batch 000200 | B=8 | loss_ctc 0.1666 | T_max=1176 | GPU mem=0.85 GB
+[epoch 29] batch 000250 | B=8 | loss_ctc 0.5016 | T_max=1318 | GPU mem=0.88 GB
+[epoch 29] batch 000300 | B=8 | loss_ctc 0.1479 | T_max=1320 | GPU mem=0.86 GB
+[epoch 29] batch 000350 | B=8 | loss_ctc 0.2319 | T_max=1271 | GPU mem=0.87 GB
+[epoch 29] batch 000400 | B=8 | loss_ctc 0.3866 | T_max=1357 | GPU mem=0.86 GB
+[epoch 29] batch 000450 | B=8 | loss_ctc 0.1715 | T_max=1135 | GPU mem=0.86 GB
+[epoch 29] batch 000500 | B=8 | loss_ctc 0.2024 | T_max=1415 | GPU mem=0.86 GB
+[epoch 29] batch 000550 | B=8 | loss_ctc 0.2947 | T_max=1212 | GPU mem=0.87 GB
+[epoch 29] batch 000600 | B=8 | loss_ctc 0.3895 | T_max=1062 | GPU mem=0.85 GB
+[epoch 29] batch 000650 | B=8 | loss_ctc 0.4721 | T_max=1402 | GPU mem=0.87 GB
+[epoch 29] batch 000700 | B=8 | loss_ctc 0.7670 | T_max=1677 | GPU mem=0.86 GB
+[epoch 29] batch 000750 | B=8 | loss_ctc 0.4187 | T_max=1292 | GPU mem=0.87 GB
+[epoch 29] batch 000800 | B=8 | loss_ctc 0.6451 | T_max=1344 | GPU mem=0.86 GB
+[epoch 29] batch 000850 | B=8 | loss_ctc 0.2223 | T_max=1243 | GPU mem=0.87 GB
+[epoch 29] batch 000900 | B=8 | loss_ctc 0.5740 | T_max=2352 | GPU mem=0.87 GB
+[epoch 29] batch 000950 | B=8 | loss_ctc 0.2938 | T_max=1463 | GPU mem=0.87 GB
+[Epoch 29] train_loss=0.3774 lr=0.000151 | 10.0 min (pas d'éval)
+[epoch 30] batch 000000 | B=8 | loss_ctc 0.2822 | T_max=1261 | GPU mem=0.85 GB
+[epoch 30] batch 000050 | B=8 | loss_ctc 0.2837 | T_max=1627 | GPU mem=0.87 GB
+[epoch 30] batch 000100 | B=8 | loss_ctc 0.4347 | T_max=1593 | GPU mem=0.85 GB
+[epoch 30] batch 000150 | B=8 | loss_ctc 0.3212 | T_max=1887 | GPU mem=0.88 GB
+[epoch 30] batch 000200 | B=8 | loss_ctc 0.3494 | T_max=1403 | GPU mem=0.86 GB
+[epoch 30] batch 000250 | B=8 | loss_ctc 0.4312 | T_max=1034 | GPU mem=0.87 GB
+[epoch 30] batch 000300 | B=8 | loss_ctc 0.2303 | T_max=1236 | GPU mem=0.85 GB
+[epoch 30] batch 000350 | B=8 | loss_ctc 0.2955 | T_max=1006 | GPU mem=0.87 GB
+[epoch 30] batch 000400 | B=8 | loss_ctc 0.3426 | T_max=1225 | GPU mem=0.85 GB
+[epoch 30] batch 000450 | B=8 | loss_ctc 0.3276 | T_max=1365 | GPU mem=0.87 GB
+[epoch 30] batch 000500 | B=8 | loss_ctc 0.4929 | T_max=1112 | GPU mem=0.85 GB
+[epoch 30] batch 000550 | B=8 | loss_ctc 0.3028 | T_max=1303 | GPU mem=0.87 GB
+[epoch 30] batch 000600 | B=8 | loss_ctc 0.9803 | T_max=1678 | GPU mem=0.86 GB
+[epoch 30] batch 000650 | B=8 | loss_ctc 0.2142 | T_max=1185 | GPU mem=0.87 GB
+[epoch 30] batch 000700 | B=8 | loss_ctc 0.3718 | T_max=1228 | GPU mem=0.85 GB
+[epoch 30] batch 000750 | B=8 | loss_ctc 0.2409 | T_max=1119 | GPU mem=0.87 GB
+[epoch 30] batch 000800 | B=8 | loss_ctc 0.2745 | T_max=1415 | GPU mem=0.86 GB
+[epoch 30] batch 000850 | B=8 | loss_ctc 0.5628 | T_max=1611 | GPU mem=0.87 GB
+[epoch 30] batch 000900 | B=8 | loss_ctc 0.3169 | T_max=983 | GPU mem=0.85 GB
+[epoch 30] batch 000950 | B=8 | loss_ctc 0.4313 | T_max=1271 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=10 | PER=0.143
+REF : 10 3 40 7 13 7 18 40 36 17 21 40 29 31 17 20 40 17 31 29 40 16 11 9 40 17 23 40 10 3 40 14 34 9 40
+PRED: 10 3 40 7 13 7 18 40 36 17 21 40 31 24 20 40 31 29 40 11 23 9 40 17 23 40 10 3 40 14 34 9 40
+[Epoch 30 | EVAL] train_loss=0.3525  PER_g=0.210  lr=0.000148 | 10.1 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.210]
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 31] batch 000000 | B=8 | loss_ctc 0.2620 | T_max=1175 | GPU mem=0.85 GB
+[epoch 31] batch 000050 | B=8 | loss_ctc 0.3783 | T_max=2077 | GPU mem=0.88 GB
+[epoch 31] batch 000100 | B=8 | loss_ctc 0.2781 | T_max=1258 | GPU mem=0.85 GB
+[epoch 31] batch 000150 | B=8 | loss_ctc 0.3276 | T_max=1842 | GPU mem=0.88 GB
+[epoch 31] batch 000200 | B=8 | loss_ctc 0.1991 | T_max=1431 | GPU mem=0.86 GB
+[epoch 31] batch 000250 | B=8 | loss_ctc 0.3676 | T_max=1041 | GPU mem=0.86 GB
+[epoch 31] batch 000300 | B=8 | loss_ctc 0.5257 | T_max=1744 | GPU mem=0.86 GB
+[epoch 31] batch 000350 | B=8 | loss_ctc 0.1840 | T_max=1152 | GPU mem=0.87 GB
+[epoch 31] batch 000400 | B=8 | loss_ctc 0.3816 | T_max=1796 | GPU mem=0.86 GB
+[epoch 31] batch 000450 | B=8 | loss_ctc 0.4864 | T_max=1189 | GPU mem=0.87 GB
+[epoch 31] batch 000500 | B=8 | loss_ctc 0.5604 | T_max=1067 | GPU mem=0.85 GB
+[epoch 31] batch 000550 | B=8 | loss_ctc 0.4346 | T_max=1044 | GPU mem=0.87 GB
+[epoch 31] batch 000600 | B=8 | loss_ctc 0.2669 | T_max=1381 | GPU mem=0.86 GB
+[epoch 31] batch 000650 | B=8 | loss_ctc 0.3681 | T_max=1500 | GPU mem=0.87 GB
+[epoch 31] batch 000700 | B=8 | loss_ctc 0.3144 | T_max=1297 | GPU mem=0.85 GB
+[epoch 31] batch 000750 | B=8 | loss_ctc 0.2636 | T_max=1263 | GPU mem=0.87 GB
+[epoch 31] batch 000800 | B=8 | loss_ctc 0.8010 | T_max=2157 | GPU mem=0.87 GB
+[epoch 31] batch 000850 | B=8 | loss_ctc 0.2033 | T_max=1049 | GPU mem=0.86 GB
+[epoch 31] batch 000900 | B=8 | loss_ctc 0.3843 | T_max=1927 | GPU mem=0.87 GB
+[epoch 31] batch 000950 | B=8 | loss_ctc 0.2378 | T_max=1112 | GPU mem=0.87 GB
+[Epoch 31] train_loss=0.3387 lr=0.000144 | 9.5 min (pas d'éval)
+[epoch 32] batch 000000 | B=8 | loss_ctc 0.3900 | T_max=1199 | GPU mem=0.85 GB
+[epoch 32] batch 000050 | B=8 | loss_ctc 0.3915 | T_max=1799 | GPU mem=0.88 GB
+[epoch 32] batch 000100 | B=8 | loss_ctc 0.4457 | T_max=1182 | GPU mem=0.85 GB
+[epoch 32] batch 000150 | B=8 | loss_ctc 0.1608 | T_max=957 | GPU mem=0.87 GB
+[epoch 32] batch 000200 | B=8 | loss_ctc 0.2838 | T_max=1118 | GPU mem=0.85 GB
+[epoch 32] batch 000250 | B=8 | loss_ctc 0.3333 | T_max=1231 | GPU mem=0.87 GB
+[epoch 32] batch 000300 | B=8 | loss_ctc 0.2486 | T_max=1188 | GPU mem=0.85 GB
+[epoch 32] batch 000350 | B=8 | loss_ctc 0.3835 | T_max=1999 | GPU mem=0.88 GB
+[epoch 32] batch 000400 | B=8 | loss_ctc 0.2096 | T_max=1323 | GPU mem=0.85 GB
+[epoch 32] batch 000450 | B=8 | loss_ctc 0.3871 | T_max=1129 | GPU mem=0.87 GB
+[epoch 32] batch 000500 | B=8 | loss_ctc 0.6531 | T_max=1694 | GPU mem=0.86 GB
+[epoch 32] batch 000550 | B=8 | loss_ctc 0.3812 | T_max=1431 | GPU mem=0.87 GB
+[epoch 32] batch 000600 | B=8 | loss_ctc 0.4035 | T_max=1332 | GPU mem=0.85 GB
+[epoch 32] batch 000650 | B=8 | loss_ctc 0.2473 | T_max=1316 | GPU mem=0.87 GB
+[epoch 32] batch 000700 | B=8 | loss_ctc 0.3852 | T_max=1767 | GPU mem=0.86 GB
+[epoch 32] batch 000750 | B=8 | loss_ctc 0.4317 | T_max=1601 | GPU mem=0.88 GB
+[epoch 32] batch 000800 | B=8 | loss_ctc 0.4216 | T_max=1255 | GPU mem=0.85 GB
+[epoch 32] batch 000850 | B=8 | loss_ctc 0.4249 | T_max=1339 | GPU mem=0.87 GB
+[epoch 32] batch 000900 | B=8 | loss_ctc 0.3295 | T_max=1104 | GPU mem=0.85 GB
+[epoch 32] batch 000950 | B=8 | loss_ctc 0.1743 | T_max=1099 | GPU mem=0.86 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=23 | PER=0.632
+REF : 10 2 31 29 40 3 23 9 12 29 31 2 23 9 3 7 3 21 40
+PRED: 10 2 31 29 40 3 23 9 12 29 2 23 3 34 21 40 17 23 9 12 29 11 23 3 40
+[Epoch 32 | EVAL] train_loss=0.3230  PER_g=0.211  lr=0.000140 | 10.0 min
+[epoch 33] batch 000000 | B=8 | loss_ctc 0.3302 | T_max=1165 | GPU mem=0.85 GB
+[epoch 33] batch 000050 | B=8 | loss_ctc 0.1840 | T_max=1073 | GPU mem=0.87 GB
+[epoch 33] batch 000100 | B=8 | loss_ctc 0.2924 | T_max=1562 | GPU mem=0.85 GB
+[epoch 33] batch 000150 | B=8 | loss_ctc 0.2097 | T_max=1154 | GPU mem=0.85 GB
+[epoch 33] batch 000200 | B=8 | loss_ctc 0.1784 | T_max=1367 | GPU mem=0.86 GB
+[epoch 33] batch 000250 | B=8 | loss_ctc 0.3477 | T_max=1352 | GPU mem=0.88 GB
+[epoch 33] batch 000300 | B=8 | loss_ctc 0.2188 | T_max=1355 | GPU mem=0.86 GB
+[epoch 33] batch 000350 | B=8 | loss_ctc 0.3789 | T_max=2121 | GPU mem=0.89 GB
+[epoch 33] batch 000400 | B=8 | loss_ctc 0.3584 | T_max=1355 | GPU mem=0.86 GB
+[epoch 33] batch 000450 | B=8 | loss_ctc 0.3048 | T_max=1000 | GPU mem=0.86 GB
+[epoch 33] batch 000500 | B=8 | loss_ctc 0.2241 | T_max=1224 | GPU mem=0.85 GB
+[epoch 33] batch 000550 | B=8 | loss_ctc 0.2965 | T_max=1386 | GPU mem=0.88 GB
+[epoch 33] batch 000600 | B=8 | loss_ctc 0.3393 | T_max=1232 | GPU mem=0.85 GB
+[epoch 33] batch 000650 | B=8 | loss_ctc 0.2022 | T_max=981 | GPU mem=0.87 GB
+[epoch 33] batch 000700 | B=8 | loss_ctc 0.2700 | T_max=1647 | GPU mem=0.86 GB
+[epoch 33] batch 000750 | B=8 | loss_ctc 0.2128 | T_max=1128 | GPU mem=0.87 GB
+[epoch 33] batch 000800 | B=8 | loss_ctc 0.1781 | T_max=999 | GPU mem=0.85 GB
+[epoch 33] batch 000850 | B=8 | loss_ctc 0.2534 | T_max=953 | GPU mem=0.86 GB
+[epoch 33] batch 000900 | B=8 | loss_ctc 0.3412 | T_max=1629 | GPU mem=0.86 GB
+[epoch 33] batch 000950 | B=8 | loss_ctc 0.0612 | T_max=1234 | GPU mem=0.87 GB
+[Epoch 33] train_loss=0.3054 lr=0.000136 | 10.5 min (pas d'éval)
+[epoch 34] batch 000000 | B=8 | loss_ctc 0.4201 | T_max=1321 | GPU mem=0.85 GB
+[epoch 34] batch 000050 | B=8 | loss_ctc 0.6907 | T_max=1174 | GPU mem=0.87 GB
+[epoch 34] batch 000100 | B=8 | loss_ctc 0.3045 | T_max=1211 | GPU mem=0.85 GB
+[epoch 34] batch 000150 | B=8 | loss_ctc 0.1278 | T_max=1400 | GPU mem=0.87 GB
+[epoch 34] batch 000200 | B=8 | loss_ctc 0.1084 | T_max=1547 | GPU mem=0.86 GB
+[epoch 34] batch 000250 | B=8 | loss_ctc 0.2716 | T_max=1635 | GPU mem=0.88 GB
+[epoch 34] batch 000300 | B=8 | loss_ctc 0.3095 | T_max=1349 | GPU mem=0.86 GB
+[epoch 34] batch 000350 | B=8 | loss_ctc 0.2161 | T_max=1296 | GPU mem=0.87 GB
+[epoch 34] batch 000400 | B=8 | loss_ctc 0.1642 | T_max=1496 | GPU mem=0.86 GB
+[epoch 34] batch 000450 | B=8 | loss_ctc 0.4095 | T_max=1105 | GPU mem=0.87 GB
+[epoch 34] batch 000500 | B=8 | loss_ctc 0.1291 | T_max=1215 | GPU mem=0.85 GB
+[epoch 34] batch 000550 | B=8 | loss_ctc 0.2489 | T_max=1290 | GPU mem=0.87 GB
+[epoch 34] batch 000600 | B=8 | loss_ctc 0.1474 | T_max=1243 | GPU mem=0.85 GB
+[epoch 34] batch 000650 | B=8 | loss_ctc 0.2364 | T_max=1500 | GPU mem=0.88 GB
+[epoch 34] batch 000700 | B=8 | loss_ctc 0.1631 | T_max=1270 | GPU mem=0.85 GB
+[epoch 34] batch 000750 | B=8 | loss_ctc 0.4892 | T_max=1822 | GPU mem=0.88 GB
+[epoch 34] batch 000800 | B=8 | loss_ctc 0.1922 | T_max=2013 | GPU mem=0.86 GB
+[epoch 34] batch 000850 | B=8 | loss_ctc 0.2256 | T_max=1533 | GPU mem=0.88 GB
+[epoch 34] batch 000900 | B=8 | loss_ctc 0.2967 | T_max=1792 | GPU mem=0.86 GB
+[epoch 34] batch 000950 | B=8 | loss_ctc 0.2743 | T_max=1514 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=7 | PER=0.091
+REF : 9 34 40 37 34 40 16 2 35 40 11 23 18 40 27 11 31 29 40 23 5 40
+PRED: 9 34 40 37 34 40 16 2 35 40 11 23 18 40 27 29 40 23 5 40
+[Epoch 34 | EVAL] train_loss=0.2872  PER_g=0.192  lr=0.000132 | 10.6 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.192]
+[epoch 35] batch 000000 | B=8 | loss_ctc 0.1049 | T_max=1563 | GPU mem=0.85 GB
+[epoch 35] batch 000050 | B=8 | loss_ctc 0.0789 | T_max=1226 | GPU mem=0.87 GB
+[epoch 35] batch 000100 | B=8 | loss_ctc 0.3800 | T_max=1950 | GPU mem=0.86 GB
+[epoch 35] batch 000150 | B=8 | loss_ctc 0.3673 | T_max=1777 | GPU mem=0.88 GB
+[epoch 35] batch 000200 | B=8 | loss_ctc 0.4998 | T_max=1353 | GPU mem=0.85 GB
+[epoch 35] batch 000250 | B=8 | loss_ctc 0.1740 | T_max=1242 | GPU mem=0.87 GB
+[epoch 35] batch 000300 | B=8 | loss_ctc 0.2132 | T_max=1428 | GPU mem=0.86 GB
+[epoch 35] batch 000350 | B=8 | loss_ctc 0.1705 | T_max=1302 | GPU mem=0.87 GB
+[epoch 35] batch 000400 | B=8 | loss_ctc 0.2230 | T_max=1147 | GPU mem=0.85 GB
+[epoch 35] batch 000450 | B=8 | loss_ctc 0.3646 | T_max=2322 | GPU mem=0.89 GB
+[epoch 35] batch 000500 | B=8 | loss_ctc 0.2299 | T_max=1687 | GPU mem=0.86 GB
+[epoch 35] batch 000550 | B=8 | loss_ctc 0.2727 | T_max=1739 | GPU mem=0.88 GB
+[epoch 35] batch 000600 | B=8 | loss_ctc 0.1629 | T_max=1620 | GPU mem=0.86 GB
+[epoch 35] batch 000650 | B=8 | loss_ctc 0.2395 | T_max=1069 | GPU mem=0.87 GB
+[epoch 35] batch 000700 | B=8 | loss_ctc 0.2172 | T_max=1303 | GPU mem=0.85 GB
+[epoch 35] batch 000750 | B=8 | loss_ctc 0.1784 | T_max=1123 | GPU mem=0.87 GB
+[epoch 35] batch 000800 | B=8 | loss_ctc 0.2296 | T_max=1314 | GPU mem=0.85 GB
+[epoch 35] batch 000850 | B=8 | loss_ctc 0.2294 | T_max=1134 | GPU mem=0.86 GB
+[epoch 35] batch 000900 | B=8 | loss_ctc 0.1888 | T_max=1319 | GPU mem=0.85 GB
+[epoch 35] batch 000950 | B=8 | loss_ctc 0.4011 | T_max=1424 | GPU mem=0.87 GB
+[Epoch 35] train_loss=0.2720 lr=0.000129 | 9.9 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 36] batch 000000 | B=8 | loss_ctc 0.2868 | T_max=1180 | GPU mem=0.85 GB
+[epoch 36] batch 000050 | B=8 | loss_ctc 0.0830 | T_max=1315 | GPU mem=0.87 GB
+[epoch 36] batch 000100 | B=8 | loss_ctc 0.1271 | T_max=985 | GPU mem=0.85 GB
+[epoch 36] batch 000150 | B=8 | loss_ctc 0.3207 | T_max=1220 | GPU mem=0.87 GB
+[epoch 36] batch 000200 | B=8 | loss_ctc 0.2698 | T_max=1267 | GPU mem=0.85 GB
+[epoch 36] batch 000250 | B=8 | loss_ctc 0.0347 | T_max=958 | GPU mem=0.87 GB
+[epoch 36] batch 000300 | B=8 | loss_ctc 0.1754 | T_max=1189 | GPU mem=0.85 GB
+[epoch 36] batch 000350 | B=8 | loss_ctc 0.4520 | T_max=1523 | GPU mem=0.87 GB
+[epoch 36] batch 000400 | B=8 | loss_ctc 0.2574 | T_max=1078 | GPU mem=0.84 GB
+[epoch 36] batch 000450 | B=8 | loss_ctc 0.4699 | T_max=1463 | GPU mem=0.87 GB
+[epoch 36] batch 000500 | B=8 | loss_ctc 0.1516 | T_max=1118 | GPU mem=0.85 GB
+[epoch 36] batch 000550 | B=8 | loss_ctc 0.1667 | T_max=898 | GPU mem=0.86 GB
+[epoch 36] batch 000600 | B=8 | loss_ctc 0.4146 | T_max=1425 | GPU mem=0.86 GB
+[epoch 36] batch 000650 | B=8 | loss_ctc 0.1267 | T_max=1250 | GPU mem=0.88 GB
+[epoch 36] batch 000700 | B=8 | loss_ctc 0.1090 | T_max=1520 | GPU mem=0.85 GB
+[epoch 36] batch 000750 | B=8 | loss_ctc 0.3904 | T_max=907 | GPU mem=0.86 GB
+[epoch 36] batch 000800 | B=8 | loss_ctc 0.2644 | T_max=1748 | GPU mem=0.86 GB
+[epoch 36] batch 000850 | B=8 | loss_ctc 0.1877 | T_max=1409 | GPU mem=0.87 GB
+[epoch 36] batch 000900 | B=8 | loss_ctc 0.3199 | T_max=1581 | GPU mem=0.85 GB
+[epoch 36] batch 000950 | B=8 | loss_ctc 0.3264 | T_max=1280 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=6 | PER=0.038
+REF : 10 17 29 40 16 2 27 3 23 9 40 3 7 5 31 40 3 40 36 18 20 40 3 15 25 40
+PRED: 10 17 29 40 16 2 27 3 23 31 40 3 7 5 31 40 3 40 36 18 20 40 3 15 25 40
+[Epoch 36 | EVAL] train_loss=0.2587  PER_g=0.189  lr=0.000125 | 11.2 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.189]
+[epoch 37] batch 000000 | B=8 | loss_ctc 0.2877 | T_max=1189 | GPU mem=0.85 GB
+[epoch 37] batch 000050 | B=8 | loss_ctc 0.6064 | T_max=1289 | GPU mem=0.87 GB
+[epoch 37] batch 000100 | B=8 | loss_ctc 0.2445 | T_max=1580 | GPU mem=0.85 GB
+[epoch 37] batch 000150 | B=8 | loss_ctc 0.1782 | T_max=1279 | GPU mem=0.87 GB
+[epoch 37] batch 000200 | B=8 | loss_ctc 0.2700 | T_max=1653 | GPU mem=0.86 GB
+[epoch 37] batch 000250 | B=8 | loss_ctc 0.1664 | T_max=1235 | GPU mem=0.87 GB
+[epoch 37] batch 000300 | B=8 | loss_ctc 0.5046 | T_max=1599 | GPU mem=0.85 GB
+[epoch 37] batch 000350 | B=8 | loss_ctc 0.1445 | T_max=1036 | GPU mem=0.87 GB
+[epoch 37] batch 000400 | B=8 | loss_ctc 0.3024 | T_max=1303 | GPU mem=0.85 GB
+[epoch 37] batch 000450 | B=8 | loss_ctc 0.2543 | T_max=1493 | GPU mem=0.87 GB
+[epoch 37] batch 000500 | B=8 | loss_ctc 0.2882 | T_max=1371 | GPU mem=0.86 GB
+[epoch 37] batch 000550 | B=8 | loss_ctc 0.1774 | T_max=1160 | GPU mem=0.87 GB
+[epoch 37] batch 000600 | B=8 | loss_ctc 0.6793 | T_max=1145 | GPU mem=0.85 GB
+[epoch 37] batch 000650 | B=8 | loss_ctc 0.3662 | T_max=1057 | GPU mem=0.86 GB
+[epoch 37] batch 000700 | B=8 | loss_ctc 0.2061 | T_max=1525 | GPU mem=0.86 GB
+[epoch 37] batch 000750 | B=8 | loss_ctc 0.3169 | T_max=1386 | GPU mem=0.87 GB
+[epoch 37] batch 000800 | B=8 | loss_ctc 0.2872 | T_max=1225 | GPU mem=0.85 GB
+[epoch 37] batch 000850 | B=8 | loss_ctc 0.1312 | T_max=1289 | GPU mem=0.87 GB
+[epoch 37] batch 000900 | B=8 | loss_ctc 0.4880 | T_max=1369 | GPU mem=0.86 GB
+[epoch 37] batch 000950 | B=8 | loss_ctc 0.2668 | T_max=1213 | GPU mem=0.87 GB
+[Epoch 37] train_loss=0.2509 lr=0.000121 | 10.8 min (pas d'éval)
+[epoch 38] batch 000000 | B=8 | loss_ctc 0.1798 | T_max=1402 | GPU mem=0.86 GB
+[epoch 38] batch 000050 | B=8 | loss_ctc 0.1455 | T_max=1367 | GPU mem=0.87 GB
+[epoch 38] batch 000100 | B=8 | loss_ctc 0.3482 | T_max=1571 | GPU mem=0.85 GB
+[epoch 38] batch 000150 | B=8 | loss_ctc 0.3764 | T_max=1621 | GPU mem=0.88 GB
+[epoch 38] batch 000200 | B=8 | loss_ctc 0.1315 | T_max=1037 | GPU mem=0.85 GB
+[epoch 38] batch 000250 | B=8 | loss_ctc 0.2352 | T_max=1366 | GPU mem=0.88 GB
+[epoch 38] batch 000300 | B=8 | loss_ctc 0.3364 | T_max=1555 | GPU mem=0.85 GB
+[epoch 38] batch 000350 | B=8 | loss_ctc 0.2634 | T_max=1480 | GPU mem=0.87 GB
+[epoch 38] batch 000400 | B=8 | loss_ctc 0.2779 | T_max=1369 | GPU mem=0.86 GB
+[epoch 38] batch 000450 | B=8 | loss_ctc 0.3013 | T_max=1386 | GPU mem=0.87 GB
+[epoch 38] batch 000500 | B=8 | loss_ctc 0.1718 | T_max=1184 | GPU mem=0.85 GB
+[epoch 38] batch 000550 | B=8 | loss_ctc 0.5196 | T_max=1416 | GPU mem=0.87 GB
+[epoch 38] batch 000600 | B=8 | loss_ctc 0.2489 | T_max=1094 | GPU mem=0.85 GB
+[epoch 38] batch 000650 | B=8 | loss_ctc 0.2801 | T_max=1343 | GPU mem=0.87 GB
+[epoch 38] batch 000700 | B=8 | loss_ctc 0.1631 | T_max=1151 | GPU mem=0.85 GB
+[epoch 38] batch 000750 | B=8 | loss_ctc 0.2451 | T_max=1405 | GPU mem=0.87 GB
+[epoch 38] batch 000800 | B=8 | loss_ctc 0.1660 | T_max=1086 | GPU mem=0.85 GB
+[epoch 38] batch 000850 | B=8 | loss_ctc 0.2823 | T_max=1421 | GPU mem=0.87 GB
+[epoch 38] batch 000900 | B=8 | loss_ctc 0.2056 | T_max=1425 | GPU mem=0.86 GB
+[epoch 38] batch 000950 | B=8 | loss_ctc 0.3011 | T_max=1182 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=9 | PER=0.200
+REF : 10 11 28 40 17 38 40 3 40 35 11 28 18 40 29 17 28 18 3 29 40 29 17 8 34 13 30 3 23 40 3 20 28 4 29 40 10 3 40 29 31 28 18 31 40
+PRED: 10 11 28 40 17 38 40 3 40 35 11 28 18 40 29 20 17 28 18 3 23 29 17 30 34 30 3 23 40 3 36 1 29 40 10 3 40 29 31 28 31 40
+[Epoch 38 | EVAL] train_loss=0.2369  PER_g=0.184  lr=0.000116 | 10.2 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.184]
+[epoch 39] batch 000000 | B=8 | loss_ctc 0.1073 | T_max=1142 | GPU mem=0.85 GB
+[epoch 39] batch 000050 | B=8 | loss_ctc 0.2129 | T_max=1508 | GPU mem=0.88 GB
+[epoch 39] batch 000100 | B=8 | loss_ctc 0.1495 | T_max=1233 | GPU mem=0.85 GB
+[epoch 39] batch 000150 | B=8 | loss_ctc 0.1885 | T_max=1419 | GPU mem=0.87 GB
+[epoch 39] batch 000200 | B=8 | loss_ctc 0.1449 | T_max=1590 | GPU mem=0.85 GB
+[epoch 39] batch 000250 | B=8 | loss_ctc 0.2173 | T_max=1045 | GPU mem=0.87 GB
+[epoch 39] batch 000300 | B=8 | loss_ctc 0.2185 | T_max=1612 | GPU mem=0.86 GB
+[epoch 39] batch 000350 | B=8 | loss_ctc 0.0878 | T_max=1477 | GPU mem=0.87 GB
+[epoch 39] batch 000400 | B=8 | loss_ctc 0.2139 | T_max=1155 | GPU mem=0.85 GB
+[epoch 39] batch 000450 | B=8 | loss_ctc 0.2360 | T_max=1184 | GPU mem=0.87 GB
+[epoch 39] batch 000500 | B=8 | loss_ctc 0.0968 | T_max=1074 | GPU mem=0.84 GB
+[epoch 39] batch 000550 | B=8 | loss_ctc 0.4020 | T_max=1736 | GPU mem=0.87 GB
+[epoch 39] batch 000600 | B=8 | loss_ctc 0.1762 | T_max=1062 | GPU mem=0.85 GB
+[epoch 39] batch 000650 | B=8 | loss_ctc 0.2680 | T_max=1951 | GPU mem=0.88 GB
+[epoch 39] batch 000700 | B=8 | loss_ctc 0.3199 | T_max=1372 | GPU mem=0.86 GB
+[epoch 39] batch 000750 | B=8 | loss_ctc 0.2916 | T_max=1530 | GPU mem=0.88 GB
+[epoch 39] batch 000800 | B=8 | loss_ctc 0.1078 | T_max=1295 | GPU mem=0.85 GB
+[epoch 39] batch 000850 | B=8 | loss_ctc 0.1834 | T_max=1306 | GPU mem=0.87 GB
+[epoch 39] batch 000900 | B=8 | loss_ctc 0.2006 | T_max=1685 | GPU mem=0.86 GB
+[epoch 39] batch 000950 | B=8 | loss_ctc 0.2607 | T_max=1323 | GPU mem=0.87 GB
+[Epoch 39] train_loss=0.2241 lr=0.000112 | 10.9 min (pas d'éval)
+[epoch 40] batch 000000 | B=8 | loss_ctc 0.0763 | T_max=1305 | GPU mem=0.85 GB
+[epoch 40] batch 000050 | B=8 | loss_ctc 0.1380 | T_max=772 | GPU mem=0.86 GB
+[epoch 40] batch 000100 | B=8 | loss_ctc 0.2354 | T_max=1331 | GPU mem=0.85 GB
+[epoch 40] batch 000150 | B=8 | loss_ctc 0.0999 | T_max=1521 | GPU mem=0.87 GB
+[epoch 40] batch 000200 | B=8 | loss_ctc 0.3324 | T_max=1443 | GPU mem=0.86 GB
+[epoch 40] batch 000250 | B=8 | loss_ctc 0.2258 | T_max=1316 | GPU mem=0.87 GB
+[epoch 40] batch 000300 | B=8 | loss_ctc 0.1998 | T_max=1144 | GPU mem=0.85 GB
+[epoch 40] batch 000350 | B=8 | loss_ctc 0.5043 | T_max=1704 | GPU mem=0.88 GB
+[epoch 40] batch 000400 | B=8 | loss_ctc 0.2012 | T_max=1141 | GPU mem=0.85 GB
+[epoch 40] batch 000450 | B=8 | loss_ctc 0.4524 | T_max=1546 | GPU mem=0.87 GB
+[epoch 40] batch 000500 | B=8 | loss_ctc 0.1190 | T_max=1285 | GPU mem=0.85 GB
+[epoch 40] batch 000550 | B=8 | loss_ctc 0.1419 | T_max=1069 | GPU mem=0.87 GB
+[epoch 40] batch 000600 | B=8 | loss_ctc 0.1383 | T_max=1297 | GPU mem=0.85 GB
+[epoch 40] batch 000650 | B=8 | loss_ctc 0.2366 | T_max=1272 | GPU mem=0.87 GB
+[epoch 40] batch 000700 | B=8 | loss_ctc 0.2297 | T_max=921 | GPU mem=0.85 GB
+[epoch 40] batch 000750 | B=8 | loss_ctc 0.4346 | T_max=1656 | GPU mem=0.88 GB
+[epoch 40] batch 000800 | B=8 | loss_ctc 0.2454 | T_max=1401 | GPU mem=0.86 GB
+[epoch 40] batch 000850 | B=8 | loss_ctc 0.1656 | T_max=1347 | GPU mem=0.87 GB
+[epoch 40] batch 000900 | B=8 | loss_ctc 0.1470 | T_max=1092 | GPU mem=0.85 GB
+[epoch 40] batch 000950 | B=8 | loss_ctc 0.1481 | T_max=1728 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=1 | PER=0.160
+REF : 9 3 38 3 23 31 40 29 18 22 40 21 6 20 40 17 31 40 29 25 40 14 1 28 40
+PRED: 31 17 38 3 23 31 40 29 18 22 40 21 6 20 40 17 31 40 29 25 40 14 40
+[Epoch 40 | EVAL] train_loss=0.2105  PER_g=0.185  lr=0.000108 | 10.6 min
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 41] batch 000000 | B=8 | loss_ctc 0.2814 | T_max=2090 | GPU mem=0.87 GB
+[epoch 41] batch 000050 | B=8 | loss_ctc 0.0986 | T_max=1181 | GPU mem=0.87 GB
+[epoch 41] batch 000100 | B=8 | loss_ctc 0.2234 | T_max=1307 | GPU mem=0.85 GB
+[epoch 41] batch 000150 | B=8 | loss_ctc 0.1153 | T_max=1069 | GPU mem=0.87 GB
+[epoch 41] batch 000200 | B=8 | loss_ctc 0.1561 | T_max=1353 | GPU mem=0.85 GB
+[epoch 41] batch 000250 | B=8 | loss_ctc 0.2166 | T_max=1076 | GPU mem=0.87 GB
+[epoch 41] batch 000300 | B=8 | loss_ctc 0.1017 | T_max=1342 | GPU mem=0.85 GB
+[epoch 41] batch 000350 | B=8 | loss_ctc 0.2065 | T_max=1325 | GPU mem=0.87 GB
+[epoch 41] batch 000400 | B=8 | loss_ctc 0.1415 | T_max=1593 | GPU mem=0.85 GB
+[epoch 41] batch 000450 | B=8 | loss_ctc 0.2680 | T_max=1993 | GPU mem=0.89 GB
+[epoch 41] batch 000500 | B=8 | loss_ctc 0.1483 | T_max=1292 | GPU mem=0.85 GB
+[epoch 41] batch 000550 | B=8 | loss_ctc 0.1545 | T_max=1052 | GPU mem=0.87 GB
+[epoch 41] batch 000600 | B=8 | loss_ctc 0.1715 | T_max=1314 | GPU mem=0.85 GB
+[epoch 41] batch 000650 | B=8 | loss_ctc 0.1793 | T_max=1433 | GPU mem=0.88 GB
+[epoch 41] batch 000700 | B=8 | loss_ctc 0.0855 | T_max=1104 | GPU mem=0.85 GB
+[epoch 41] batch 000750 | B=8 | loss_ctc 0.1152 | T_max=1480 | GPU mem=0.87 GB
+[epoch 41] batch 000800 | B=8 | loss_ctc 0.1846 | T_max=1005 | GPU mem=0.85 GB
+[epoch 41] batch 000850 | B=8 | loss_ctc 0.0839 | T_max=964 | GPU mem=0.86 GB
+[epoch 41] batch 000900 | B=8 | loss_ctc 0.1450 | T_max=1404 | GPU mem=0.86 GB
+[epoch 41] batch 000950 | B=8 | loss_ctc 0.2542 | T_max=1104 | GPU mem=0.86 GB
+[Epoch 41] train_loss=0.2004 lr=0.000104 | 10.1 min (pas d'éval)
+[epoch 42] batch 000000 | B=8 | loss_ctc 0.1171 | T_max=1379 | GPU mem=0.86 GB
+[epoch 42] batch 000050 | B=8 | loss_ctc 0.1256 | T_max=1358 | GPU mem=0.87 GB
+[epoch 42] batch 000100 | B=8 | loss_ctc 0.2595 | T_max=1771 | GPU mem=0.86 GB
+[epoch 42] batch 000150 | B=8 | loss_ctc 0.1353 | T_max=1410 | GPU mem=0.87 GB
+[epoch 42] batch 000200 | B=8 | loss_ctc 0.1749 | T_max=1371 | GPU mem=0.86 GB
+[epoch 42] batch 000250 | B=8 | loss_ctc 0.1657 | T_max=1459 | GPU mem=0.87 GB
+[epoch 42] batch 000300 | B=8 | loss_ctc 0.0768 | T_max=1185 | GPU mem=0.85 GB
+[epoch 42] batch 000350 | B=8 | loss_ctc 0.0846 | T_max=1367 | GPU mem=0.87 GB
+[epoch 42] batch 000400 | B=8 | loss_ctc 0.0981 | T_max=810 | GPU mem=0.84 GB
+[epoch 42] batch 000450 | B=8 | loss_ctc 0.4185 | T_max=2153 | GPU mem=0.88 GB
+[epoch 42] batch 000500 | B=8 | loss_ctc 0.1761 | T_max=1353 | GPU mem=0.85 GB
+[epoch 42] batch 000550 | B=8 | loss_ctc 0.0994 | T_max=920 | GPU mem=0.86 GB
+[epoch 42] batch 000600 | B=8 | loss_ctc 0.2272 | T_max=1247 | GPU mem=0.85 GB
+[epoch 42] batch 000650 | B=8 | loss_ctc 0.1085 | T_max=1396 | GPU mem=0.87 GB
+[epoch 42] batch 000700 | B=8 | loss_ctc 0.0755 | T_max=1080 | GPU mem=0.85 GB
+[epoch 42] batch 000750 | B=8 | loss_ctc 0.3427 | T_max=1744 | GPU mem=0.88 GB
+[epoch 42] batch 000800 | B=8 | loss_ctc 0.0543 | T_max=1415 | GPU mem=0.86 GB
+[epoch 42] batch 000850 | B=8 | loss_ctc 0.1972 | T_max=1406 | GPU mem=0.87 GB
+[epoch 42] batch 000900 | B=8 | loss_ctc 0.0818 | T_max=1568 | GPU mem=0.85 GB
+[epoch 42] batch 000950 | B=8 | loss_ctc 0.0874 | T_max=1248 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=4 | PER=0.200
+REF : 22 6 40 31 18 8 12 38 40 1 28 40 35 11 28 18 40 16 11 21 27 14 3 21 40
+PRED: 22 6 40 31 18 8 12 3 23 38 40 1 28 40 35 11 28 18 40 16 4 14 3 21 40
+[Epoch 42 | EVAL] train_loss=0.1973  PER_g=0.172  lr=0.000100 | 10.9 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.172]
+[epoch 43] batch 000000 | B=8 | loss_ctc 0.2593 | T_max=2090 | GPU mem=0.86 GB
+[epoch 43] batch 000050 | B=8 | loss_ctc 0.5381 | T_max=2437 | GPU mem=0.89 GB
+[epoch 43] batch 000100 | B=8 | loss_ctc 0.0520 | T_max=1245 | GPU mem=0.85 GB
+[epoch 43] batch 000150 | B=8 | loss_ctc 0.0872 | T_max=1257 | GPU mem=0.87 GB
+[epoch 43] batch 000200 | B=8 | loss_ctc 0.1586 | T_max=1482 | GPU mem=0.85 GB
+[epoch 43] batch 000250 | B=8 | loss_ctc 0.1307 | T_max=1093 | GPU mem=0.87 GB
+[epoch 43] batch 000300 | B=8 | loss_ctc 0.1669 | T_max=1292 | GPU mem=0.85 GB
+[epoch 43] batch 000350 | B=8 | loss_ctc 0.1983 | T_max=989 | GPU mem=0.87 GB
+[epoch 43] batch 000400 | B=8 | loss_ctc 0.2075 | T_max=1532 | GPU mem=0.86 GB
+[epoch 43] batch 000450 | B=8 | loss_ctc 0.1567 | T_max=1150 | GPU mem=0.87 GB
+[epoch 43] batch 000500 | B=8 | loss_ctc 0.2011 | T_max=1635 | GPU mem=0.86 GB
+[epoch 43] batch 000550 | B=8 | loss_ctc 0.0841 | T_max=1548 | GPU mem=0.87 GB
+[epoch 43] batch 000600 | B=8 | loss_ctc 0.3481 | T_max=1677 | GPU mem=0.86 GB
+[epoch 43] batch 000650 | B=8 | loss_ctc 0.1104 | T_max=1576 | GPU mem=0.88 GB
+[epoch 43] batch 000700 | B=8 | loss_ctc 0.1392 | T_max=1356 | GPU mem=0.86 GB
+[epoch 43] batch 000750 | B=8 | loss_ctc 0.3320 | T_max=1486 | GPU mem=0.88 GB
+[epoch 43] batch 000800 | B=8 | loss_ctc 0.1591 | T_max=1105 | GPU mem=0.85 GB
+[epoch 43] batch 000850 | B=8 | loss_ctc 0.0910 | T_max=1298 | GPU mem=0.87 GB
+[epoch 43] batch 000900 | B=8 | loss_ctc 0.0836 | T_max=1566 | GPU mem=0.85 GB
+[epoch 43] batch 000950 | B=8 | loss_ctc 0.1581 | T_max=1124 | GPU mem=0.86 GB
+[Epoch 43] train_loss=0.1875 lr=0.000096 | 11.5 min (pas d'éval)
+[epoch 44] batch 000000 | B=8 | loss_ctc 0.3101 | T_max=1315 | GPU mem=0.85 GB
+[epoch 44] batch 000050 | B=8 | loss_ctc 0.1779 | T_max=1473 | GPU mem=0.88 GB
+[epoch 44] batch 000100 | B=8 | loss_ctc 0.1834 | T_max=1476 | GPU mem=0.86 GB
+[epoch 44] batch 000150 | B=8 | loss_ctc 0.3346 | T_max=2472 | GPU mem=0.89 GB
+[epoch 44] batch 000200 | B=8 | loss_ctc 0.2025 | T_max=1159 | GPU mem=0.85 GB
+[epoch 44] batch 000250 | B=8 | loss_ctc 0.1870 | T_max=1106 | GPU mem=0.87 GB
+[epoch 44] batch 000300 | B=8 | loss_ctc 0.1052 | T_max=1424 | GPU mem=0.86 GB
+[epoch 44] batch 000350 | B=8 | loss_ctc 0.1646 | T_max=1195 | GPU mem=0.87 GB
+[epoch 44] batch 000400 | B=8 | loss_ctc 0.1205 | T_max=1477 | GPU mem=0.86 GB
+[epoch 44] batch 000450 | B=8 | loss_ctc 0.2156 | T_max=1281 | GPU mem=0.87 GB
+[epoch 44] batch 000500 | B=8 | loss_ctc 0.1382 | T_max=1497 | GPU mem=0.86 GB
+[epoch 44] batch 000550 | B=8 | loss_ctc 0.0488 | T_max=1174 | GPU mem=0.87 GB
+[epoch 44] batch 000600 | B=8 | loss_ctc 0.0538 | T_max=1081 | GPU mem=0.85 GB
+[epoch 44] batch 000650 | B=8 | loss_ctc 0.1319 | T_max=1247 | GPU mem=0.87 GB
+[epoch 44] batch 000700 | B=8 | loss_ctc 0.1975 | T_max=1296 | GPU mem=0.86 GB
+[epoch 44] batch 000750 | B=8 | loss_ctc 0.1621 | T_max=1613 | GPU mem=0.88 GB
+[epoch 44] batch 000800 | B=8 | loss_ctc 0.2306 | T_max=983 | GPU mem=0.85 GB
+[epoch 44] batch 000850 | B=8 | loss_ctc 0.1245 | T_max=1280 | GPU mem=0.87 GB
+[epoch 44] batch 000900 | B=8 | loss_ctc 0.2917 | T_max=1568 | GPU mem=0.85 GB
+[epoch 44] batch 000950 | B=8 | loss_ctc 0.0668 | T_max=1006 | GPU mem=0.86 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=2 | PER=0.429
+REF : 27 28 17 23 29 40 3 35 40 27 12 39 3 40
+PRED: 7 28 17 38 40 3 35 40 27 12 38 39 3 23 40 40
+[Epoch 44 | EVAL] train_loss=0.1743  PER_g=0.191  lr=0.000092 | 13.7 min
+[epoch 45] batch 000000 | B=8 | loss_ctc 0.0682 | T_max=1018 | GPU mem=0.85 GB
+[epoch 45] batch 000050 | B=8 | loss_ctc 0.1146 | T_max=1139 | GPU mem=0.86 GB
+[epoch 45] batch 000100 | B=8 | loss_ctc 0.2105 | T_max=1367 | GPU mem=0.86 GB
+[epoch 45] batch 000150 | B=8 | loss_ctc 0.1726 | T_max=1582 | GPU mem=0.87 GB
+[epoch 45] batch 000200 | B=8 | loss_ctc 0.1021 | T_max=1548 | GPU mem=0.85 GB
+[epoch 45] batch 000250 | B=8 | loss_ctc 0.1058 | T_max=1306 | GPU mem=0.87 GB
+[epoch 45] batch 000300 | B=8 | loss_ctc 0.1537 | T_max=1385 | GPU mem=0.86 GB
+[epoch 45] batch 000350 | B=8 | loss_ctc 0.1802 | T_max=1728 | GPU mem=0.88 GB
+[epoch 45] batch 000400 | B=8 | loss_ctc 0.1770 | T_max=1288 | GPU mem=0.85 GB
+[epoch 45] batch 000450 | B=8 | loss_ctc 0.1213 | T_max=1206 | GPU mem=0.87 GB
+[epoch 45] batch 000500 | B=8 | loss_ctc 0.2802 | T_max=963 | GPU mem=0.85 GB
+[epoch 45] batch 000550 | B=8 | loss_ctc 0.3673 | T_max=2175 | GPU mem=0.89 GB
+[epoch 45] batch 000600 | B=8 | loss_ctc 0.1502 | T_max=1533 | GPU mem=0.85 GB
+[epoch 45] batch 000650 | B=8 | loss_ctc 0.0769 | T_max=1047 | GPU mem=0.87 GB
+[epoch 45] batch 000700 | B=8 | loss_ctc 0.0710 | T_max=904 | GPU mem=0.85 GB
+[epoch 45] batch 000750 | B=8 | loss_ctc 0.6018 | T_max=2317 | GPU mem=0.88 GB
+[epoch 45] batch 000800 | B=8 | loss_ctc 0.2119 | T_max=1328 | GPU mem=0.85 GB
+[epoch 45] batch 000850 | B=8 | loss_ctc 0.0917 | T_max=1248 | GPU mem=0.87 GB
+[epoch 45] batch 000900 | B=8 | loss_ctc 0.1203 | T_max=1309 | GPU mem=0.85 GB
+[epoch 45] batch 000950 | B=8 | loss_ctc 0.1177 | T_max=1107 | GPU mem=0.87 GB
+[Epoch 45] train_loss=0.1653 lr=0.000088 | 14.0 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 46] batch 000000 | B=8 | loss_ctc 0.1128 | T_max=1559 | GPU mem=0.85 GB
+[epoch 46] batch 000050 | B=8 | loss_ctc 0.1562 | T_max=2079 | GPU mem=0.88 GB
+[epoch 46] batch 000100 | B=8 | loss_ctc 0.1871 | T_max=1154 | GPU mem=0.85 GB
+[epoch 46] batch 000150 | B=8 | loss_ctc 0.1475 | T_max=1430 | GPU mem=0.87 GB
+[epoch 46] batch 000200 | B=8 | loss_ctc 0.0503 | T_max=1263 | GPU mem=0.86 GB
+[epoch 46] batch 000250 | B=8 | loss_ctc 0.2135 | T_max=1267 | GPU mem=0.87 GB
+[epoch 46] batch 000300 | B=8 | loss_ctc 0.1141 | T_max=1049 | GPU mem=0.84 GB
+[epoch 46] batch 000350 | B=8 | loss_ctc 0.1740 | T_max=2057 | GPU mem=0.88 GB
+[epoch 46] batch 000400 | B=8 | loss_ctc 0.0596 | T_max=1248 | GPU mem=0.85 GB
+[epoch 46] batch 000450 | B=8 | loss_ctc 0.1046 | T_max=1222 | GPU mem=0.87 GB
+[epoch 46] batch 000500 | B=8 | loss_ctc 0.0805 | T_max=1496 | GPU mem=0.86 GB
+[epoch 46] batch 000550 | B=8 | loss_ctc 0.4504 | T_max=1437 | GPU mem=0.87 GB
+[epoch 46] batch 000600 | B=8 | loss_ctc 0.1643 | T_max=1308 | GPU mem=0.85 GB
+[epoch 46] batch 000650 | B=8 | loss_ctc 0.1515 | T_max=1234 | GPU mem=0.87 GB
+[epoch 46] batch 000700 | B=8 | loss_ctc 0.0865 | T_max=1368 | GPU mem=0.86 GB
+[epoch 46] batch 000750 | B=8 | loss_ctc 0.2453 | T_max=1726 | GPU mem=0.88 GB
+[epoch 46] batch 000800 | B=8 | loss_ctc 0.1253 | T_max=1494 | GPU mem=0.85 GB
+[epoch 46] batch 000850 | B=8 | loss_ctc 0.0408 | T_max=1381 | GPU mem=0.88 GB
+[epoch 46] batch 000900 | B=8 | loss_ctc 0.1211 | T_max=1609 | GPU mem=0.85 GB
+[epoch 46] batch 000950 | B=8 | loss_ctc 0.1544 | T_max=1381 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=17 | PER=0.143
+REF : 6 40 22 18 23 40 16 18 38 40 9 34 17 24 40 4 21 28 6 31 40
+PRED: 6 40 22 18 23 40 16 18 38 40 9 34 17 24 40 12 5 23 6 31 40
+[Epoch 46 | EVAL] train_loss=0.1612  PER_g=0.182  lr=0.000084 | 14.1 min
+[epoch 47] batch 000000 | B=8 | loss_ctc 0.1091 | T_max=1278 | GPU mem=0.86 GB
+[epoch 47] batch 000050 | B=8 | loss_ctc 0.0962 | T_max=1002 | GPU mem=0.86 GB
+[epoch 47] batch 000100 | B=8 | loss_ctc 0.0884 | T_max=793 | GPU mem=0.84 GB
+[epoch 47] batch 000150 | B=8 | loss_ctc 0.2127 | T_max=2021 | GPU mem=0.88 GB
+[epoch 47] batch 000200 | B=8 | loss_ctc 0.0273 | T_max=1379 | GPU mem=0.86 GB
+[epoch 47] batch 000250 | B=8 | loss_ctc 0.3329 | T_max=1292 | GPU mem=0.87 GB
+[epoch 47] batch 000300 | B=8 | loss_ctc 0.0623 | T_max=1112 | GPU mem=0.85 GB
+[epoch 47] batch 000350 | B=8 | loss_ctc 0.0795 | T_max=1171 | GPU mem=0.87 GB
+[epoch 47] batch 000400 | B=8 | loss_ctc 0.0315 | T_max=1246 | GPU mem=0.85 GB
+[epoch 47] batch 000450 | B=8 | loss_ctc 0.1135 | T_max=1127 | GPU mem=0.87 GB
+[epoch 47] batch 000500 | B=8 | loss_ctc 0.0857 | T_max=1289 | GPU mem=0.86 GB
+[epoch 47] batch 000550 | B=8 | loss_ctc 0.2435 | T_max=1716 | GPU mem=0.88 GB
+[epoch 47] batch 000600 | B=8 | loss_ctc 0.4860 | T_max=1344 | GPU mem=0.85 GB
+[epoch 47] batch 000650 | B=8 | loss_ctc 0.0549 | T_max=1466 | GPU mem=0.88 GB
+[epoch 47] batch 000700 | B=8 | loss_ctc 0.1344 | T_max=1282 | GPU mem=0.86 GB
+[epoch 47] batch 000750 | B=8 | loss_ctc 0.0862 | T_max=1278 | GPU mem=0.87 GB
+[epoch 47] batch 000800 | B=8 | loss_ctc 0.2201 | T_max=1512 | GPU mem=0.85 GB
+[epoch 47] batch 000850 | B=8 | loss_ctc 0.1446 | T_max=1073 | GPU mem=0.87 GB
+[epoch 47] batch 000900 | B=8 | loss_ctc 0.0629 | T_max=1103 | GPU mem=0.85 GB
+[epoch 47] batch 000950 | B=8 | loss_ctc 0.0806 | T_max=1174 | GPU mem=0.87 GB
+[Epoch 47] train_loss=0.1484 lr=0.000079 | 10.8 min (pas d'éval)
+[epoch 48] batch 000000 | B=8 | loss_ctc 0.1741 | T_max=1072 | GPU mem=0.84 GB
+[epoch 48] batch 000050 | B=8 | loss_ctc 0.1536 | T_max=1027 | GPU mem=0.87 GB
+[epoch 48] batch 000100 | B=8 | loss_ctc 0.0631 | T_max=1261 | GPU mem=0.85 GB
+[epoch 48] batch 000150 | B=8 | loss_ctc 0.3359 | T_max=1596 | GPU mem=0.88 GB
+[epoch 48] batch 000200 | B=8 | loss_ctc 0.1323 | T_max=999 | GPU mem=0.85 GB
+[epoch 48] batch 000250 | B=8 | loss_ctc 0.1808 | T_max=1307 | GPU mem=0.87 GB
+[epoch 48] batch 000300 | B=8 | loss_ctc 0.0830 | T_max=1206 | GPU mem=0.85 GB
+[epoch 48] batch 000350 | B=8 | loss_ctc 0.1582 | T_max=1153 | GPU mem=0.87 GB
+[epoch 48] batch 000400 | B=8 | loss_ctc 0.0641 | T_max=1146 | GPU mem=0.85 GB
+[epoch 48] batch 000450 | B=8 | loss_ctc 0.1346 | T_max=1115 | GPU mem=0.87 GB
+[epoch 48] batch 000500 | B=8 | loss_ctc 0.1825 | T_max=2036 | GPU mem=0.87 GB
+[epoch 48] batch 000550 | B=8 | loss_ctc 0.2303 | T_max=1358 | GPU mem=0.87 GB
+[epoch 48] batch 000600 | B=8 | loss_ctc 0.1153 | T_max=1563 | GPU mem=0.86 GB
+[epoch 48] batch 000650 | B=8 | loss_ctc 0.0786 | T_max=1512 | GPU mem=0.87 GB
+[epoch 48] batch 000700 | B=8 | loss_ctc 0.0403 | T_max=1300 | GPU mem=0.86 GB
+[epoch 48] batch 000750 | B=8 | loss_ctc 0.2729 | T_max=1457 | GPU mem=0.88 GB
+[epoch 48] batch 000800 | B=8 | loss_ctc 0.0611 | T_max=1582 | GPU mem=0.85 GB
+[epoch 48] batch 000850 | B=8 | loss_ctc 0.1871 | T_max=1414 | GPU mem=0.87 GB
+[epoch 48] batch 000900 | B=8 | loss_ctc 0.0920 | T_max=1367 | GPU mem=0.86 GB
+[epoch 48] batch 000950 | B=8 | loss_ctc 0.2287 | T_max=1263 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=8 | PER=0.059
+REF : 37 34 40 23 25 40 29 3 22 40 3 35 40 10 2 31 40
+PRED: 37 34 40 23 40 29 3 22 40 3 35 40 10 2 31 40
+[Epoch 48 | EVAL] train_loss=0.1445  PER_g=0.177  lr=0.000075 | 11.5 min
+[epoch 49] batch 000000 | B=8 | loss_ctc 0.3107 | T_max=1551 | GPU mem=0.85 GB
+[epoch 49] batch 000050 | B=8 | loss_ctc 0.1533 | T_max=1716 | GPU mem=0.88 GB
+[epoch 49] batch 000100 | B=8 | loss_ctc 0.1776 | T_max=1815 | GPU mem=0.86 GB
+[epoch 49] batch 000150 | B=8 | loss_ctc 0.1608 | T_max=1499 | GPU mem=0.87 GB
+[epoch 49] batch 000200 | B=8 | loss_ctc 0.0460 | T_max=1244 | GPU mem=0.85 GB
+[epoch 49] batch 000250 | B=8 | loss_ctc 0.1070 | T_max=1034 | GPU mem=0.87 GB
+[epoch 49] batch 000300 | B=8 | loss_ctc 0.2113 | T_max=1589 | GPU mem=0.86 GB
+[epoch 49] batch 000350 | B=8 | loss_ctc 0.1621 | T_max=1145 | GPU mem=0.87 GB
+[epoch 49] batch 000400 | B=8 | loss_ctc 0.0760 | T_max=1190 | GPU mem=0.85 GB
+[epoch 49] batch 000450 | B=8 | loss_ctc 0.2856 | T_max=1468 | GPU mem=0.88 GB
+[epoch 49] batch 000500 | B=8 | loss_ctc 0.0847 | T_max=1176 | GPU mem=0.85 GB
+[epoch 49] batch 000550 | B=8 | loss_ctc 0.0836 | T_max=1334 | GPU mem=0.87 GB
+[epoch 49] batch 000600 | B=8 | loss_ctc 0.2242 | T_max=1150 | GPU mem=0.85 GB
+[epoch 49] batch 000650 | B=8 | loss_ctc 0.2493 | T_max=1372 | GPU mem=0.87 GB
+[epoch 49] batch 000700 | B=8 | loss_ctc 0.1219 | T_max=1498 | GPU mem=0.86 GB
+[epoch 49] batch 000750 | B=8 | loss_ctc 0.0714 | T_max=1786 | GPU mem=0.88 GB
+[epoch 49] batch 000800 | B=8 | loss_ctc 0.2046 | T_max=1371 | GPU mem=0.86 GB
+[epoch 49] batch 000850 | B=8 | loss_ctc 0.1253 | T_max=1294 | GPU mem=0.87 GB
+[epoch 49] batch 000900 | B=8 | loss_ctc 0.0911 | T_max=1574 | GPU mem=0.86 GB
+[epoch 49] batch 000950 | B=8 | loss_ctc 0.1035 | T_max=1181 | GPU mem=0.87 GB
+[Epoch 49] train_loss=0.1347 lr=0.000071 | 11.5 min (pas d'éval)
+[epoch 50] batch 000000 | B=8 | loss_ctc 0.1111 | T_max=998 | GPU mem=0.85 GB
+[epoch 50] batch 000050 | B=8 | loss_ctc 0.0988 | T_max=1343 | GPU mem=0.88 GB
+[epoch 50] batch 000100 | B=8 | loss_ctc 0.1320 | T_max=1307 | GPU mem=0.85 GB
+[epoch 50] batch 000150 | B=8 | loss_ctc 0.0841 | T_max=1561 | GPU mem=0.87 GB
+[epoch 50] batch 000200 | B=8 | loss_ctc 0.1006 | T_max=1308 | GPU mem=0.85 GB
+[epoch 50] batch 000250 | B=8 | loss_ctc 0.2715 | T_max=1452 | GPU mem=0.87 GB
+[epoch 50] batch 000300 | B=8 | loss_ctc 0.0715 | T_max=1314 | GPU mem=0.85 GB
+[epoch 50] batch 000350 | B=8 | loss_ctc 0.3122 | T_max=1300 | GPU mem=0.87 GB
+[epoch 50] batch 000400 | B=8 | loss_ctc 0.1178 | T_max=1202 | GPU mem=0.85 GB
+[epoch 50] batch 000450 | B=8 | loss_ctc 0.2645 | T_max=1251 | GPU mem=0.87 GB
+[epoch 50] batch 000500 | B=8 | loss_ctc 0.2576 | T_max=1749 | GPU mem=0.86 GB
+[epoch 50] batch 000550 | B=8 | loss_ctc 0.1496 | T_max=1613 | GPU mem=0.87 GB
+[epoch 50] batch 000600 | B=8 | loss_ctc 0.1119 | T_max=1322 | GPU mem=0.85 GB
+[epoch 50] batch 000650 | B=8 | loss_ctc 0.2674 | T_max=1198 | GPU mem=0.87 GB
+[epoch 50] batch 000700 | B=8 | loss_ctc 0.1254 | T_max=1244 | GPU mem=0.85 GB
+[epoch 50] batch 000750 | B=8 | loss_ctc 0.1978 | T_max=1318 | GPU mem=0.87 GB
+[epoch 50] batch 000800 | B=8 | loss_ctc 0.0915 | T_max=1351 | GPU mem=0.85 GB
+[epoch 50] batch 000850 | B=8 | loss_ctc 0.0476 | T_max=1928 | GPU mem=0.88 GB
+[epoch 50] batch 000900 | B=8 | loss_ctc 0.0515 | T_max=1469 | GPU mem=0.86 GB
+[epoch 50] batch 000950 | B=8 | loss_ctc 0.0407 | T_max=1187 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=3 | PER=0.105
+REF : 10 11 28 40 17 38 40 29 3 22 40 9 11 14 3 23 3 31 40 29 23 1 28 20 40 17 23 40 16 12 40 28 18 27 4 28 31 40
+PRED: 10 11 28 40 17 38 40 29 3 22 40 9 11 14 3 23 31 40 29 31 1 28 20 40 17 23 16 12 40 28 18 27 4 28 40
+[Epoch 50 | EVAL] train_loss=0.1258  PER_g=0.179  lr=0.000068 | 11.0 min
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 51] batch 000000 | B=8 | loss_ctc 0.0998 | T_max=2204 | GPU mem=0.87 GB
+[epoch 51] batch 000050 | B=8 | loss_ctc 0.1188 | T_max=1689 | GPU mem=0.87 GB
+[epoch 51] batch 000100 | B=8 | loss_ctc 0.1365 | T_max=886 | GPU mem=0.84 GB
+[epoch 51] batch 000150 | B=8 | loss_ctc 0.0817 | T_max=1318 | GPU mem=0.87 GB
+[epoch 51] batch 000200 | B=8 | loss_ctc 0.1959 | T_max=2040 | GPU mem=0.86 GB
+[epoch 51] batch 000250 | B=8 | loss_ctc 0.2482 | T_max=1593 | GPU mem=0.88 GB
+[epoch 51] batch 000300 | B=8 | loss_ctc 0.1069 | T_max=1852 | GPU mem=0.86 GB
+[epoch 51] batch 000350 | B=8 | loss_ctc 0.1001 | T_max=1369 | GPU mem=0.87 GB
+[epoch 51] batch 000400 | B=8 | loss_ctc 0.1215 | T_max=1002 | GPU mem=0.85 GB
+[epoch 51] batch 000450 | B=8 | loss_ctc 0.1725 | T_max=1384 | GPU mem=0.87 GB
+[epoch 51] batch 000500 | B=8 | loss_ctc 0.3105 | T_max=2240 | GPU mem=0.87 GB
+[epoch 51] batch 000550 | B=8 | loss_ctc 0.0755 | T_max=1155 | GPU mem=0.87 GB
+[epoch 51] batch 000600 | B=8 | loss_ctc 0.2898 | T_max=1221 | GPU mem=0.85 GB
+[epoch 51] batch 000650 | B=8 | loss_ctc 0.0535 | T_max=1630 | GPU mem=0.87 GB
+[epoch 51] batch 000700 | B=8 | loss_ctc 0.0607 | T_max=1166 | GPU mem=0.85 GB
+[epoch 51] batch 000750 | B=8 | loss_ctc 0.2008 | T_max=1334 | GPU mem=0.87 GB
+[epoch 51] batch 000800 | B=8 | loss_ctc 0.1081 | T_max=1620 | GPU mem=0.86 GB
+[epoch 51] batch 000850 | B=8 | loss_ctc 0.0912 | T_max=1499 | GPU mem=0.88 GB
+[epoch 51] batch 000900 | B=8 | loss_ctc 0.1991 | T_max=1476 | GPU mem=0.86 GB
+[epoch 51] batch 000950 | B=8 | loss_ctc 0.1150 | T_max=1462 | GPU mem=0.87 GB
+[Epoch 51] train_loss=0.1216 lr=0.000064 | 12.3 min (pas d'éval)
+[epoch 52] batch 000000 | B=8 | loss_ctc 0.0384 | T_max=1408 | GPU mem=0.86 GB
+[epoch 52] batch 000050 | B=8 | loss_ctc 0.0716 | T_max=1225 | GPU mem=0.87 GB
+[epoch 52] batch 000100 | B=8 | loss_ctc 0.0388 | T_max=1075 | GPU mem=0.85 GB
+[epoch 52] batch 000150 | B=8 | loss_ctc 0.0876 | T_max=1217 | GPU mem=0.87 GB
+[epoch 52] batch 000200 | B=8 | loss_ctc 0.1284 | T_max=1616 | GPU mem=0.86 GB
+[epoch 52] batch 000250 | B=8 | loss_ctc 0.0653 | T_max=1174 | GPU mem=0.87 GB
+[epoch 52] batch 000300 | B=8 | loss_ctc 0.1405 | T_max=1568 | GPU mem=0.85 GB
+[epoch 52] batch 000350 | B=8 | loss_ctc 0.0773 | T_max=1184 | GPU mem=0.87 GB
+[epoch 52] batch 000400 | B=8 | loss_ctc 0.1175 | T_max=1577 | GPU mem=0.86 GB
+[epoch 52] batch 000450 | B=8 | loss_ctc 0.0938 | T_max=1033 | GPU mem=0.87 GB
+[epoch 52] batch 000500 | B=8 | loss_ctc 0.5304 | T_max=1201 | GPU mem=0.85 GB
+[epoch 52] batch 000550 | B=8 | loss_ctc 0.1526 | T_max=978 | GPU mem=0.86 GB
+[epoch 52] batch 000600 | B=8 | loss_ctc 0.1143 | T_max=1447 | GPU mem=0.87 GB
+[epoch 52] batch 000650 | B=8 | loss_ctc 0.0555 | T_max=1369 | GPU mem=0.87 GB
+[epoch 52] batch 000700 | B=8 | loss_ctc 0.0782 | T_max=1456 | GPU mem=0.86 GB
+[epoch 52] batch 000750 | B=8 | loss_ctc 0.0695 | T_max=1356 | GPU mem=0.87 GB
+[epoch 52] batch 000800 | B=8 | loss_ctc 0.0753 | T_max=1346 | GPU mem=0.86 GB
+[epoch 52] batch 000850 | B=8 | loss_ctc 0.0666 | T_max=2057 | GPU mem=0.88 GB
+[epoch 52] batch 000900 | B=8 | loss_ctc 0.1221 | T_max=1311 | GPU mem=0.86 GB
+[epoch 52] batch 000950 | B=8 | loss_ctc 0.0947 | T_max=1319 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=17 | PER=0.075
+REF : 6 40 23 25 40 36 18 35 40 16 2 9 40 10 17 29 40 36 3 23 40 21 13 9 18 40 10 2 31 40 36 1 38 40 3 31 2 20 31 40
+PRED: 6 40 23 25 40 36 18 35 40 16 2 9 40 10 17 29 40 36 3 23 40 21 13 9 18 40 10 2 31 40 36 1 38 40 3 15 11 31 40
+[Epoch 52 | EVAL] train_loss=0.1143  PER_g=0.170  lr=0.000060 | 12.5 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.170]
+[epoch 53] batch 000000 | B=8 | loss_ctc 0.0751 | T_max=1363 | GPU mem=0.86 GB
+[epoch 53] batch 000050 | B=8 | loss_ctc 0.0166 | T_max=1033 | GPU mem=0.86 GB
+[epoch 53] batch 000100 | B=8 | loss_ctc 0.1617 | T_max=1426 | GPU mem=0.86 GB
+[epoch 53] batch 000150 | B=8 | loss_ctc 0.0724 | T_max=1465 | GPU mem=0.87 GB
+[epoch 53] batch 000200 | B=8 | loss_ctc 0.0421 | T_max=1182 | GPU mem=0.85 GB
+[epoch 53] batch 000250 | B=8 | loss_ctc 0.0948 | T_max=1244 | GPU mem=0.87 GB
+[epoch 53] batch 000300 | B=8 | loss_ctc 0.0452 | T_max=1528 | GPU mem=0.86 GB
+[epoch 53] batch 000350 | B=8 | loss_ctc 0.1220 | T_max=1265 | GPU mem=0.87 GB
+[epoch 53] batch 000400 | B=8 | loss_ctc 0.0704 | T_max=1459 | GPU mem=0.85 GB
+[epoch 53] batch 000450 | B=8 | loss_ctc 0.0670 | T_max=1496 | GPU mem=0.87 GB
+[epoch 53] batch 000500 | B=8 | loss_ctc 0.0643 | T_max=1335 | GPU mem=0.85 GB
+[epoch 53] batch 000550 | B=8 | loss_ctc 0.0905 | T_max=1884 | GPU mem=0.88 GB
+[epoch 53] batch 000600 | B=8 | loss_ctc 0.0656 | T_max=1201 | GPU mem=0.85 GB
+[epoch 53] batch 000650 | B=8 | loss_ctc 0.0788 | T_max=1033 | GPU mem=0.87 GB
+[epoch 53] batch 000700 | B=8 | loss_ctc 0.1174 | T_max=1274 | GPU mem=0.86 GB
+[epoch 53] batch 000750 | B=8 | loss_ctc 0.0672 | T_max=1412 | GPU mem=0.87 GB
+[epoch 53] batch 000800 | B=8 | loss_ctc 0.0876 | T_max=927 | GPU mem=0.85 GB
+[epoch 53] batch 000850 | B=8 | loss_ctc 0.0812 | T_max=1207 | GPU mem=0.87 GB
+[epoch 53] batch 000900 | B=8 | loss_ctc 0.0987 | T_max=1334 | GPU mem=0.85 GB
+[epoch 53] batch 000950 | B=8 | loss_ctc 0.0320 | T_max=1329 | GPU mem=0.87 GB
+[Epoch 53] train_loss=0.1082 lr=0.000056 | 11.3 min (pas d'éval)
+[epoch 54] batch 000000 | B=8 | loss_ctc 0.0560 | T_max=1312 | GPU mem=0.86 GB
+[epoch 54] batch 000050 | B=8 | loss_ctc 0.1162 | T_max=1358 | GPU mem=0.87 GB
+[epoch 54] batch 000100 | B=8 | loss_ctc 0.1081 | T_max=1550 | GPU mem=0.85 GB
+[epoch 54] batch 000150 | B=8 | loss_ctc 0.3331 | T_max=2226 | GPU mem=0.89 GB
+[epoch 54] batch 000200 | B=8 | loss_ctc 0.1212 | T_max=1230 | GPU mem=0.85 GB
+[epoch 54] batch 000250 | B=8 | loss_ctc 0.0566 | T_max=1044 | GPU mem=0.86 GB
+[epoch 54] batch 000300 | B=8 | loss_ctc 0.1173 | T_max=1291 | GPU mem=0.85 GB
+[epoch 54] batch 000350 | B=8 | loss_ctc 0.0983 | T_max=1473 | GPU mem=0.88 GB
+[epoch 54] batch 000400 | B=8 | loss_ctc 0.1269 | T_max=1411 | GPU mem=0.86 GB
+[epoch 54] batch 000450 | B=8 | loss_ctc 0.0448 | T_max=1464 | GPU mem=0.87 GB
+[epoch 54] batch 000500 | B=8 | loss_ctc 0.1701 | T_max=1069 | GPU mem=0.84 GB
+[epoch 54] batch 000550 | B=8 | loss_ctc 0.0645 | T_max=945 | GPU mem=0.86 GB
+[epoch 54] batch 000600 | B=8 | loss_ctc 0.0231 | T_max=1241 | GPU mem=0.85 GB
+[epoch 54] batch 000650 | B=8 | loss_ctc 0.0566 | T_max=1314 | GPU mem=0.87 GB
+[epoch 54] batch 000700 | B=8 | loss_ctc 0.0503 | T_max=1133 | GPU mem=0.85 GB
+[epoch 54] batch 000750 | B=8 | loss_ctc 0.1148 | T_max=1440 | GPU mem=0.87 GB
+[epoch 54] batch 000800 | B=8 | loss_ctc 0.1747 | T_max=1427 | GPU mem=0.86 GB
+[epoch 54] batch 000850 | B=8 | loss_ctc 0.0448 | T_max=970 | GPU mem=0.87 GB
+[epoch 54] batch 000900 | B=8 | loss_ctc 0.2359 | T_max=1840 | GPU mem=0.86 GB
+[epoch 54] batch 000950 | B=8 | loss_ctc 0.0195 | T_max=1798 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=11 | PER=0.094
+REF : 17 31 29 40 2 20 8 34 3 21 18 40 19 3 29 31 40 31 36 11 21 35 40 37 17 28 38 40 25 21 9 40
+PRED: 17 31 29 40 20 2 20 8 34 3 21 18 40 19 3 29 31 40 23 36 11 21 22 40 37 17 28 38 40 25 21 9 40
+[Epoch 54 | EVAL] train_loss=0.1015  PER_g=0.155  lr=0.000052 | 12.6 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.155]
+[epoch 55] batch 000000 | B=8 | loss_ctc 0.0782 | T_max=1124 | GPU mem=0.85 GB
+[epoch 55] batch 000050 | B=8 | loss_ctc 0.1239 | T_max=1524 | GPU mem=0.88 GB
+[epoch 55] batch 000100 | B=8 | loss_ctc 0.0317 | T_max=1374 | GPU mem=0.86 GB
+[epoch 55] batch 000150 | B=8 | loss_ctc 0.0487 | T_max=1279 | GPU mem=0.87 GB
+[epoch 55] batch 000200 | B=8 | loss_ctc 0.0787 | T_max=1824 | GPU mem=0.86 GB
+[epoch 55] batch 000250 | B=8 | loss_ctc 0.0762 | T_max=2125 | GPU mem=0.88 GB
+[epoch 55] batch 000300 | B=8 | loss_ctc 0.0507 | T_max=1424 | GPU mem=0.85 GB
+[epoch 55] batch 000350 | B=8 | loss_ctc 0.0275 | T_max=1324 | GPU mem=0.87 GB
+[epoch 55] batch 000400 | B=8 | loss_ctc 0.0459 | T_max=1177 | GPU mem=0.85 GB
+[epoch 55] batch 000450 | B=8 | loss_ctc 0.0696 | T_max=1094 | GPU mem=0.87 GB
+[epoch 55] batch 000500 | B=8 | loss_ctc 0.1061 | T_max=1429 | GPU mem=0.86 GB
+[epoch 55] batch 000550 | B=8 | loss_ctc 0.0343 | T_max=1410 | GPU mem=0.87 GB
+[epoch 55] batch 000600 | B=8 | loss_ctc 0.0290 | T_max=1325 | GPU mem=0.86 GB
+[epoch 55] batch 000650 | B=8 | loss_ctc 0.0596 | T_max=1249 | GPU mem=0.87 GB
+[epoch 55] batch 000700 | B=8 | loss_ctc 0.0787 | T_max=1173 | GPU mem=0.85 GB
+[epoch 55] batch 000750 | B=8 | loss_ctc 0.0334 | T_max=997 | GPU mem=0.87 GB
+[epoch 55] batch 000800 | B=8 | loss_ctc 0.0539 | T_max=1611 | GPU mem=0.86 GB
+[epoch 55] batch 000850 | B=8 | loss_ctc 0.0877 | T_max=1223 | GPU mem=0.87 GB
+[epoch 55] batch 000900 | B=8 | loss_ctc 0.0176 | T_max=1132 | GPU mem=0.85 GB
+[epoch 55] batch 000950 | B=8 | loss_ctc 0.0887 | T_max=1152 | GPU mem=0.87 GB
+[Epoch 55] train_loss=0.0973 lr=0.000049 | 12.0 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 56] batch 000000 | B=8 | loss_ctc 0.1150 | T_max=1523 | GPU mem=0.86 GB
+[epoch 56] batch 000050 | B=8 | loss_ctc 0.0392 | T_max=1551 | GPU mem=0.87 GB
+[epoch 56] batch 000100 | B=8 | loss_ctc 0.1301 | T_max=1352 | GPU mem=0.85 GB
+[epoch 56] batch 000150 | B=8 | loss_ctc 0.0646 | T_max=1156 | GPU mem=0.86 GB
+[epoch 56] batch 000200 | B=8 | loss_ctc 0.0316 | T_max=1639 | GPU mem=0.86 GB
+[epoch 56] batch 000250 | B=8 | loss_ctc 0.0188 | T_max=1103 | GPU mem=0.87 GB
+[epoch 56] batch 000300 | B=8 | loss_ctc 0.1197 | T_max=1372 | GPU mem=0.86 GB
+[epoch 56] batch 000350 | B=8 | loss_ctc 0.0179 | T_max=1314 | GPU mem=0.87 GB
+[epoch 56] batch 000400 | B=8 | loss_ctc 0.3108 | T_max=1864 | GPU mem=0.86 GB
+[epoch 56] batch 000450 | B=8 | loss_ctc 0.0664 | T_max=1125 | GPU mem=0.87 GB
+[epoch 56] batch 000500 | B=8 | loss_ctc 0.0590 | T_max=1359 | GPU mem=0.86 GB
+[epoch 56] batch 000550 | B=8 | loss_ctc 0.0261 | T_max=977 | GPU mem=0.86 GB
+[epoch 56] batch 000600 | B=8 | loss_ctc 0.0471 | T_max=1602 | GPU mem=0.86 GB
+[epoch 56] batch 000650 | B=8 | loss_ctc 0.0588 | T_max=1325 | GPU mem=0.87 GB
+[epoch 56] batch 000700 | B=8 | loss_ctc 0.0864 | T_max=1414 | GPU mem=0.85 GB
+[epoch 56] batch 000750 | B=8 | loss_ctc 0.0059 | T_max=1075 | GPU mem=0.87 GB
+[epoch 56] batch 000800 | B=8 | loss_ctc 0.0239 | T_max=1220 | GPU mem=0.85 GB
+[epoch 56] batch 000850 | B=8 | loss_ctc 0.0652 | T_max=1352 | GPU mem=0.87 GB
+[epoch 56] batch 000900 | B=8 | loss_ctc 0.1056 | T_max=1621 | GPU mem=0.86 GB
+[epoch 56] batch 000950 | B=8 | loss_ctc 0.0778 | T_max=986 | GPU mem=0.86 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=3 | PER=0.227
+REF : 17 31 29 40 31 25 31 3 21 18 40 28 17 9 17 20 37 3 21 3 29 40
+PRED: 17 31 29 40 31 25 31 3 21 18 40 28 18 11 9 17 20 37 3 21 31 12 38 40
+[Epoch 56 | EVAL] train_loss=0.0926  PER_g=0.157  lr=0.000045 | 11.2 min
+[epoch 57] batch 000000 | B=8 | loss_ctc 0.0297 | T_max=1372 | GPU mem=0.86 GB
+[epoch 57] batch 000050 | B=8 | loss_ctc 0.0757 | T_max=1175 | GPU mem=0.87 GB
+[epoch 57] batch 000100 | B=8 | loss_ctc 0.1574 | T_max=1287 | GPU mem=0.85 GB
+[epoch 57] batch 000150 | B=8 | loss_ctc 0.0563 | T_max=1556 | GPU mem=0.87 GB
+[epoch 57] batch 000200 | B=8 | loss_ctc 0.3042 | T_max=1392 | GPU mem=0.86 GB
+[epoch 57] batch 000250 | B=8 | loss_ctc 0.1260 | T_max=1359 | GPU mem=0.87 GB
+[epoch 57] batch 000300 | B=8 | loss_ctc 0.0945 | T_max=1466 | GPU mem=0.85 GB
+[epoch 57] batch 000350 | B=8 | loss_ctc 0.0722 | T_max=1684 | GPU mem=0.88 GB
+[epoch 57] batch 000400 | B=8 | loss_ctc 0.0790 | T_max=1160 | GPU mem=0.85 GB
+[epoch 57] batch 000450 | B=8 | loss_ctc 0.0663 | T_max=1138 | GPU mem=0.87 GB
+[epoch 57] batch 000500 | B=8 | loss_ctc 0.0464 | T_max=1435 | GPU mem=0.85 GB
+[epoch 57] batch 000550 | B=8 | loss_ctc 0.0846 | T_max=1529 | GPU mem=0.88 GB
+[epoch 57] batch 000600 | B=8 | loss_ctc 0.0557 | T_max=1063 | GPU mem=0.85 GB
+[epoch 57] batch 000650 | B=8 | loss_ctc 0.0681 | T_max=1318 | GPU mem=0.87 GB
+[epoch 57] batch 000700 | B=8 | loss_ctc 0.3020 | T_max=2007 | GPU mem=0.86 GB
+[epoch 57] batch 000750 | B=8 | loss_ctc 0.0621 | T_max=1338 | GPU mem=0.88 GB
+[epoch 57] batch 000800 | B=8 | loss_ctc 0.1278 | T_max=1573 | GPU mem=0.86 GB
+[epoch 57] batch 000850 | B=8 | loss_ctc 0.0628 | T_max=1109 | GPU mem=0.87 GB
+[epoch 57] batch 000900 | B=8 | loss_ctc 0.0963 | T_max=1201 | GPU mem=0.85 GB
+[epoch 57] batch 000950 | B=8 | loss_ctc 0.0335 | T_max=1345 | GPU mem=0.87 GB
+[Epoch 57] train_loss=0.0876 lr=0.000042 | 10.6 min (pas d'éval)
+[epoch 58] batch 000000 | B=8 | loss_ctc 0.0755 | T_max=1078 | GPU mem=0.85 GB
+[epoch 58] batch 000050 | B=8 | loss_ctc 0.0211 | T_max=1526 | GPU mem=0.88 GB
+[epoch 58] batch 000100 | B=8 | loss_ctc 0.0060 | T_max=1209 | GPU mem=0.85 GB
+[epoch 58] batch 000150 | B=8 | loss_ctc 0.1259 | T_max=1131 | GPU mem=0.87 GB
+[epoch 58] batch 000200 | B=8 | loss_ctc 0.1451 | T_max=1240 | GPU mem=0.85 GB
+[epoch 58] batch 000250 | B=8 | loss_ctc 0.0729 | T_max=1185 | GPU mem=0.87 GB
+[epoch 58] batch 000300 | B=8 | loss_ctc 0.0252 | T_max=926 | GPU mem=0.85 GB
+[epoch 58] batch 000350 | B=8 | loss_ctc 0.0780 | T_max=1136 | GPU mem=0.87 GB
+[epoch 58] batch 000400 | B=8 | loss_ctc 0.0794 | T_max=1130 | GPU mem=0.85 GB
+[epoch 58] batch 000450 | B=8 | loss_ctc 0.0277 | T_max=1057 | GPU mem=0.86 GB
+[epoch 58] batch 000500 | B=8 | loss_ctc 0.0918 | T_max=1177 | GPU mem=0.85 GB
+[epoch 58] batch 000550 | B=8 | loss_ctc 0.0714 | T_max=1690 | GPU mem=0.88 GB
+[epoch 58] batch 000600 | B=8 | loss_ctc 0.0826 | T_max=1117 | GPU mem=0.85 GB
+[epoch 58] batch 000650 | B=8 | loss_ctc 0.0657 | T_max=830 | GPU mem=0.86 GB
+[epoch 58] batch 000700 | B=8 | loss_ctc 0.0312 | T_max=1108 | GPU mem=0.85 GB
+[epoch 58] batch 000750 | B=8 | loss_ctc 0.0272 | T_max=1462 | GPU mem=0.88 GB
+[epoch 58] batch 000800 | B=8 | loss_ctc 0.0176 | T_max=1312 | GPU mem=0.86 GB
+[epoch 58] batch 000850 | B=8 | loss_ctc 0.1018 | T_max=962 | GPU mem=0.86 GB
+[epoch 58] batch 000900 | B=8 | loss_ctc 0.0213 | T_max=1202 | GPU mem=0.85 GB
+[epoch 58] batch 000950 | B=8 | loss_ctc 0.1983 | T_max=2317 | GPU mem=0.89 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=0 | PER=0.028
+REF : 37 34 40 20 2 23 40 29 18 40 10 3 40 20 25 9 40 2 31 40 10 17 29 40 27 26 23 31 40 2 38 40 36 11 21 40
+PRED: 37 34 40 20 2 23 40 29 18 40 10 3 40 20 25 21 9 40 2 31 40 10 17 29 40 27 26 23 31 40 2 38 40 36 11 21 40
+[Epoch 58 | EVAL] train_loss=0.0811  PER_g=0.161  lr=0.000039 | 11.8 min
+[epoch 59] batch 000000 | B=8 | loss_ctc 0.0581 | T_max=1098 | GPU mem=0.85 GB
+[epoch 59] batch 000050 | B=8 | loss_ctc 0.0290 | T_max=1545 | GPU mem=0.87 GB
+[epoch 59] batch 000100 | B=8 | loss_ctc 0.0871 | T_max=1418 | GPU mem=0.86 GB
+[epoch 59] batch 000150 | B=8 | loss_ctc 0.1630 | T_max=1994 | GPU mem=0.88 GB
+[epoch 59] batch 000200 | B=8 | loss_ctc 0.0661 | T_max=1134 | GPU mem=0.85 GB
+[epoch 59] batch 000250 | B=8 | loss_ctc 0.0616 | T_max=1317 | GPU mem=0.87 GB
+[epoch 59] batch 000300 | B=8 | loss_ctc 0.0919 | T_max=1457 | GPU mem=0.86 GB
+[epoch 59] batch 000350 | B=8 | loss_ctc 0.0564 | T_max=1169 | GPU mem=0.87 GB
+[epoch 59] batch 000400 | B=8 | loss_ctc 0.2334 | T_max=2154 | GPU mem=0.87 GB
+[epoch 59] batch 000450 | B=8 | loss_ctc 0.1923 | T_max=1717 | GPU mem=0.87 GB
+[epoch 59] batch 000500 | B=8 | loss_ctc 0.0844 | T_max=1677 | GPU mem=0.86 GB
+[epoch 59] batch 000550 | B=8 | loss_ctc 0.0337 | T_max=1112 | GPU mem=0.87 GB
+[epoch 59] batch 000600 | B=8 | loss_ctc 0.0377 | T_max=1129 | GPU mem=0.85 GB
+[epoch 59] batch 000650 | B=8 | loss_ctc 0.1065 | T_max=1496 | GPU mem=0.87 GB
+[epoch 59] batch 000700 | B=8 | loss_ctc 0.0689 | T_max=1458 | GPU mem=0.86 GB
+[epoch 59] batch 000750 | B=8 | loss_ctc 0.0431 | T_max=1188 | GPU mem=0.87 GB
+[epoch 59] batch 000800 | B=8 | loss_ctc 0.0636 | T_max=1834 | GPU mem=0.86 GB
+[epoch 59] batch 000850 | B=8 | loss_ctc 0.1410 | T_max=1648 | GPU mem=0.88 GB
+[epoch 59] batch 000900 | B=8 | loss_ctc 0.0254 | T_max=931 | GPU mem=0.85 GB
+[epoch 59] batch 000950 | B=8 | loss_ctc 0.0153 | T_max=1124 | GPU mem=0.87 GB
+[Epoch 59] train_loss=0.0814 lr=0.000035 | 11.8 min (pas d'éval)
+[epoch 60] batch 000000 | B=8 | loss_ctc 0.0743 | T_max=1162 | GPU mem=0.85 GB
+[epoch 60] batch 000050 | B=8 | loss_ctc 0.2462 | T_max=1819 | GPU mem=0.88 GB
+[epoch 60] batch 000100 | B=8 | loss_ctc 0.0373 | T_max=1191 | GPU mem=0.85 GB
+[epoch 60] batch 000150 | B=8 | loss_ctc 0.0857 | T_max=1307 | GPU mem=0.88 GB
+[epoch 60] batch 000200 | B=8 | loss_ctc 0.1314 | T_max=1245 | GPU mem=0.85 GB
+[epoch 60] batch 000250 | B=8 | loss_ctc 0.0785 | T_max=1363 | GPU mem=0.87 GB
+[epoch 60] batch 000300 | B=8 | loss_ctc 0.0300 | T_max=1351 | GPU mem=0.85 GB
+[epoch 60] batch 000350 | B=8 | loss_ctc 0.0388 | T_max=1433 | GPU mem=0.87 GB
+[epoch 60] batch 000400 | B=8 | loss_ctc 0.0963 | T_max=1598 | GPU mem=0.85 GB
+[epoch 60] batch 000450 | B=8 | loss_ctc 0.0646 | T_max=1778 | GPU mem=0.88 GB
+[epoch 60] batch 000500 | B=8 | loss_ctc 0.0913 | T_max=1108 | GPU mem=0.85 GB
+[epoch 60] batch 000550 | B=8 | loss_ctc 0.1335 | T_max=1487 | GPU mem=0.87 GB
+[epoch 60] batch 000600 | B=8 | loss_ctc 0.0974 | T_max=1658 | GPU mem=0.86 GB
+[epoch 60] batch 000650 | B=8 | loss_ctc 0.0825 | T_max=1098 | GPU mem=0.86 GB
+[epoch 60] batch 000700 | B=8 | loss_ctc 0.0181 | T_max=1134 | GPU mem=0.85 GB
+[epoch 60] batch 000750 | B=8 | loss_ctc 0.0505 | T_max=1407 | GPU mem=0.87 GB
+[epoch 60] batch 000800 | B=8 | loss_ctc 0.0667 | T_max=1619 | GPU mem=0.86 GB
+[epoch 60] batch 000850 | B=8 | loss_ctc 0.0959 | T_max=1571 | GPU mem=0.87 GB
+[epoch 60] batch 000900 | B=8 | loss_ctc 0.0283 | T_max=1328 | GPU mem=0.86 GB
+[epoch 60] batch 000950 | B=8 | loss_ctc 0.0794 | T_max=1844 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=1 | PER=0.154
+REF : 10 3 40 14 17 30 40 31 36 17 29 31 17 9 40 3 23 9 40 31 12 23 9 40 1 23 40 10 3 40 7 11 23 31 40 16 33 20 40
+PRED: 10 3 40 14 17 30 40 31 28 11 29 19 31 17 9 40 3 23 9 40 31 12 23 9 40 1 23 9 40 10 3 40 7 11 31 40 33 20 40
+[Epoch 60 | EVAL] train_loss=0.0804  PER_g=0.162  lr=0.000032 | 11.3 min
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 61] batch 000000 | B=8 | loss_ctc 0.0369 | T_max=1486 | GPU mem=0.85 GB
+[epoch 61] batch 000050 | B=8 | loss_ctc 0.0821 | T_max=1102 | GPU mem=0.87 GB
+[epoch 61] batch 000100 | B=8 | loss_ctc 0.0287 | T_max=1190 | GPU mem=0.85 GB
+[epoch 61] batch 000150 | B=8 | loss_ctc 0.1295 | T_max=1272 | GPU mem=0.87 GB
+[epoch 61] batch 000200 | B=8 | loss_ctc 0.2809 | T_max=2178 | GPU mem=0.87 GB
+[epoch 61] batch 000250 | B=8 | loss_ctc 0.1383 | T_max=1381 | GPU mem=0.88 GB
+[epoch 61] batch 000300 | B=8 | loss_ctc 0.0254 | T_max=1232 | GPU mem=0.85 GB
+[epoch 61] batch 000350 | B=8 | loss_ctc 0.0662 | T_max=952 | GPU mem=0.86 GB
+[epoch 61] batch 000400 | B=8 | loss_ctc 0.1083 | T_max=1927 | GPU mem=0.86 GB
+[epoch 61] batch 000450 | B=8 | loss_ctc 0.0582 | T_max=1234 | GPU mem=0.87 GB
+[epoch 61] batch 000500 | B=8 | loss_ctc 0.0251 | T_max=1085 | GPU mem=0.85 GB
+[epoch 61] batch 000550 | B=8 | loss_ctc 0.0357 | T_max=1216 | GPU mem=0.87 GB
+[epoch 61] batch 000600 | B=8 | loss_ctc 0.1128 | T_max=1674 | GPU mem=0.86 GB
+[epoch 61] batch 000650 | B=8 | loss_ctc 0.0854 | T_max=1368 | GPU mem=0.87 GB
+[epoch 61] batch 000700 | B=8 | loss_ctc 0.1209 | T_max=1232 | GPU mem=0.85 GB
+[epoch 61] batch 000750 | B=8 | loss_ctc 0.1020 | T_max=2124 | GPU mem=0.89 GB
+[epoch 61] batch 000800 | B=8 | loss_ctc 0.2251 | T_max=1877 | GPU mem=0.86 GB
+[epoch 61] batch 000850 | B=8 | loss_ctc 0.0684 | T_max=1324 | GPU mem=0.87 GB
+[epoch 61] batch 000900 | B=8 | loss_ctc 0.1639 | T_max=1954 | GPU mem=0.86 GB
+[epoch 61] batch 000950 | B=8 | loss_ctc 0.0742 | T_max=1621 | GPU mem=0.88 GB
+[Epoch 61] train_loss=0.0736 lr=0.000029 | 12.0 min (pas d'éval)
+[epoch 62] batch 000000 | B=8 | loss_ctc 0.0593 | T_max=1234 | GPU mem=0.85 GB
+[epoch 62] batch 000050 | B=8 | loss_ctc 0.0063 | T_max=1329 | GPU mem=0.87 GB
+[epoch 62] batch 000100 | B=8 | loss_ctc 0.1279 | T_max=1733 | GPU mem=0.86 GB
+[epoch 62] batch 000150 | B=8 | loss_ctc 0.0373 | T_max=1141 | GPU mem=0.87 GB
+[epoch 62] batch 000200 | B=8 | loss_ctc 0.0403 | T_max=1344 | GPU mem=0.85 GB
+[epoch 62] batch 000250 | B=8 | loss_ctc 0.0765 | T_max=1467 | GPU mem=0.87 GB
+[epoch 62] batch 000300 | B=8 | loss_ctc 0.0789 | T_max=1700 | GPU mem=0.86 GB
+[epoch 62] batch 000350 | B=8 | loss_ctc 0.0120 | T_max=1366 | GPU mem=0.87 GB
+[epoch 62] batch 000400 | B=8 | loss_ctc 0.0789 | T_max=1168 | GPU mem=0.85 GB
+[epoch 62] batch 000450 | B=8 | loss_ctc 0.0129 | T_max=1302 | GPU mem=0.87 GB
+[epoch 62] batch 000500 | B=8 | loss_ctc 0.0592 | T_max=1174 | GPU mem=0.85 GB
+[epoch 62] batch 000550 | B=8 | loss_ctc 0.0675 | T_max=1154 | GPU mem=0.87 GB
+[epoch 62] batch 000600 | B=8 | loss_ctc 0.0697 | T_max=1403 | GPU mem=0.86 GB
+[epoch 62] batch 000650 | B=8 | loss_ctc 0.0230 | T_max=1726 | GPU mem=0.88 GB
+[epoch 62] batch 000700 | B=8 | loss_ctc 0.0137 | T_max=1352 | GPU mem=0.86 GB
+[epoch 62] batch 000750 | B=8 | loss_ctc 0.0699 | T_max=1184 | GPU mem=0.87 GB
+[epoch 62] batch 000800 | B=8 | loss_ctc 0.0894 | T_max=1797 | GPU mem=0.86 GB
+[epoch 62] batch 000850 | B=8 | loss_ctc 0.0298 | T_max=1139 | GPU mem=0.87 GB
+[epoch 62] batch 000900 | B=8 | loss_ctc 0.1005 | T_max=1675 | GPU mem=0.86 GB
+[epoch 62] batch 000950 | B=8 | loss_ctc 0.0802 | T_max=1208 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=1 | PER=0.000
+REF : 6 40 16 2 35 40 31 34 40 27 13 40 14 4 28 40 14 4 28 40 32 17 24 38 40
+PRED: 6 40 16 2 35 40 31 34 40 27 13 40 14 4 28 40 14 4 28 40 32 17 24 38 40
+[Epoch 62 | EVAL] train_loss=0.0687  PER_g=0.152  lr=0.000026 | 12.0 min
+  ✓ Nouveau meilleur (PER greedy) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt [0.152]
+[epoch 63] batch 000000 | B=8 | loss_ctc 0.0422 | T_max=1449 | GPU mem=0.86 GB
+[epoch 63] batch 000050 | B=8 | loss_ctc 0.0952 | T_max=1321 | GPU mem=0.87 GB
+[epoch 63] batch 000100 | B=8 | loss_ctc 0.0958 | T_max=1421 | GPU mem=0.86 GB
+[epoch 63] batch 000150 | B=8 | loss_ctc 0.2375 | T_max=1468 | GPU mem=0.87 GB
+[epoch 63] batch 000200 | B=8 | loss_ctc 0.0532 | T_max=1009 | GPU mem=0.85 GB
+[epoch 63] batch 000250 | B=8 | loss_ctc 0.0340 | T_max=1361 | GPU mem=0.87 GB
+[epoch 63] batch 000300 | B=8 | loss_ctc 0.0344 | T_max=1399 | GPU mem=0.86 GB
+[epoch 63] batch 000350 | B=8 | loss_ctc 0.0813 | T_max=1460 | GPU mem=0.88 GB
+[epoch 63] batch 000400 | B=8 | loss_ctc 0.0486 | T_max=1121 | GPU mem=0.85 GB
+[epoch 63] batch 000450 | B=8 | loss_ctc 0.1573 | T_max=1417 | GPU mem=0.87 GB
+[epoch 63] batch 000500 | B=8 | loss_ctc 0.0045 | T_max=1015 | GPU mem=0.85 GB
+[epoch 63] batch 000550 | B=8 | loss_ctc 0.0701 | T_max=1194 | GPU mem=0.87 GB
+[epoch 63] batch 000600 | B=8 | loss_ctc 0.0169 | T_max=1561 | GPU mem=0.86 GB
+[epoch 63] batch 000650 | B=8 | loss_ctc 0.1344 | T_max=1617 | GPU mem=0.87 GB
+[epoch 63] batch 000700 | B=8 | loss_ctc 0.0286 | T_max=1184 | GPU mem=0.85 GB
+[epoch 63] batch 000750 | B=8 | loss_ctc 0.0437 | T_max=1556 | GPU mem=0.88 GB
+[epoch 63] batch 000800 | B=8 | loss_ctc 0.0064 | T_max=1063 | GPU mem=0.85 GB
+[epoch 63] batch 000850 | B=8 | loss_ctc 0.0381 | T_max=1425 | GPU mem=0.87 GB
+[epoch 63] batch 000900 | B=8 | loss_ctc 0.0755 | T_max=1698 | GPU mem=0.86 GB
+[epoch 63] batch 000950 | B=8 | loss_ctc 0.1259 | T_max=1191 | GPU mem=0.87 GB
+[Epoch 63] train_loss=0.0670 lr=0.000024 | 10.8 min (pas d'éval)
+[epoch 64] batch 000000 | B=8 | loss_ctc 0.0469 | T_max=1234 | GPU mem=0.85 GB
+[epoch 64] batch 000050 | B=8 | loss_ctc 0.1987 | T_max=1345 | GPU mem=0.87 GB
+[epoch 64] batch 000100 | B=8 | loss_ctc 0.3051 | T_max=2261 | GPU mem=0.87 GB
+[epoch 64] batch 000150 | B=8 | loss_ctc 0.0559 | T_max=1515 | GPU mem=0.88 GB
+[epoch 64] batch 000200 | B=8 | loss_ctc 0.0512 | T_max=1418 | GPU mem=0.86 GB
+[epoch 64] batch 000250 | B=8 | loss_ctc 0.0204 | T_max=1198 | GPU mem=0.87 GB
+[epoch 64] batch 000300 | B=8 | loss_ctc 0.1547 | T_max=1761 | GPU mem=0.86 GB
+[epoch 64] batch 000350 | B=8 | loss_ctc 0.0701 | T_max=1470 | GPU mem=0.87 GB
+[epoch 64] batch 000400 | B=8 | loss_ctc 0.0528 | T_max=1304 | GPU mem=0.85 GB
+[epoch 64] batch 000450 | B=8 | loss_ctc 0.0265 | T_max=1431 | GPU mem=0.87 GB
+[epoch 64] batch 000500 | B=8 | loss_ctc 0.0472 | T_max=1483 | GPU mem=0.85 GB
+[epoch 64] batch 000550 | B=8 | loss_ctc 0.0152 | T_max=1401 | GPU mem=0.87 GB
+[epoch 64] batch 000600 | B=8 | loss_ctc 0.0644 | T_max=1172 | GPU mem=0.85 GB
+[epoch 64] batch 000650 | B=8 | loss_ctc 0.1062 | T_max=1083 | GPU mem=0.86 GB
+[epoch 64] batch 000700 | B=8 | loss_ctc 0.0323 | T_max=1026 | GPU mem=0.85 GB
+[epoch 64] batch 000750 | B=8 | loss_ctc 0.0290 | T_max=1499 | GPU mem=0.88 GB
+[epoch 64] batch 000800 | B=8 | loss_ctc 0.0041 | T_max=1195 | GPU mem=0.85 GB
+[epoch 64] batch 000850 | B=8 | loss_ctc 0.0429 | T_max=1279 | GPU mem=0.87 GB
+[epoch 64] batch 000900 | B=8 | loss_ctc 0.0975 | T_max=1414 | GPU mem=0.86 GB
+[epoch 64] batch 000950 | B=8 | loss_ctc 0.1233 | T_max=1669 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=12 | PER=0.032
+REF : 10 11 23 40 6 40 16 12 9 40 3 40 35 11 28 18 40 21 5 9 40 17 20 29 27 21 25 39 3 23 40
+PRED: 10 11 23 40 6 40 16 12 9 40 3 40 35 11 28 18 40 21 5 9 40 11 20 29 27 21 25 39 3 23 40
+[Epoch 64 | EVAL] train_loss=0.0630  PER_g=0.158  lr=0.000021 | 12.1 min
+[epoch 65] batch 000000 | B=8 | loss_ctc 0.0411 | T_max=1660 | GPU mem=0.86 GB
+[epoch 65] batch 000050 | B=8 | loss_ctc 0.0642 | T_max=2162 | GPU mem=0.88 GB
+[epoch 65] batch 000100 | B=8 | loss_ctc 0.1189 | T_max=1570 | GPU mem=0.86 GB
+[epoch 65] batch 000150 | B=8 | loss_ctc 0.0489 | T_max=1226 | GPU mem=0.87 GB
+[epoch 65] batch 000200 | B=8 | loss_ctc 0.0432 | T_max=1145 | GPU mem=0.85 GB
+[epoch 65] batch 000250 | B=8 | loss_ctc 0.0239 | T_max=1186 | GPU mem=0.87 GB
+[epoch 65] batch 000300 | B=8 | loss_ctc 0.0550 | T_max=1457 | GPU mem=0.86 GB
+[epoch 65] batch 000350 | B=8 | loss_ctc 0.0357 | T_max=1375 | GPU mem=0.88 GB
+[epoch 65] batch 000400 | B=8 | loss_ctc 0.1432 | T_max=1872 | GPU mem=0.86 GB
+[epoch 65] batch 000450 | B=8 | loss_ctc 0.0551 | T_max=1364 | GPU mem=0.87 GB
+[epoch 65] batch 000500 | B=8 | loss_ctc 0.0846 | T_max=1569 | GPU mem=0.86 GB
+[epoch 65] batch 000550 | B=8 | loss_ctc 0.0302 | T_max=1420 | GPU mem=0.87 GB
+[epoch 65] batch 000600 | B=8 | loss_ctc 0.0112 | T_max=1486 | GPU mem=0.86 GB
+[epoch 65] batch 000650 | B=8 | loss_ctc 0.0784 | T_max=1347 | GPU mem=0.87 GB
+[epoch 65] batch 000700 | B=8 | loss_ctc 0.0562 | T_max=1351 | GPU mem=0.86 GB
+[epoch 65] batch 000750 | B=8 | loss_ctc 0.0438 | T_max=1153 | GPU mem=0.86 GB
+[epoch 65] batch 000800 | B=8 | loss_ctc 0.0461 | T_max=1331 | GPU mem=0.85 GB
+[epoch 65] batch 000850 | B=8 | loss_ctc 0.0832 | T_max=1337 | GPU mem=0.88 GB
+[epoch 65] batch 000900 | B=8 | loss_ctc 0.0222 | T_max=1473 | GPU mem=0.86 GB
+[epoch 65] batch 000950 | B=8 | loss_ctc 0.1188 | T_max=1794 | GPU mem=0.88 GB
+[Epoch 65] train_loss=0.0612 lr=0.000019 | 11.8 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 66] batch 000000 | B=8 | loss_ctc 0.0504 | T_max=1355 | GPU mem=0.86 GB
+[epoch 66] batch 000050 | B=8 | loss_ctc 0.0761 | T_max=1347 | GPU mem=0.87 GB
+[epoch 66] batch 000100 | B=8 | loss_ctc 0.0580 | T_max=1225 | GPU mem=0.85 GB
+[epoch 66] batch 000150 | B=8 | loss_ctc 0.0147 | T_max=1529 | GPU mem=0.87 GB
+[epoch 66] batch 000200 | B=8 | loss_ctc 0.0618 | T_max=1613 | GPU mem=0.86 GB
+[epoch 66] batch 000250 | B=8 | loss_ctc 0.0539 | T_max=1417 | GPU mem=0.87 GB
+[epoch 66] batch 000300 | B=8 | loss_ctc 0.0297 | T_max=1113 | GPU mem=0.85 GB
+[epoch 66] batch 000350 | B=8 | loss_ctc 0.0613 | T_max=1259 | GPU mem=0.87 GB
+[epoch 66] batch 000400 | B=8 | loss_ctc 0.0638 | T_max=1560 | GPU mem=0.85 GB
+[epoch 66] batch 000450 | B=8 | loss_ctc 0.0105 | T_max=1105 | GPU mem=0.87 GB
+[epoch 66] batch 000500 | B=8 | loss_ctc 0.0388 | T_max=1215 | GPU mem=0.85 GB
+[epoch 66] batch 000550 | B=8 | loss_ctc 0.0067 | T_max=1318 | GPU mem=0.87 GB
+[epoch 66] batch 000600 | B=8 | loss_ctc 0.0366 | T_max=1413 | GPU mem=0.86 GB
+[epoch 66] batch 000650 | B=8 | loss_ctc 0.1179 | T_max=1419 | GPU mem=0.87 GB
+[epoch 66] batch 000700 | B=8 | loss_ctc 0.0549 | T_max=1352 | GPU mem=0.86 GB
+[epoch 66] batch 000750 | B=8 | loss_ctc 0.1260 | T_max=1687 | GPU mem=0.88 GB
+[epoch 66] batch 000800 | B=8 | loss_ctc 0.0738 | T_max=1419 | GPU mem=0.86 GB
+[epoch 66] batch 000850 | B=8 | loss_ctc 0.0267 | T_max=1097 | GPU mem=0.87 GB
+[epoch 66] batch 000900 | B=8 | loss_ctc 0.0125 | T_max=1311 | GPU mem=0.85 GB
+[epoch 66] batch 000950 | B=8 | loss_ctc 0.0865 | T_max=1698 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=5 | PER=0.107
+REF : 31 28 6 17 24 40 31 34 40 14 6 23 9 40 29 3 22 36 3 23 40 2 31 40 16 25 22 40
+PRED: 31 28 6 17 40 31 34 40 14 6 23 31 40 29 3 36 3 23 40 2 31 40 16 25 22 40
+[Epoch 66 | EVAL] train_loss=0.0597  PER_g=0.156  lr=0.000016 | 11.3 min
+[epoch 67] batch 000000 | B=8 | loss_ctc 0.0189 | T_max=1525 | GPU mem=0.86 GB
+[epoch 67] batch 000050 | B=8 | loss_ctc 0.0586 | T_max=1438 | GPU mem=0.88 GB
+[epoch 67] batch 000100 | B=8 | loss_ctc 0.0292 | T_max=945 | GPU mem=0.85 GB
+[epoch 67] batch 000150 | B=8 | loss_ctc 0.0808 | T_max=1641 | GPU mem=0.88 GB
+[epoch 67] batch 000200 | B=8 | loss_ctc 0.0185 | T_max=1558 | GPU mem=0.85 GB
+[epoch 67] batch 000250 | B=8 | loss_ctc 0.0287 | T_max=1156 | GPU mem=0.87 GB
+[epoch 67] batch 000300 | B=8 | loss_ctc 0.0130 | T_max=1297 | GPU mem=0.85 GB
+[epoch 67] batch 000350 | B=8 | loss_ctc 0.1971 | T_max=1761 | GPU mem=0.88 GB
+[epoch 67] batch 000400 | B=8 | loss_ctc 0.0266 | T_max=1245 | GPU mem=0.85 GB
+[epoch 67] batch 000450 | B=8 | loss_ctc 0.0207 | T_max=1155 | GPU mem=0.86 GB
+[epoch 67] batch 000500 | B=8 | loss_ctc 0.0181 | T_max=1451 | GPU mem=0.86 GB
+[epoch 67] batch 000550 | B=8 | loss_ctc 0.0290 | T_max=1334 | GPU mem=0.87 GB
+[epoch 67] batch 000600 | B=8 | loss_ctc 0.0240 | T_max=1219 | GPU mem=0.85 GB
+[epoch 67] batch 000650 | B=8 | loss_ctc 0.0552 | T_max=1311 | GPU mem=0.87 GB
+[epoch 67] batch 000700 | B=8 | loss_ctc 0.0337 | T_max=1141 | GPU mem=0.85 GB
+[epoch 67] batch 000750 | B=8 | loss_ctc 0.0828 | T_max=1320 | GPU mem=0.87 GB
+[epoch 67] batch 000800 | B=8 | loss_ctc 0.0223 | T_max=1204 | GPU mem=0.85 GB
+[epoch 67] batch 000850 | B=8 | loss_ctc 0.0649 | T_max=1325 | GPU mem=0.87 GB
+[epoch 67] batch 000900 | B=8 | loss_ctc 0.0568 | T_max=1566 | GPU mem=0.85 GB
+[epoch 67] batch 000950 | B=8 | loss_ctc 0.0226 | T_max=1262 | GPU mem=0.87 GB
+[Epoch 67] train_loss=0.0575 lr=0.000014 | 12.0 min (pas d'éval)
+[epoch 68] batch 000000 | B=8 | loss_ctc 0.0111 | T_max=1186 | GPU mem=0.85 GB
+[epoch 68] batch 000050 | B=8 | loss_ctc 0.0048 | T_max=1155 | GPU mem=0.87 GB
+[epoch 68] batch 000100 | B=8 | loss_ctc 0.0089 | T_max=2094 | GPU mem=0.87 GB
+[epoch 68] batch 000150 | B=8 | loss_ctc 0.0639 | T_max=1600 | GPU mem=0.87 GB
+[epoch 68] batch 000200 | B=8 | loss_ctc 0.0194 | T_max=1559 | GPU mem=0.86 GB
+[epoch 68] batch 000250 | B=8 | loss_ctc 0.0619 | T_max=1109 | GPU mem=0.87 GB
+[epoch 68] batch 000300 | B=8 | loss_ctc 0.0428 | T_max=1460 | GPU mem=0.86 GB
+[epoch 68] batch 000350 | B=8 | loss_ctc 0.0270 | T_max=1541 | GPU mem=0.88 GB
+[epoch 68] batch 000400 | B=8 | loss_ctc 0.0473 | T_max=1564 | GPU mem=0.86 GB
+[epoch 68] batch 000450 | B=8 | loss_ctc 0.0319 | T_max=1629 | GPU mem=0.88 GB
+[epoch 68] batch 000500 | B=8 | loss_ctc 0.1040 | T_max=1686 | GPU mem=0.86 GB
+[epoch 68] batch 000550 | B=8 | loss_ctc 0.0817 | T_max=1125 | GPU mem=0.87 GB
+[epoch 68] batch 000600 | B=8 | loss_ctc 0.0531 | T_max=1026 | GPU mem=0.85 GB
+[epoch 68] batch 000650 | B=8 | loss_ctc 0.0240 | T_max=1797 | GPU mem=0.88 GB
+[epoch 68] batch 000700 | B=8 | loss_ctc 0.0158 | T_max=1163 | GPU mem=0.85 GB
+[epoch 68] batch 000750 | B=8 | loss_ctc 0.0106 | T_max=1758 | GPU mem=0.88 GB
+[epoch 68] batch 000800 | B=8 | loss_ctc 0.0170 | T_max=1023 | GPU mem=0.85 GB
+[epoch 68] batch 000850 | B=8 | loss_ctc 0.0744 | T_max=1216 | GPU mem=0.87 GB
+[epoch 68] batch 000900 | B=8 | loss_ctc 0.1749 | T_max=1678 | GPU mem=0.86 GB
+[epoch 68] batch 000950 | B=8 | loss_ctc 0.0596 | T_max=1438 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=3 | PER=0.036
+REF : 9 34 40 37 34 40 29 31 17 21 40 9 28 6 35 40 10 2 31 40 25 21 9 40 20 1 28 40
+PRED: 9 34 40 37 34 40 29 31 18 21 40 9 28 6 35 40 10 2 31 40 25 21 9 40 20 1 28 40
+[Epoch 68 | EVAL] train_loss=0.0553  PER_g=0.154  lr=0.000012 | 11.6 min
+[epoch 69] batch 000000 | B=8 | loss_ctc 0.0316 | T_max=1730 | GPU mem=0.86 GB
+[epoch 69] batch 000050 | B=8 | loss_ctc 0.0893 | T_max=1345 | GPU mem=0.87 GB
+[epoch 69] batch 000100 | B=8 | loss_ctc 0.0249 | T_max=1259 | GPU mem=0.85 GB
+[epoch 69] batch 000150 | B=8 | loss_ctc 0.0920 | T_max=1369 | GPU mem=0.87 GB
+[epoch 69] batch 000200 | B=8 | loss_ctc 0.0331 | T_max=1363 | GPU mem=0.86 GB
+[epoch 69] batch 000250 | B=8 | loss_ctc 0.0551 | T_max=1510 | GPU mem=0.88 GB
+[epoch 69] batch 000300 | B=8 | loss_ctc 0.0339 | T_max=1100 | GPU mem=0.85 GB
+[epoch 69] batch 000350 | B=8 | loss_ctc 0.0349 | T_max=1153 | GPU mem=0.87 GB
+[epoch 69] batch 000400 | B=8 | loss_ctc 0.0246 | T_max=1160 | GPU mem=0.85 GB
+[epoch 69] batch 000450 | B=8 | loss_ctc 0.0572 | T_max=1303 | GPU mem=0.87 GB
+[epoch 69] batch 000500 | B=8 | loss_ctc 0.0181 | T_max=1367 | GPU mem=0.86 GB
+[epoch 69] batch 000550 | B=8 | loss_ctc 0.2217 | T_max=1492 | GPU mem=0.88 GB
+[epoch 69] batch 000600 | B=8 | loss_ctc 0.0379 | T_max=1200 | GPU mem=0.85 GB
+[epoch 69] batch 000650 | B=8 | loss_ctc 0.0243 | T_max=1095 | GPU mem=0.87 GB
+[epoch 69] batch 000700 | B=8 | loss_ctc 0.0463 | T_max=1362 | GPU mem=0.86 GB
+[epoch 69] batch 000750 | B=8 | loss_ctc 0.0649 | T_max=1138 | GPU mem=0.87 GB
+[epoch 69] batch 000800 | B=8 | loss_ctc 0.0353 | T_max=1064 | GPU mem=0.85 GB
+[epoch 69] batch 000850 | B=8 | loss_ctc 0.0142 | T_max=1099 | GPU mem=0.87 GB
+[epoch 69] batch 000900 | B=8 | loss_ctc 0.0476 | T_max=1084 | GPU mem=0.85 GB
+[epoch 69] batch 000950 | B=8 | loss_ctc 0.0226 | T_max=1372 | GPU mem=0.87 GB
+[Epoch 69] train_loss=0.0537 lr=0.000010 | 10.5 min (pas d'éval)
+[epoch 70] batch 000000 | B=8 | loss_ctc 0.0420 | T_max=1201 | GPU mem=0.85 GB
+[epoch 70] batch 000050 | B=8 | loss_ctc 0.0137 | T_max=1344 | GPU mem=0.87 GB
+[epoch 70] batch 000100 | B=8 | loss_ctc 0.0684 | T_max=1297 | GPU mem=0.85 GB
+[epoch 70] batch 000150 | B=8 | loss_ctc 0.0234 | T_max=1080 | GPU mem=0.86 GB
+[epoch 70] batch 000200 | B=8 | loss_ctc 0.0669 | T_max=1324 | GPU mem=0.85 GB
+[epoch 70] batch 000250 | B=8 | loss_ctc 0.0257 | T_max=1031 | GPU mem=0.87 GB
+[epoch 70] batch 000300 | B=8 | loss_ctc 0.0817 | T_max=1395 | GPU mem=0.86 GB
+[epoch 70] batch 000350 | B=8 | loss_ctc 0.0216 | T_max=1580 | GPU mem=0.88 GB
+[epoch 70] batch 000400 | B=8 | loss_ctc 0.2042 | T_max=2040 | GPU mem=0.87 GB
+[epoch 70] batch 000450 | B=8 | loss_ctc 0.0385 | T_max=1075 | GPU mem=0.86 GB
+[epoch 70] batch 000500 | B=8 | loss_ctc 0.0268 | T_max=1235 | GPU mem=0.85 GB
+[epoch 70] batch 000550 | B=8 | loss_ctc 0.0481 | T_max=1231 | GPU mem=0.87 GB
+[epoch 70] batch 000600 | B=8 | loss_ctc 0.1275 | T_max=1912 | GPU mem=0.86 GB
+[epoch 70] batch 000650 | B=8 | loss_ctc 0.1837 | T_max=2177 | GPU mem=0.88 GB
+[epoch 70] batch 000700 | B=8 | loss_ctc 0.0430 | T_max=1249 | GPU mem=0.85 GB
+[epoch 70] batch 000750 | B=8 | loss_ctc 0.0335 | T_max=2206 | GPU mem=0.88 GB
+[epoch 70] batch 000800 | B=8 | loss_ctc 0.1525 | T_max=1845 | GPU mem=0.86 GB
+[epoch 70] batch 000850 | B=8 | loss_ctc 0.0789 | T_max=1513 | GPU mem=0.88 GB
+[epoch 70] batch 000900 | B=8 | loss_ctc 0.0390 | T_max=1431 | GPU mem=0.86 GB
+[epoch 70] batch 000950 | B=8 | loss_ctc 0.0203 | T_max=936 | GPU mem=0.86 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=3 | PER=0.212
+REF : 10 18 38 40 9 13 38 40 3 40 8 17 20 3 23 40 21 11 15 40 17 38 40 3 40 28 11 28 40 9 17 30 40
+PRED: 10 18 38 40 9 13 38 40 3 40 8 17 20 3 23 40 21 2 24 15 40 17 38 40 3 40 36 18 28 40 31 18 38 40
+[Epoch 70 | EVAL] train_loss=0.0524  PER_g=0.153  lr=0.000008 | 10.7 min
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 71] batch 000000 | B=8 | loss_ctc 0.0530 | T_max=1311 | GPU mem=0.85 GB
+[epoch 71] batch 000050 | B=8 | loss_ctc 0.0435 | T_max=1509 | GPU mem=0.87 GB
+[epoch 71] batch 000100 | B=8 | loss_ctc 0.0493 | T_max=1417 | GPU mem=0.86 GB
+[epoch 71] batch 000150 | B=8 | loss_ctc 0.0183 | T_max=1507 | GPU mem=0.86 GB
+[epoch 71] batch 000200 | B=8 | loss_ctc 0.0400 | T_max=1588 | GPU mem=0.86 GB
+[epoch 71] batch 000250 | B=8 | loss_ctc 0.0366 | T_max=1269 | GPU mem=0.87 GB
+[epoch 71] batch 000300 | B=8 | loss_ctc 0.0503 | T_max=1278 | GPU mem=0.85 GB
+[epoch 71] batch 000350 | B=8 | loss_ctc 0.1577 | T_max=1414 | GPU mem=0.87 GB
+[epoch 71] batch 000400 | B=8 | loss_ctc 0.0864 | T_max=1598 | GPU mem=0.86 GB
+[epoch 71] batch 000450 | B=8 | loss_ctc 0.0506 | T_max=1113 | GPU mem=0.87 GB
+[epoch 71] batch 000500 | B=8 | loss_ctc 0.0232 | T_max=1508 | GPU mem=0.85 GB
+[epoch 71] batch 000550 | B=8 | loss_ctc 0.0272 | T_max=1562 | GPU mem=0.87 GB
+[epoch 71] batch 000600 | B=8 | loss_ctc 0.0349 | T_max=1375 | GPU mem=0.86 GB
+[epoch 71] batch 000650 | B=8 | loss_ctc 0.0522 | T_max=1145 | GPU mem=0.87 GB
+[epoch 71] batch 000700 | B=8 | loss_ctc 0.0241 | T_max=1363 | GPU mem=0.86 GB
+[epoch 71] batch 000750 | B=8 | loss_ctc 0.0745 | T_max=1241 | GPU mem=0.87 GB
+[epoch 71] batch 000800 | B=8 | loss_ctc 0.0336 | T_max=1414 | GPU mem=0.86 GB
+[epoch 71] batch 000850 | B=8 | loss_ctc 0.0874 | T_max=1698 | GPU mem=0.88 GB
+[epoch 71] batch 000900 | B=8 | loss_ctc 0.0454 | T_max=1433 | GPU mem=0.86 GB
+[epoch 71] batch 000950 | B=8 | loss_ctc 0.0068 | T_max=1452 | GPU mem=0.87 GB
+[Epoch 71] train_loss=0.0517 lr=0.000007 | 10.8 min (pas d'éval)
+[epoch 72] batch 000000 | B=8 | loss_ctc 0.0304 | T_max=1273 | GPU mem=0.85 GB
+[epoch 72] batch 000050 | B=8 | loss_ctc 0.0411 | T_max=1550 | GPU mem=0.88 GB
+[epoch 72] batch 000100 | B=8 | loss_ctc 0.0158 | T_max=1270 | GPU mem=0.85 GB
+[epoch 72] batch 000150 | B=8 | loss_ctc 0.0281 | T_max=1141 | GPU mem=0.87 GB
+[epoch 72] batch 000200 | B=8 | loss_ctc 0.0065 | T_max=1056 | GPU mem=0.85 GB
+[epoch 72] batch 000250 | B=8 | loss_ctc 0.0380 | T_max=1118 | GPU mem=0.86 GB
+[epoch 72] batch 000300 | B=8 | loss_ctc 0.0606 | T_max=1225 | GPU mem=0.85 GB
+[epoch 72] batch 000350 | B=8 | loss_ctc 0.0247 | T_max=1285 | GPU mem=0.87 GB
+[epoch 72] batch 000400 | B=8 | loss_ctc 0.0868 | T_max=1689 | GPU mem=0.86 GB
+[epoch 72] batch 000450 | B=8 | loss_ctc 0.0115 | T_max=1120 | GPU mem=0.87 GB
+[epoch 72] batch 000500 | B=8 | loss_ctc 0.0389 | T_max=1361 | GPU mem=0.86 GB
+[epoch 72] batch 000550 | B=8 | loss_ctc 0.0406 | T_max=1283 | GPU mem=0.87 GB
+[epoch 72] batch 000600 | B=8 | loss_ctc 0.0396 | T_max=1437 | GPU mem=0.86 GB
+[epoch 72] batch 000650 | B=8 | loss_ctc 0.0806 | T_max=1758 | GPU mem=0.88 GB
+[epoch 72] batch 000700 | B=8 | loss_ctc 0.3785 | T_max=2355 | GPU mem=0.87 GB
+[epoch 72] batch 000750 | B=8 | loss_ctc 0.0695 | T_max=1529 | GPU mem=0.88 GB
+[epoch 72] batch 000800 | B=8 | loss_ctc 0.0265 | T_max=1364 | GPU mem=0.86 GB
+[epoch 72] batch 000850 | B=8 | loss_ctc 0.0363 | T_max=1431 | GPU mem=0.87 GB
+[epoch 72] batch 000900 | B=8 | loss_ctc 0.0415 | T_max=859 | GPU mem=0.84 GB
+[epoch 72] batch 000950 | B=8 | loss_ctc 0.1153 | T_max=1734 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=4 | PER=0.056
+REF : 2 38 40 14 1 28 40 2 38 40 10 2 31 40 15 25 38 40
+PRED: 2 38 40 14 4 28 40 2 38 40 10 2 31 40 15 25 38 40
+[Epoch 72 | EVAL] train_loss=0.0495  PER_g=0.157  lr=0.000005 | 10.5 min
+[epoch 73] batch 000000 | B=8 | loss_ctc 0.0103 | T_max=1160 | GPU mem=0.85 GB
+[epoch 73] batch 000050 | B=8 | loss_ctc 0.0284 | T_max=1165 | GPU mem=0.87 GB
+[epoch 73] batch 000100 | B=8 | loss_ctc 0.0871 | T_max=1085 | GPU mem=0.85 GB
+[epoch 73] batch 000150 | B=8 | loss_ctc 0.0988 | T_max=1688 | GPU mem=0.87 GB
+[epoch 73] batch 000200 | B=8 | loss_ctc 0.0060 | T_max=1236 | GPU mem=0.85 GB
+[epoch 73] batch 000250 | B=8 | loss_ctc 0.0657 | T_max=1625 | GPU mem=0.88 GB
+[epoch 73] batch 000300 | B=8 | loss_ctc 0.0763 | T_max=1859 | GPU mem=0.86 GB
+[epoch 73] batch 000350 | B=8 | loss_ctc 0.0784 | T_max=1144 | GPU mem=0.86 GB
+[epoch 73] batch 000400 | B=8 | loss_ctc 0.0224 | T_max=1118 | GPU mem=0.85 GB
+[epoch 73] batch 000450 | B=8 | loss_ctc 0.0657 | T_max=1453 | GPU mem=0.88 GB
+[epoch 73] batch 000500 | B=8 | loss_ctc 0.0261 | T_max=1467 | GPU mem=0.85 GB
+[epoch 73] batch 000550 | B=8 | loss_ctc 0.0390 | T_max=1264 | GPU mem=0.87 GB
+[epoch 73] batch 000600 | B=8 | loss_ctc 0.0804 | T_max=1311 | GPU mem=0.85 GB
+[epoch 73] batch 000650 | B=8 | loss_ctc 0.0817 | T_max=1340 | GPU mem=0.88 GB
+[epoch 73] batch 000700 | B=8 | loss_ctc 0.0144 | T_max=1358 | GPU mem=0.86 GB
+[epoch 73] batch 000750 | B=8 | loss_ctc 0.0574 | T_max=1743 | GPU mem=0.88 GB
+[epoch 73] batch 000800 | B=8 | loss_ctc 0.0117 | T_max=1403 | GPU mem=0.86 GB
+[epoch 73] batch 000850 | B=8 | loss_ctc 0.0345 | T_max=1018 | GPU mem=0.87 GB
+[epoch 73] batch 000900 | B=8 | loss_ctc 0.0302 | T_max=1319 | GPU mem=0.85 GB
+[epoch 73] batch 000950 | B=8 | loss_ctc 0.0361 | T_max=1113 | GPU mem=0.87 GB
+[Epoch 73] train_loss=0.0494 lr=0.000004 | 9.6 min (pas d'éval)
+[epoch 74] batch 000000 | B=8 | loss_ctc 0.0349 | T_max=1335 | GPU mem=0.85 GB
+[epoch 74] batch 000050 | B=8 | loss_ctc 0.1266 | T_max=2160 | GPU mem=0.88 GB
+[epoch 74] batch 000100 | B=8 | loss_ctc 0.0636 | T_max=1158 | GPU mem=0.85 GB
+[epoch 74] batch 000150 | B=8 | loss_ctc 0.1278 | T_max=1609 | GPU mem=0.88 GB
+[epoch 74] batch 000200 | B=8 | loss_ctc 0.0466 | T_max=1073 | GPU mem=0.85 GB
+[epoch 74] batch 000250 | B=8 | loss_ctc 0.0334 | T_max=1318 | GPU mem=0.87 GB
+[epoch 74] batch 000300 | B=8 | loss_ctc 0.0234 | T_max=1125 | GPU mem=0.85 GB
+[epoch 74] batch 000350 | B=8 | loss_ctc 0.0420 | T_max=958 | GPU mem=0.87 GB
+[epoch 74] batch 000400 | B=8 | loss_ctc 0.0276 | T_max=1097 | GPU mem=0.85 GB
+[epoch 74] batch 000450 | B=8 | loss_ctc 0.0418 | T_max=1305 | GPU mem=0.87 GB
+[epoch 74] batch 000500 | B=8 | loss_ctc 0.0572 | T_max=1982 | GPU mem=0.86 GB
+[epoch 74] batch 000550 | B=8 | loss_ctc 0.0218 | T_max=1582 | GPU mem=0.88 GB
+[epoch 74] batch 000600 | B=8 | loss_ctc 0.0134 | T_max=1146 | GPU mem=0.85 GB
+[epoch 74] batch 000650 | B=8 | loss_ctc 0.0682 | T_max=1394 | GPU mem=0.87 GB
+[epoch 74] batch 000700 | B=8 | loss_ctc 0.0053 | T_max=1375 | GPU mem=0.86 GB
+[epoch 74] batch 000750 | B=8 | loss_ctc 0.1186 | T_max=1526 | GPU mem=0.87 GB
+[epoch 74] batch 000800 | B=8 | loss_ctc 0.0296 | T_max=1116 | GPU mem=0.85 GB
+[epoch 74] batch 000850 | B=8 | loss_ctc 0.0696 | T_max=1413 | GPU mem=0.87 GB
+[epoch 74] batch 000900 | B=8 | loss_ctc 0.0345 | T_max=981 | GPU mem=0.85 GB
+[epoch 74] batch 000950 | B=8 | loss_ctc 0.0448 | T_max=1201 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=1 | PER=0.115
+REF : 6 40 15 1 31 40 17 31 40 28 6 31 40 2 14 31 12 40 16 6 40 29 20 34 21 40
+PRED: 6 40 20 1 23 31 40 17 31 40 28 11 6 31 40 2 14 31 12 40 16 6 40 29 20 34 21 40
+[Epoch 74 | EVAL] train_loss=0.0489  PER_g=0.156  lr=0.000003 | 9.7 min
+[epoch 75] batch 000000 | B=8 | loss_ctc 0.0365 | T_max=1561 | GPU mem=0.85 GB
+[epoch 75] batch 000050 | B=8 | loss_ctc 0.0469 | T_max=1281 | GPU mem=0.87 GB
+[epoch 75] batch 000100 | B=8 | loss_ctc 0.0601 | T_max=854 | GPU mem=0.84 GB
+[epoch 75] batch 000150 | B=8 | loss_ctc 0.0213 | T_max=1264 | GPU mem=0.87 GB
+[epoch 75] batch 000200 | B=8 | loss_ctc 0.0294 | T_max=1014 | GPU mem=0.85 GB
+[epoch 75] batch 000250 | B=8 | loss_ctc 0.0273 | T_max=1316 | GPU mem=0.87 GB
+[epoch 75] batch 000300 | B=8 | loss_ctc 0.0286 | T_max=1278 | GPU mem=0.85 GB
+[epoch 75] batch 000350 | B=8 | loss_ctc 0.0105 | T_max=1061 | GPU mem=0.87 GB
+[epoch 75] batch 000400 | B=8 | loss_ctc 0.1319 | T_max=1823 | GPU mem=0.86 GB
+[epoch 75] batch 000450 | B=8 | loss_ctc 0.0521 | T_max=1470 | GPU mem=0.88 GB
+[epoch 75] batch 000500 | B=8 | loss_ctc 0.0399 | T_max=1138 | GPU mem=0.85 GB
+[epoch 75] batch 000550 | B=8 | loss_ctc 0.0065 | T_max=1371 | GPU mem=0.87 GB
+[epoch 75] batch 000600 | B=8 | loss_ctc 0.0259 | T_max=946 | GPU mem=0.85 GB
+[epoch 75] batch 000650 | B=8 | loss_ctc 0.0308 | T_max=991 | GPU mem=0.87 GB
+[epoch 75] batch 000700 | B=8 | loss_ctc 0.0142 | T_max=1021 | GPU mem=0.85 GB
+[epoch 75] batch 000750 | B=8 | loss_ctc 0.0127 | T_max=1275 | GPU mem=0.87 GB
+[epoch 75] batch 000800 | B=8 | loss_ctc 0.0326 | T_max=1517 | GPU mem=0.86 GB
+[epoch 75] batch 000850 | B=8 | loss_ctc 0.0257 | T_max=1151 | GPU mem=0.87 GB
+[epoch 75] batch 000900 | B=8 | loss_ctc 0.0245 | T_max=1264 | GPU mem=0.85 GB
+[epoch 75] batch 000950 | B=8 | loss_ctc 0.0163 | T_max=1653 | GPU mem=0.88 GB
+[Epoch 75] train_loss=0.0466 lr=0.000002 | 9.6 min (pas d'éval)
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+[epoch 76] batch 000000 | B=8 | loss_ctc 0.0440 | T_max=1615 | GPU mem=0.86 GB
+[epoch 76] batch 000050 | B=8 | loss_ctc 0.0126 | T_max=1221 | GPU mem=0.88 GB
+[epoch 76] batch 000100 | B=8 | loss_ctc 0.0591 | T_max=1317 | GPU mem=0.85 GB
+[epoch 76] batch 000150 | B=8 | loss_ctc 0.2471 | T_max=2179 | GPU mem=0.89 GB
+[epoch 76] batch 000200 | B=8 | loss_ctc 0.0334 | T_max=1720 | GPU mem=0.86 GB
+[epoch 76] batch 000250 | B=8 | loss_ctc 0.0273 | T_max=1330 | GPU mem=0.87 GB
+[epoch 76] batch 000300 | B=8 | loss_ctc 0.0062 | T_max=1166 | GPU mem=0.85 GB
+[epoch 76] batch 000350 | B=8 | loss_ctc 0.0351 | T_max=2167 | GPU mem=0.88 GB
+[epoch 76] batch 000400 | B=8 | loss_ctc 0.0134 | T_max=1129 | GPU mem=0.85 GB
+[epoch 76] batch 000450 | B=8 | loss_ctc 0.0465 | T_max=1274 | GPU mem=0.87 GB
+[epoch 76] batch 000500 | B=8 | loss_ctc 0.0124 | T_max=1296 | GPU mem=0.85 GB
+[epoch 76] batch 000550 | B=8 | loss_ctc 0.0264 | T_max=1263 | GPU mem=0.87 GB
+[epoch 76] batch 000600 | B=8 | loss_ctc 0.0117 | T_max=1289 | GPU mem=0.85 GB
+[epoch 76] batch 000650 | B=8 | loss_ctc 0.0363 | T_max=1650 | GPU mem=0.88 GB
+[epoch 76] batch 000700 | B=8 | loss_ctc 0.0387 | T_max=1463 | GPU mem=0.85 GB
+[epoch 76] batch 000750 | B=8 | loss_ctc 0.0208 | T_max=1065 | GPU mem=0.86 GB
+[epoch 76] batch 000800 | B=8 | loss_ctc 0.0105 | T_max=1084 | GPU mem=0.85 GB
+[epoch 76] batch 000850 | B=8 | loss_ctc 0.0485 | T_max=1124 | GPU mem=0.87 GB
+[epoch 76] batch 000900 | B=8 | loss_ctc 0.0423 | T_max=1367 | GPU mem=0.86 GB
+[epoch 76] batch 000950 | B=8 | loss_ctc 0.0238 | T_max=1053 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=10 | PER=0.105
+REF : 15 33 9 40 31 34 40 16 18 28 40 14 28 3 22 40 37 34 40
+PRED: 15 33 9 40 31 34 40 16 18 28 40 14 28 3 22 40 37 34 40 14 40
+[Epoch 76 | EVAL] train_loss=0.0468  PER_g=0.155  lr=0.000001 | 9.9 min
+[epoch 77] batch 000000 | B=8 | loss_ctc 0.0563 | T_max=1549 | GPU mem=0.86 GB
+[epoch 77] batch 000050 | B=8 | loss_ctc 0.0625 | T_max=1406 | GPU mem=0.88 GB
+[epoch 77] batch 000100 | B=8 | loss_ctc 0.0469 | T_max=1187 | GPU mem=0.85 GB
+[epoch 77] batch 000150 | B=8 | loss_ctc 0.0090 | T_max=1577 | GPU mem=0.88 GB
+[epoch 77] batch 000200 | B=8 | loss_ctc 0.0113 | T_max=1305 | GPU mem=0.86 GB
+[epoch 77] batch 000250 | B=8 | loss_ctc 0.0383 | T_max=993 | GPU mem=0.87 GB
+[epoch 77] batch 000300 | B=8 | loss_ctc 0.0685 | T_max=1064 | GPU mem=0.85 GB
+[epoch 77] batch 000350 | B=8 | loss_ctc 0.0846 | T_max=1244 | GPU mem=0.87 GB
+[epoch 77] batch 000400 | B=8 | loss_ctc 0.0085 | T_max=2163 | GPU mem=0.87 GB
+[epoch 77] batch 000450 | B=8 | loss_ctc 0.0349 | T_max=1220 | GPU mem=0.87 GB
+[epoch 77] batch 000500 | B=8 | loss_ctc 0.0056 | T_max=1055 | GPU mem=0.85 GB
+[epoch 77] batch 000550 | B=8 | loss_ctc 0.0327 | T_max=1629 | GPU mem=0.88 GB
+[epoch 77] batch 000600 | B=8 | loss_ctc 0.0393 | T_max=1206 | GPU mem=0.85 GB
+[epoch 77] batch 000650 | B=8 | loss_ctc 0.0172 | T_max=1359 | GPU mem=0.87 GB
+[epoch 77] batch 000700 | B=8 | loss_ctc 0.0290 | T_max=896 | GPU mem=0.85 GB
+[epoch 77] batch 000750 | B=8 | loss_ctc 0.0264 | T_max=1343 | GPU mem=0.88 GB
+[epoch 77] batch 000800 | B=8 | loss_ctc 0.0069 | T_max=1092 | GPU mem=0.85 GB
+[epoch 77] batch 000850 | B=8 | loss_ctc 0.0741 | T_max=1225 | GPU mem=0.87 GB
+[epoch 77] batch 000900 | B=8 | loss_ctc 0.0437 | T_max=1777 | GPU mem=0.86 GB
+[epoch 77] batch 000950 | B=8 | loss_ctc 0.0744 | T_max=1414 | GPU mem=0.88 GB
+[Epoch 77] train_loss=0.0463 lr=0.000001 | 9.7 min (pas d'éval)
+[epoch 78] batch 000000 | B=8 | loss_ctc 0.0175 | T_max=1479 | GPU mem=0.86 GB
+[epoch 78] batch 000050 | B=8 | loss_ctc 0.0541 | T_max=1344 | GPU mem=0.87 GB
+[epoch 78] batch 000100 | B=8 | loss_ctc 0.0686 | T_max=1609 | GPU mem=0.86 GB
+[epoch 78] batch 000150 | B=8 | loss_ctc 0.0310 | T_max=1101 | GPU mem=0.87 GB
+[epoch 78] batch 000200 | B=8 | loss_ctc 0.0299 | T_max=1211 | GPU mem=0.85 GB
+[epoch 78] batch 000250 | B=8 | loss_ctc 0.0155 | T_max=1254 | GPU mem=0.87 GB
+[epoch 78] batch 000300 | B=8 | loss_ctc 0.0322 | T_max=1394 | GPU mem=0.86 GB
+[epoch 78] batch 000350 | B=8 | loss_ctc 0.0286 | T_max=1351 | GPU mem=0.88 GB
+[epoch 78] batch 000400 | B=8 | loss_ctc 0.0092 | T_max=1101 | GPU mem=0.85 GB
+[epoch 78] batch 000450 | B=8 | loss_ctc 0.0824 | T_max=1209 | GPU mem=0.87 GB
+[epoch 78] batch 000500 | B=8 | loss_ctc 0.0938 | T_max=1456 | GPU mem=0.86 GB
+[epoch 78] batch 000550 | B=8 | loss_ctc 0.0158 | T_max=1253 | GPU mem=0.87 GB
+[epoch 78] batch 000600 | B=8 | loss_ctc 0.3133 | T_max=1596 | GPU mem=0.85 GB
+[epoch 78] batch 000650 | B=8 | loss_ctc 0.0152 | T_max=1650 | GPU mem=0.88 GB
+[epoch 78] batch 000700 | B=8 | loss_ctc 0.0893 | T_max=1182 | GPU mem=0.85 GB
+[epoch 78] batch 000750 | B=8 | loss_ctc 0.0022 | T_max=1378 | GPU mem=0.87 GB
+[epoch 78] batch 000800 | B=8 | loss_ctc 0.0156 | T_max=1432 | GPU mem=0.86 GB
+[epoch 78] batch 000850 | B=8 | loss_ctc 0.0589 | T_max=1554 | GPU mem=0.87 GB
+[epoch 78] batch 000900 | B=8 | loss_ctc 0.0126 | T_max=2093 | GPU mem=0.87 GB
+[epoch 78] batch 000950 | B=8 | loss_ctc 0.0549 | T_max=1617 | GPU mem=0.88 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=22 | PER=0.000
+REF : 10 3 40 23 12 29 17 24 40 16 25 22 40
+PRED: 10 3 40 23 12 29 17 24 40 16 25 22 40
+[Epoch 78 | EVAL] train_loss=0.0468  PER_g=0.155  lr=0.000000 | 9.4 min
+[epoch 79] batch 000000 | B=8 | loss_ctc 0.0341 | T_max=1466 | GPU mem=0.85 GB
+[epoch 79] batch 000050 | B=8 | loss_ctc 0.0213 | T_max=1059 | GPU mem=0.87 GB
+[epoch 79] batch 000100 | B=8 | loss_ctc 0.0519 | T_max=1583 | GPU mem=0.85 GB
+[epoch 79] batch 000150 | B=8 | loss_ctc 0.2127 | T_max=1146 | GPU mem=0.87 GB
+[epoch 79] batch 000200 | B=8 | loss_ctc 0.0289 | T_max=1312 | GPU mem=0.85 GB
+[epoch 79] batch 000250 | B=8 | loss_ctc 0.1085 | T_max=1239 | GPU mem=0.87 GB
+[epoch 79] batch 000300 | B=8 | loss_ctc 0.0278 | T_max=1369 | GPU mem=0.86 GB
+[epoch 79] batch 000350 | B=8 | loss_ctc 0.0117 | T_max=1510 | GPU mem=0.87 GB
+[epoch 79] batch 000400 | B=8 | loss_ctc 0.0273 | T_max=1265 | GPU mem=0.85 GB
+[epoch 79] batch 000450 | B=8 | loss_ctc 0.0214 | T_max=1207 | GPU mem=0.87 GB
+[epoch 79] batch 000500 | B=8 | loss_ctc 0.2316 | T_max=1695 | GPU mem=0.86 GB
+[epoch 79] batch 000550 | B=8 | loss_ctc 0.0334 | T_max=1296 | GPU mem=0.87 GB
+[epoch 79] batch 000600 | B=8 | loss_ctc 0.0160 | T_max=910 | GPU mem=0.85 GB
+[epoch 79] batch 000650 | B=8 | loss_ctc 0.0395 | T_max=1102 | GPU mem=0.87 GB
+[epoch 79] batch 000700 | B=8 | loss_ctc 0.0175 | T_max=1117 | GPU mem=0.85 GB
+[epoch 79] batch 000750 | B=8 | loss_ctc 0.0267 | T_max=1561 | GPU mem=0.87 GB
+[epoch 79] batch 000800 | B=8 | loss_ctc 0.0646 | T_max=1462 | GPU mem=0.85 GB
+[epoch 79] batch 000850 | B=8 | loss_ctc 0.0453 | T_max=1548 | GPU mem=0.87 GB
+[epoch 79] batch 000900 | B=8 | loss_ctc 0.0369 | T_max=1678 | GPU mem=0.86 GB
+[epoch 79] batch 000950 | B=8 | loss_ctc 0.1069 | T_max=1950 | GPU mem=0.89 GB
+[Epoch 79] train_loss=0.0464 lr=0.000000 | 9.2 min (pas d'éval)
+[epoch 80] batch 000000 | B=8 | loss_ctc 0.0809 | T_max=1747 | GPU mem=0.86 GB
+[epoch 80] batch 000050 | B=8 | loss_ctc 0.0586 | T_max=1055 | GPU mem=0.87 GB
+[epoch 80] batch 000100 | B=8 | loss_ctc 0.0088 | T_max=1353 | GPU mem=0.86 GB
+[epoch 80] batch 000150 | B=8 | loss_ctc 0.0384 | T_max=830 | GPU mem=0.87 GB
+[epoch 80] batch 000200 | B=8 | loss_ctc 0.0337 | T_max=1377 | GPU mem=0.86 GB
+[epoch 80] batch 000250 | B=8 | loss_ctc 0.0338 | T_max=1538 | GPU mem=0.87 GB
+[epoch 80] batch 000300 | B=8 | loss_ctc 0.1088 | T_max=1736 | GPU mem=0.86 GB
+[epoch 80] batch 000350 | B=8 | loss_ctc 0.0269 | T_max=1298 | GPU mem=0.87 GB
+[epoch 80] batch 000400 | B=8 | loss_ctc 0.0465 | T_max=1318 | GPU mem=0.85 GB
+[epoch 80] batch 000450 | B=8 | loss_ctc 0.0177 | T_max=1106 | GPU mem=0.87 GB
+[epoch 80] batch 000500 | B=8 | loss_ctc 0.1523 | T_max=1951 | GPU mem=0.86 GB
+[epoch 80] batch 000550 | B=8 | loss_ctc 0.0299 | T_max=1054 | GPU mem=0.87 GB
+[epoch 80] batch 000600 | B=8 | loss_ctc 0.0240 | T_max=1541 | GPU mem=0.86 GB
+[epoch 80] batch 000650 | B=8 | loss_ctc 0.1048 | T_max=1524 | GPU mem=0.87 GB
+[epoch 80] batch 000700 | B=8 | loss_ctc 0.0176 | T_max=1135 | GPU mem=0.85 GB
+[epoch 80] batch 000750 | B=8 | loss_ctc 0.0468 | T_max=1469 | GPU mem=0.87 GB
+[epoch 80] batch 000800 | B=8 | loss_ctc 0.0424 | T_max=1546 | GPU mem=0.85 GB
+[epoch 80] batch 000850 | B=8 | loss_ctc 0.0356 | T_max=1153 | GPU mem=0.86 GB
+[epoch 80] batch 000900 | B=8 | loss_ctc 0.0234 | T_max=1232 | GPU mem=0.85 GB
+[epoch 80] batch 000950 | B=8 | loss_ctc 0.0195 | T_max=1186 | GPU mem=0.87 GB
+
+───────────── SAMPLE (IDs) ─────────────
+trial=12 | PER=0.000
+REF : 17 31 40 28 17 21 18 40 16 11 21 27 29 40 10 25 38 40 27 18 27 3 21 40
+PRED: 17 31 40 28 17 21 18 40 16 11 21 27 29 40 10 25 38 40 27 18 27 3 21 40
+[Epoch 80 | EVAL] train_loss=0.0467  PER_g=0.155  lr=0.000000 | 9.4 min
+  ↺ Sauvegarde périodique (last) → /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+
+===== FIN =====
+Best (PER greedy) : /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_bestPER.pt
+Last              : /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021/model_last.pt
+Run dir           : /gpfs/workdir/nahonr/projet1/outputs/runs/20251130-044021

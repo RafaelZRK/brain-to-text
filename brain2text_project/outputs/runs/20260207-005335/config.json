@@ -1,0 +1,47 @@
+{
+  "run_id": "20260207-005335",
+  "data_root": "c:\\code\\brain2text_bundle\\brain2text_project\\data",
+  "split_csv": "c:\\code\\brain2text_bundle\\brain2text_project\\data\\t15_sessions_random_split.csv",
+  "n_days": 7,
+  "sessions": [
+    "t15.2023.08.13",
+    "t15.2023.08.18",
+    "t15.2023.08.20",
+    "t15.2023.08.25",
+    "t15.2023.08.27",
+    "t15.2023.09.01",
+    "t15.2023.09.03"
+  ],
+  "model": {
+    "n_features": 512,
+    "n_classes": 41,
+    "blank_id": 0,
+    "d_model": 256,
+    "nhead": 8,
+    "num_layers": 12,
+    "dim_ff": 1024,
+    "dropout": 0.1,
+    "day_input_dropout": 0.2
+  },
+  "train": {
+    "base_lr": 0.0002,
+    "weight_decay": 1e-05,
+    "clip_norm": 1.0,
+    "epochs": 50,
+    "batch_size": 8,
+    "accum_steps": 4,
+    "eval_every": 2,
+    "save_last_every": 5,
+    "use_amp": true
+  },
+  "aug": {
+    "smooth_enable": true,
+    "smooth_prob": 0.5,
+    "smooth_std": 2.0,
+    "smooth_size": 100,
+    "smooth_padding": "same",
+    "noise_std": 0.5,
+    "offset_std": 0.1,
+    "random_cut_max": 5
+  }
+}
